@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>3b3bf764-671f-4702-9aef-0017d5f44c44</ProjectGuid>
+    <ProjectGuid>{4D2113D6-6194-4853-BAC5-77EAF2D90167}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>KMS.Model</RootNamespace>
@@ -45,8 +45,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Entity\ResourceInfo.cs" />
+    <Compile Include="Entity\ResourceTagAssociationInfo.cs" />
+    <Compile Include="Entity\TagInfo.cs" />
+    <Compile Include="Entity\Resource_FlashInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="config\db2hbm.xml" />
+    <Content Include="config\hbm2net.xml" />
+    <EmbeddedResource Include="Mapping\ResourceTagAssociationInfo.hbm.xml" />
+    <None Include="Mapping\Resource_ImageInfo.hbm.xml" />
+    <EmbeddedResource Include="Mapping\TagInfo.hbm.xml" />
+    <EmbeddedResource Include="Mapping\ResourceInfo.hbm.xml" />
+    <EmbeddedResource Include="Mapping\Resource_FlashInfo.hbm.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -33,21 +33,26 @@
     <sql-type dbtype="smallmoney" nhtype="Decimal"/>
   </type-mapping>
   <!--命名策略类，程序集文件在DB2HBM程序目录下，源代码在ETest项目解决方案中。-->
-  <naming-strategy class="ETestNamingStrategy.ETestNamingStrategy, ETestNamingStrategy">
+  <naming-strategy class="CommonNamingStrategy.CommonNamingStrategy, CommonNamingStrategy">
     <property name="Language">English</property>
   </naming-strategy>
   
   <connection-info>
     <dialect>NHibernate.Dialect.MsSql2005Dialect, NHibernate</dialect>
-    <connection-string>Server=.\SQLEXPRESS;initial catalog=ETestSY;Integrated Security=True</connection-string>
+    <connection-string>Server=.\SQLEXPRESS;initial catalog=KnowledgeManagementSystem;Integrated Security=True</connection-string>
     <connection-driver>NHibernate.Driver.SqlClientDriver, NHibernate</connection-driver>
   </connection-info>
   <table-filter>
     <!--不能部分表导出，会导致丢失未导入的关联表的外键。-->
-    <include table=".*"/>
+    <!--<include table="T_Resource"/>
+    <include table="T_Tag"/>-->
+    <!--<include table=".*"/>-->
+    <include table=".*"></include>
+    <!--<include table="T_Resource"></include>-->
+    <exclude table="T_Tag"></exclude>
   </table-filter>
-  <entities-namespace>ETest.ET.SY.Model</entities-namespace>
-  <entities-assembly>ETest.ET.SY.Model</entities-assembly>
+  <entities-namespace>KMS.Model</entities-namespace>
+  <entities-assembly>KMS.Model</entities-assembly>
  
  
 </db2hbm-conf>
