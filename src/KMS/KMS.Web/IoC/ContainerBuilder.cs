@@ -34,7 +34,7 @@ namespace KMS.Web
 
 //            register services
              container.Register(
-                 Component.For(typeof(Repository<>)).ImplementedBy(typeof(Repository<>)).LifeStyle.Transient
+                 Component.For(typeof(IRepository<>)).ImplementedBy(typeof(Repository<>)).LifeStyle.Transient
 //                 Component.For<IRepository>().ImplementedBy<Repository>().LifeStyle.Transient,
 //                 Component.For<IUserService>().ImplementedBy<UserService>().LifeStyle.Transient,
 //                 Component.For<IAuthorizationFilter>().ImplementedBy<AuthorizationAttribute>().LifeStyle.Transient,
