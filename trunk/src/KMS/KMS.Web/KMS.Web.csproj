@@ -33,71 +33,67 @@
   <ItemGroup>
     <Reference Include="Castle.Core, Version=1.2.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Depencidencies\Castle.Core.dll</HintPath>
+      <HintPath>..\..\Dependencies\Castle.Core.dll</HintPath>
     </Reference>
     <Reference Include="Castle.DynamicProxy2, Version=2.2.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Depencidencies\Castle.DynamicProxy2.dll</HintPath>
+      <HintPath>..\..\Dependencies\Castle.DynamicProxy2.dll</HintPath>
     </Reference>
     <Reference Include="Castle.Facilities.AutoTx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Depencidencies\Castle.Facilities.AutoTx.dll</HintPath>
+      <HintPath>..\..\Dependencies\Castle.Facilities.AutoTx.dll</HintPath>
     </Reference>
     <Reference Include="Castle.Facilities.Logging, Version=2.1.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Depencidencies\Castle.Facilities.Logging.dll</HintPath>
+      <HintPath>..\..\Dependencies\Castle.Facilities.Logging.dll</HintPath>
     </Reference>
     <Reference Include="Castle.Facilities.NHibernateIntegration, Version=1.1.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Depencidencies\Castle.Facilities.NHibernateIntegration.dll</HintPath>
+      <HintPath>..\..\Dependencies\Castle.Facilities.NHibernateIntegration.dll</HintPath>
     </Reference>
     <Reference Include="Castle.MicroKernel, Version=2.1.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Depencidencies\Castle.MicroKernel.dll</HintPath>
+      <HintPath>..\..\Dependencies\Castle.MicroKernel.dll</HintPath>
     </Reference>
     <Reference Include="Castle.Services.Logging.log4netIntegration, Version=1.2.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Depencidencies\Castle.Services.Logging.log4netIntegration.dll</HintPath>
+      <HintPath>..\..\Dependencies\Castle.Services.Logging.log4netIntegration.dll</HintPath>
     </Reference>
     <Reference Include="Castle.Services.Transaction, Version=2.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Depencidencies\Castle.Services.Transaction.dll</HintPath>
+      <HintPath>..\..\Dependencies\Castle.Services.Transaction.dll</HintPath>
     </Reference>
     <Reference Include="Castle.Windsor, Version=2.1.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Depencidencies\Castle.Windsor.dll</HintPath>
+      <HintPath>..\..\Dependencies\Castle.Windsor.dll</HintPath>
     </Reference>
     <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Depencidencies\Iesi.Collections.dll</HintPath>
+      <HintPath>..\..\Dependencies\Iesi.Collections.dll</HintPath>
     </Reference>
     <Reference Include="LinFu.DynamicProxy, Version=1.0.3.14911, Culture=neutral, PublicKeyToken=62a6874124340d6e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Depencidencies\LinFu.DynamicProxy.dll</HintPath>
+      <HintPath>..\..\Dependencies\LinFu.DynamicProxy.dll</HintPath>
     </Reference>
     <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Depencidencies\log4net.dll</HintPath>
+      <HintPath>..\..\Dependencies\log4net.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Depencidencies\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <HintPath>..\..\Dependencies\Microsoft.Practices.ServiceLocation.dll</HintPath>
     </Reference>
     <Reference Include="MvcContrib, Version=1.5.996.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Depencidencies\MvcContrib.dll</HintPath>
+      <HintPath>..\..\Dependencies\MvcContrib.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Depencidencies\NHibernate.dll</HintPath>
+      <HintPath>..\..\Dependencies\NHibernate.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate.ByteCode.LinFu, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Depencidencies\NHibernate.ByteCode.LinFu.dll</HintPath>
-    </Reference>
-    <Reference Include="NHibernate.Linq, Version=1.1.0.1001, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Depencidencies\NHibernate.Linq.dll</HintPath>
+      <HintPath>..\..\Dependencies\NHibernate.ByteCode.LinFu.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

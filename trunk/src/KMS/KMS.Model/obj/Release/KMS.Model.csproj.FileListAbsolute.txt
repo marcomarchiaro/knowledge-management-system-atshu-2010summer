@@ -1,5 +1,0 @@
-F:\项目\知识管理\trunk\src\KMS\KMS.Model\bin\Release\KMS.Model.dll
-F:\项目\知识管理\trunk\src\KMS\KMS.Model\bin\Release\KMS.Model.pdb
-F:\项目\知识管理\trunk\src\KMS\KMS.Model\obj\Release\ResolveAssemblyReference.cache
-F:\项目\知识管理\trunk\src\KMS\KMS.Model\obj\Release\KMS.Model.dll
-F:\项目\知识管理\trunk\src\KMS\KMS.Model\obj\Release\KMS.Model.pdb
