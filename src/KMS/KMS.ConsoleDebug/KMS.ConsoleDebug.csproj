@@ -33,31 +33,31 @@
   <ItemGroup>
     <Reference Include="Castle.Core, Version=1.2.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Depencidencies\Castle.Core.dll</HintPath>
+      <HintPath>..\..\Dependencies\Castle.Core.dll</HintPath>
     </Reference>
     <Reference Include="Castle.MicroKernel, Version=2.1.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Depencidencies\Castle.MicroKernel.dll</HintPath>
+      <HintPath>..\..\Dependencies\Castle.MicroKernel.dll</HintPath>
     </Reference>
     <Reference Include="Castle.Services.Logging.log4netIntegration, Version=1.2.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Depencidencies\Castle.Services.Logging.log4netIntegration.dll</HintPath>
+      <HintPath>..\..\Dependencies\Castle.Services.Logging.log4netIntegration.dll</HintPath>
     </Reference>
     <Reference Include="Castle.Windsor, Version=2.1.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Depencidencies\Castle.Windsor.dll</HintPath>
+      <HintPath>..\..\Dependencies\Castle.Windsor.dll</HintPath>
     </Reference>
     <Reference Include="LinFu.DynamicProxy, Version=1.0.3.14911, Culture=neutral, PublicKeyToken=62a6874124340d6e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Depencidencies\LinFu.DynamicProxy.dll</HintPath>
+      <HintPath>..\..\Dependencies\LinFu.DynamicProxy.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Depencidencies\NHibernate.dll</HintPath>
+      <HintPath>..\..\Dependencies\NHibernate.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate.ByteCode.LinFu, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Depencidencies\NHibernate.ByteCode.LinFu.dll</HintPath>
+      <HintPath>..\..\Dependencies\NHibernate.ByteCode.LinFu.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">

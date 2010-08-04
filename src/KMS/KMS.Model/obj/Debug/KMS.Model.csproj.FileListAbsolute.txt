@@ -1,5 +1,0 @@
-F:\项目\知识管理\trunk\src\KMS\KMS.Model\bin\Debug\KMS.Model.dll
-F:\项目\知识管理\trunk\src\KMS\KMS.Model\bin\Debug\KMS.Model.pdb
-F:\项目\知识管理\trunk\src\KMS\KMS.Model\obj\Debug\ResolveAssemblyReference.cache
-F:\项目\知识管理\trunk\src\KMS\KMS.Model\obj\Debug\KMS.Model.dll
-F:\项目\知识管理\trunk\src\KMS\KMS.Model\obj\Debug\KMS.Model.pdb
