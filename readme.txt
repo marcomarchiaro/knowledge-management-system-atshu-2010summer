@@ -15,10 +15,14 @@ doc\: 项目开发文档（如需求说明书等）
 reference\: 参考文档（如Nhibernate参考文档等）
 =============================================
 
-
 tools\: 辅助开发工具
 ====================
 tools\db2hbm\: Database To HibernateMapping, Nhibernate数据库模式到映射文件自动生成工具
 tools\hbm2net-1.0.0.2-alpha\: HibernateMapping To .NET Class, NHibernate映射文件到实体类自动生成工具
 
 说明：为使用方便，建议将db2hbm以及hbm2net工具的可执行文件，加入到系统环境变量Path中。
+
+db\: 数据库
+===========
+
+说明：.sql是整个库的脚本文件，.bak即是数据库备份文件，以日期和时间作为文件名。
