@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace KMS.Model
 {
 	/// <summary>
-	/// a class mapping for the table: dbo.T_Resource
+	/// a class mapping for the table: dbo.T_Resource_Flash
 	/// </summary>
 	public  partial class Resource_FlashInfo : ResourceInfo 
 	{

@@ -19,47 +19,42 @@ namespace KMS.BLL
 
         public T GetById(object id)
         {
-            return Session.Get<T>(id);
-        }
-
-        public T LoadById(object id)
-        {
-            return Session.Load<T>(id);
+            return session.Get<T>(id);
         }
 
         public IQuery HqlQuery(string queryString)
         {
-            return Session.CreateQuery(queryString);
+            return session.CreateQuery(queryString);
         }
 
         public IQueryable<T> GetAll()
         {
-            return Session.Linq<T>();
+            return session.Linq<T>();
         }
 
         public void SaveOnSubmit(T entity)
         {
-            Session.Save(entity);
+            session.Save(entity);
         }
 
         public void UpdateOnSubmit(T entity)
         {
-            Session.Update(entity);
+            session.Update(entity);
         }
 
         public void DeleteOnSubmit(T entity)
         {
-            Session.Delete(entity);
+            session.Delete(entity);
         }
 
         public void SubmitChanges()
         {
-            Session.Flush();
+            session.Flush();
         }
 
         #endregion
 
-        public ISession Session
+        private ISession session
         {
             get
             {

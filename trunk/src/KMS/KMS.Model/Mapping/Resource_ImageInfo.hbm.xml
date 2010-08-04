@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <hibernate-mapping namespace="KMS.Model" assembly="KMS.Model" xmlns="urn:nhibernate-mapping-2.2">
-  <joined-subclass name="Resource_FlashInfo" extends="ResourceInfo" table="T_Resource_Flash" schema="dbo">
+  <joined-subclass name="Resource_ImageInfo" extends="ResourceInfo" table="T_Resource_Image" schema="dbo">
     <key column="ResourceId"/>
     <property name="Image" type="BinaryBlob" not-null="true" />
     <property name="MIME" type="String" length="20" not-null="true" />

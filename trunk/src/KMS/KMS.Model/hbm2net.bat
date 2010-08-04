@@ -1,1 +1,1 @@
-hbm2net.exe -config:config\hbm2net.xml -output:Entity mapping\*.xml
+hbm2net.exe -config:config\hbm2net.xml -output:Entity mapping\*.hbm.xml

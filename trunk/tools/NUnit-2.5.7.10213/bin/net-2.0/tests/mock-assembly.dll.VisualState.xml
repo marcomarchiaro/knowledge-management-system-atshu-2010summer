@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1025]F:\项目\知识管理\trunk\tools\NUnit-2.5.7.10213\bin\net-2.0\tests\mock-assembly.dll</TopNode>
+  <SelectedNode>[0-1017]NUnit.Tests.IgnoredFixture.Test1</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1025]F:\项目\知识管理\trunk\tools\NUnit-2.5.7.10213\bin\net-2.0\tests\mock-assembly.dll" Expanded="true" />
+    <Node UniqueName="[0-1026]NUnit" Expanded="true" />
+    <Node UniqueName="[0-1027]NUnit.Tests" Expanded="true" />
+    <Node UniqueName="[0-1028]NUnit.Tests.Assemblies" Expanded="true" />
+    <Node UniqueName="[0-1016]NUnit.Tests.IgnoredFixture" Expanded="true" />
+    <Node UniqueName="[0-1029]NUnit.Tests.Singletons" Expanded="true" />
+    <Node UniqueName="[0-1030]NUnit.Tests.TestAssembly" Expanded="true" />
+  </Nodes>
+</VisualState>

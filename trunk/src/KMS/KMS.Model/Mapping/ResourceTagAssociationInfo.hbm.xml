@@ -4,7 +4,7 @@
     <id name="ResourceTagId" type="Int32">
       <generator class="native" />
     </id>
-    <many-to-one name="ResourceInfo" class="ResourceInfo" column="ResourceId" not-null="true" />
+    <many-to-one name="ResourceInfo" class="ResourceInfo" column="ResourceId" not-null="true" fetch="join" />
     <many-to-one name="TagInfo" class="TagInfo" column="TagId" not-null="true" />
   </class>
 </hibernate-mapping>
