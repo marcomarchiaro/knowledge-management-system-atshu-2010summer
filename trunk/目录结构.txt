@@ -9,6 +9,9 @@ src\Dependencies\: 项目依赖的所有第三方组件DLL
 说明：由于使用了ASP.NET MVC库，开发环境使用VS2008 SP1，.NET库版本是3.5 SP1，建议下载整合的更新包，其中包括了VS 2008 SP1以及.NET 3.5 SP1。
 更新包地址：http://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=27673c47-b3b5-4c67-bd99-84e525b5ce61
 
+使用了ASP.NET MVC 1.0请务必安装该更新包（上述3.5 SP1补丁不包含）
+更新包地址： http://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=53289097-73ce-43bf-b6a6-35e00103cb4b
+
 doc\: 项目开发文档（如需求说明书等）
 ===================================
 
