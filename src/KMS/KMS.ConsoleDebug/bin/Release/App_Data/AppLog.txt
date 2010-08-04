@@ -1,0 +1,2697 @@
+[记录时间：2010-08-03 23:30:57,750][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-03 23:30:57,859][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-03 23:30:57,859][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-03 23:30:57,859][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-03 23:30:57,859][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-03 23:30:57,968][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-03 23:30:57,968][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-03 23:30:57,968][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-03 23:30:57,968][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-03 23:30:57,968][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-03 23:30:58,015][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-03 23:30:58,015][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-03 23:30:58,015][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-03 23:30:58,015][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-03 23:30:58,015][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-03 23:30:58,015][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-03 23:30:58,015][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-03 23:30:58,015][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-03 23:30:58,031][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-03 23:30:58,031][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-03 23:30:58,031][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-03 23:30:58,031][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-03 23:30:58,031][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-03 23:30:58,046][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-03 23:30:58,765][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-03 23:30:59,093][ERROR]
+异常类：NHibernate.AdoNet.AbstractBatcher
+错误描述：Could not execute command: INSERT INTO dbo.T_Resource (Name, Description, ResourceId) VALUES (@p0, @p1, @p2)
+System.Data.SqlClient.SqlException: INSERT 语句与 FOREIGN KEY 约束"FK_T_Resource_T_Resource_Flash"冲突。该冲突发生于数据库"KnowledgeManagementSystem"，表"dbo.T_Resource_Flash", column 'ResourceId'。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+[记录时间：2010-08-03 23:30:59,140][WARN]
+异常类：NHibernate.Util.ADOExceptionReporter
+错误描述：System.Data.SqlClient.SqlException: INSERT 语句与 FOREIGN KEY 约束"FK_T_Resource_T_Resource_Flash"冲突。该冲突发生于数据库"KnowledgeManagementSystem"，表"dbo.T_Resource_Flash", column 'ResourceId'。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+   在 NHibernate.AdoNet.NonBatchingBatcher.AddToBatch(IExpectation expectation)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object id, Object[] fields, Boolean[] notNull, Int32 j, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+[记录时间：2010-08-03 23:30:59,140][ERROR]
+异常类：NHibernate.Util.ADOExceptionReporter
+错误描述：INSERT 语句与 FOREIGN KEY 约束"FK_T_Resource_T_Resource_Flash"冲突。该冲突发生于数据库"KnowledgeManagementSystem"，表"dbo.T_Resource_Flash", column 'ResourceId'。
+语句已终止。
+[记录时间：2010-08-03 23:30:59,140][ERROR]
+异常类：NHibernate.Event.Default.AbstractFlushingEventListener
+错误描述：Could not synchronize database state with session
+NHibernate.Exceptions.GenericADOException: could not insert: [KMS.Model.Resource_FlashInfo#ce41c108-ffe1-4a12-b9d0-86d176c8c51a][SQL: INSERT INTO dbo.T_Resource (Name, Description, ResourceId) VALUES (?, ?, ?)] ---> System.Data.SqlClient.SqlException: INSERT 语句与 FOREIGN KEY 约束"FK_T_Resource_T_Resource_Flash"冲突。该冲突发生于数据库"KnowledgeManagementSystem"，表"dbo.T_Resource_Flash", column 'ResourceId'。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+   在 NHibernate.AdoNet.NonBatchingBatcher.AddToBatch(IExpectation expectation)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object id, Object[] fields, Boolean[] notNull, Int32 j, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object id, Object[] fields, Boolean[] notNull, Int32 j, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object id, Object[] fields, Object obj, ISessionImplementor session)
+   在 NHibernate.Action.EntityInsertAction.Execute()
+   在 NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   在 NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   在 NHibernate.Engine.ActionQueue.ExecuteActions()
+   在 NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+[记录时间：2010-08-03 23:34:07,234][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-03 23:34:07,250][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-03 23:34:07,250][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-03 23:34:07,250][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-03 23:34:07,265][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-03 23:34:07,281][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-03 23:34:07,281][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-03 23:34:07,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-03 23:34:07,296][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-03 23:34:07,296][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-03 23:34:07,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-03 23:34:07,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-03 23:34:07,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-03 23:34:07,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-03 23:34:07,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-03 23:34:07,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-03 23:34:07,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-03 23:34:07,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-03 23:34:07,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-03 23:34:07,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-03 23:34:07,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-03 23:34:07,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-03 23:34:07,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-03 23:34:07,328][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-03 23:34:07,718][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-03 23:38:34,578][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-03 23:38:34,593][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-03 23:38:34,593][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-03 23:38:34,593][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-03 23:38:34,609][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-03 23:38:34,625][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-03 23:38:34,625][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-03 23:38:34,625][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-03 23:38:34,625][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-03 23:38:34,625][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-03 23:38:34,640][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-03 23:38:34,640][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-03 23:38:34,640][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-03 23:38:34,640][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-03 23:38:34,640][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-03 23:38:34,640][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-03 23:38:34,640][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-03 23:38:34,640][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-03 23:38:34,640][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-03 23:38:34,640][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-03 23:38:34,640][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-03 23:38:34,640][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-03 23:38:34,640][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-03 23:38:34,656][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-03 23:38:35,015][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 01:00:31,484][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 01:00:31,562][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 01:00:31,562][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 01:00:31,562][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 01:00:31,578][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 01:00:31,578][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 01:00:31,578][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 01:00:31,671][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 01:00:31,671][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 01:00:31,671][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 01:00:31,687][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 01:00:31,687][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 01:00:31,734][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 01:00:31,734][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 01:00:31,734][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 01:00:31,734][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 01:00:31,734][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 01:00:31,734][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 01:00:31,734][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 01:00:31,734][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 01:00:31,734][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 01:00:31,734][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 01:00:31,734][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 01:00:31,734][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 01:00:31,734][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 01:00:31,750][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 01:00:32,484][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 01:01:59,421][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 01:01:59,453][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 01:01:59,468][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 01:01:59,468][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 01:01:59,468][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 01:01:59,468][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 01:01:59,468][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 01:01:59,500][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 01:01:59,500][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 01:01:59,500][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 01:01:59,515][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 01:01:59,515][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 01:01:59,515][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 01:01:59,515][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 01:01:59,515][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 01:01:59,515][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 01:01:59,515][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 01:01:59,515][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 01:01:59,515][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 01:01:59,515][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 01:01:59,515][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 01:01:59,515][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 01:01:59,515][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 01:01:59,515][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 01:01:59,515][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 01:01:59,546][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 01:01:59,953][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 01:04:11,500][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 01:04:11,531][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 01:04:11,531][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 01:04:11,531][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 01:04:11,531][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 01:04:11,531][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 01:04:11,531][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 01:04:11,562][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 01:04:11,562][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 01:04:11,562][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 01:04:11,562][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 01:04:11,562][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 01:04:11,578][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 01:04:11,578][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 01:04:11,578][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 01:04:11,578][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 01:04:11,578][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 01:04:11,578][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 01:04:11,578][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 01:04:11,578][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 01:04:11,578][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 01:04:11,578][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 01:04:11,578][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 01:04:11,578][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 01:04:11,578][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 01:04:11,593][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 01:04:12,015][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 01:04:12,093][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resource_f0_.ResourceId as ResourceId0_0_, resource_f0_1_.Description as Descript2_0_0_, resource_f0_1_.Name as Name0_0_, resource_f0_.Source as Source1_0_, resource_f0_.SourceName as SourceName1_0_, resource_f0_.Width as Width1_0_, resource_f0_.Height as Height1_0_ FROM dbo.T_Resource_Flash resource_f0_ inner join dbo.T_Resource resource_f0_1_ on resource_f0_.ResourceId=resource_f0_1_.ResourceId WHERE resource_f0_.ResourceId=@p0
+[记录时间：2010-08-04 01:04:54,812][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 01:04:54,828][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 01:04:54,843][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 01:04:54,843][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 01:04:54,843][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 01:04:54,843][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 01:04:54,843][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 01:04:54,875][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 01:04:54,875][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 01:04:54,875][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 01:04:54,875][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 01:04:54,875][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 01:04:54,875][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 01:04:54,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 01:04:54,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 01:04:54,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 01:04:54,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 01:04:54,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 01:04:54,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 01:04:54,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 01:04:54,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 01:04:54,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 01:04:54,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 01:04:54,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 01:04:54,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 01:04:54,906][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 01:04:55,328][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 01:04:55,375][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resource_f0_.ResourceId as ResourceId0_0_, resource_f0_1_.Description as Descript2_0_0_, resource_f0_1_.Name as Name0_0_, resource_f0_.Source as Source1_0_, resource_f0_.SourceName as SourceName1_0_, resource_f0_.Width as Width1_0_, resource_f0_.Height as Height1_0_ FROM dbo.T_Resource_Flash resource_f0_ inner join dbo.T_Resource resource_f0_1_ on resource_f0_.ResourceId=resource_f0_1_.ResourceId WHERE resource_f0_.ResourceId=@p0
+[记录时间：2010-08-04 01:05:39,984][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 01:05:40,000][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 01:05:40,000][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 01:05:40,015][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 01:05:40,015][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 01:05:40,015][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 01:05:40,015][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 01:05:40,046][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 01:05:40,046][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 01:05:40,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 01:05:40,046][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 01:05:40,046][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 01:05:40,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 01:05:40,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 01:05:40,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 01:05:40,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 01:05:40,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 01:05:40,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 01:05:40,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 01:05:40,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 01:05:40,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 01:05:40,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 01:05:40,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 01:05:40,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 01:05:40,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 01:05:40,078][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 01:05:40,500][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 01:05:40,562][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resource_f0_.ResourceId as ResourceId0_0_, resource_f0_1_.Description as Descript2_0_0_, resource_f0_1_.Name as Name0_0_, resource_f0_.Source as Source1_0_, resource_f0_.SourceName as SourceName1_0_, resource_f0_.Width as Width1_0_, resource_f0_.Height as Height1_0_ FROM dbo.T_Resource_Flash resource_f0_ inner join dbo.T_Resource resource_f0_1_ on resource_f0_.ResourceId=resource_f0_1_.ResourceId WHERE resource_f0_.ResourceId=@p0
+[记录时间：2010-08-04 01:06:03,453][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 01:06:03,484][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 01:06:03,484][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 01:06:03,484][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 01:06:03,484][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 01:06:03,484][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 01:06:03,484][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 01:06:03,515][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 01:06:03,515][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 01:06:03,515][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 01:06:03,515][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 01:06:03,531][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 01:06:03,531][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 01:06:03,531][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 01:06:03,531][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 01:06:03,531][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 01:06:03,531][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 01:06:03,531][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 01:06:03,531][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 01:06:03,531][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 01:06:03,531][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 01:06:03,531][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 01:06:03,531][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 01:06:03,531][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 01:06:03,531][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 01:06:03,546][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 01:06:04,015][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 01:06:04,078][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resource_f0_.ResourceId as ResourceId0_0_, resource_f0_1_.Description as Descript2_0_0_, resource_f0_1_.Name as Name0_0_, resource_f0_.Source as Source1_0_, resource_f0_.SourceName as SourceName1_0_, resource_f0_.Width as Width1_0_, resource_f0_.Height as Height1_0_ FROM dbo.T_Resource_Flash resource_f0_ inner join dbo.T_Resource resource_f0_1_ on resource_f0_.ResourceId=resource_f0_1_.ResourceId WHERE resource_f0_.ResourceId=@p0
+[记录时间：2010-08-04 01:06:38,984][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 01:06:39,000][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 01:06:39,015][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 01:06:39,015][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 01:06:39,015][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 01:06:39,015][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 01:06:39,015][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 01:06:39,046][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 01:06:39,046][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 01:06:39,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 01:06:39,062][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 01:06:39,062][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 01:06:39,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 01:06:39,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 01:06:39,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 01:06:39,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 01:06:39,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 01:06:39,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 01:06:39,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 01:06:39,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 01:06:39,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 01:06:39,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 01:06:39,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 01:06:39,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 01:06:39,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 01:06:39,093][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 01:06:39,531][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 01:06:39,593][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resource_f0_.ResourceId as ResourceId0_0_, resource_f0_1_.Description as Descript2_0_0_, resource_f0_1_.Name as Name0_0_, resource_f0_.Source as Source1_0_, resource_f0_.SourceName as SourceName1_0_, resource_f0_.Width as Width1_0_, resource_f0_.Height as Height1_0_ FROM dbo.T_Resource_Flash resource_f0_ inner join dbo.T_Resource resource_f0_1_ on resource_f0_.ResourceId=resource_f0_1_.ResourceId WHERE resource_f0_.ResourceId=@p0
+[记录时间：2010-08-04 01:06:54,828][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourceta0_.ResourceId as ResourceId1_, resourceta0_.ResourceTagId as Resource1_1_, resourceta0_.ResourceTagId as Resource1_2_0_, resourceta0_.TagId as TagId2_0_, resourceta0_.ResourceId as ResourceId2_0_ FROM dbo.T_ResourceTagAssociation resourceta0_ WHERE resourceta0_.ResourceId=@p0
+[记录时间：2010-08-04 01:11:49,218][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 01:11:49,234][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 01:11:49,250][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 01:11:49,250][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 01:11:49,250][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 01:11:49,250][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 01:11:49,250][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 01:11:49,281][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 01:11:49,281][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 01:11:49,281][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 01:11:49,281][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 01:11:49,281][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 01:11:49,281][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 01:11:49,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 01:11:49,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 01:11:49,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 01:11:49,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 01:11:49,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 01:11:49,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 01:11:49,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 01:11:49,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 01:11:49,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 01:11:49,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 01:11:49,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 01:11:49,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 01:11:49,312][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 01:11:49,734][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 01:11:49,781][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resource_f0_.ResourceId as ResourceId0_0_, resource_f0_1_.Description as Descript2_0_0_, resource_f0_1_.Name as Name0_0_, resource_f0_.Source as Source1_0_, resource_f0_.SourceName as SourceName1_0_, resource_f0_.Width as Width1_0_, resource_f0_.Height as Height1_0_ FROM dbo.T_Resource_Flash resource_f0_ inner join dbo.T_Resource resource_f0_1_ on resource_f0_.ResourceId=resource_f0_1_.ResourceId WHERE resource_f0_.ResourceId=@p0
+[记录时间：2010-08-04 01:11:49,843][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId3_0_, taginfo0_.Description as Descript2_3_0_, taginfo0_.Name as Name3_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-04 01:12:43,031][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 01:12:43,062][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 01:12:43,062][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 01:12:43,062][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 01:12:43,062][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 01:12:43,062][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 01:12:43,062][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 01:12:43,093][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 01:12:43,093][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 01:12:43,093][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 01:12:43,093][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 01:12:43,093][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 01:12:43,093][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 01:12:43,093][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 01:12:43,109][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 01:12:43,109][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 01:12:43,109][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 01:12:43,109][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 01:12:43,109][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 01:12:43,109][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 01:12:43,109][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 01:12:43,109][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 01:12:43,109][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 01:12:43,109][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 01:12:43,109][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 01:12:43,125][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 01:12:43,531][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 01:12:43,593][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourceta0_.ResourceTagId as Resource1_2_0_, resourceta0_.ResourceId as ResourceId2_0_, resourceta0_.TagId as TagId2_0_ FROM dbo.T_ResourceTagAssociation resourceta0_ WHERE resourceta0_.ResourceTagId=@p0
+[记录时间：2010-08-04 01:13:22,531][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 01:13:22,562][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 01:13:22,562][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 01:13:22,562][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 01:13:22,562][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 01:13:22,562][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 01:13:22,562][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 01:13:22,593][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 01:13:22,593][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 01:13:22,593][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 01:13:22,593][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 01:13:22,593][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 01:13:22,609][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 01:13:22,609][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 01:13:22,609][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 01:13:22,609][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 01:13:22,609][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 01:13:22,609][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 01:13:22,609][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 01:13:22,609][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 01:13:22,609][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 01:13:22,609][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 01:13:22,609][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 01:13:22,609][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 01:13:22,609][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 01:13:22,625][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 01:13:23,031][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 01:13:23,093][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourceta0_.ResourceTagId as Resource1_2_0_, resourceta0_.ResourceId as ResourceId2_0_, resourceta0_.TagId as TagId2_0_ FROM dbo.T_ResourceTagAssociation resourceta0_ WHERE resourceta0_.ResourceTagId=@p0
+[记录时间：2010-08-04 01:48:37,812][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 01:48:37,828][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 01:48:37,828][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 01:48:37,843][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 01:48:37,843][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 01:48:37,843][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 01:48:37,843][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 01:48:37,875][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 01:48:37,875][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 01:48:37,875][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 01:48:37,875][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 01:48:37,875][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 01:48:37,875][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 01:48:37,875][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 01:48:37,875][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 01:48:37,875][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 01:48:37,875][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 01:48:37,875][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 01:48:37,875][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 01:48:37,875][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 01:48:37,875][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 01:48:37,875][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 01:48:37,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 01:48:37,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 01:48:37,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 01:48:37,906][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 01:48:38,359][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 01:48:38,421][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourceta0_.ResourceTagId as Resource1_2_0_, resourceta0_.ResourceId as ResourceId2_0_, resourceta0_.TagId as TagId2_0_ FROM dbo.T_ResourceTagAssociation resourceta0_ WHERE resourceta0_.ResourceTagId=@p0
+[记录时间：2010-08-04 01:49:27,625][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 01:49:27,640][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 01:49:27,640][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 01:49:27,656][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 01:49:27,656][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 01:49:27,656][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 01:49:27,656][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 01:49:27,687][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 01:49:27,687][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 01:49:27,687][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 01:49:27,687][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 01:49:27,687][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 01:49:27,687][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 01:49:27,687][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 01:49:27,687][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 01:49:27,687][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 01:49:27,687][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 01:49:27,687][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 01:49:27,687][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 01:49:27,687][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 01:49:27,687][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 01:49:27,687][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 01:49:27,703][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 01:49:27,703][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 01:49:27,703][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 01:49:27,718][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 01:49:28,125][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 01:49:28,171][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourceta0_.ResourceTagId as Resource1_2_0_, resourceta0_.ResourceId as ResourceId2_0_, resourceta0_.TagId as TagId2_0_ FROM dbo.T_ResourceTagAssociation resourceta0_ WHERE resourceta0_.ResourceTagId=@p0
+[记录时间：2010-08-04 01:49:43,062][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId0_0_, resourcein0_.Description as Descript2_0_0_, resourcein0_.Name as Name0_0_, resourcein0_1_.Source as Source1_0_, resourcein0_1_.SourceName as SourceName1_0_, resourcein0_1_.Width as Width1_0_, resourcein0_1_.Height as Height1_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_Flash resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-08-04 01:49:44,015][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourceta0_.ResourceId as ResourceId1_, resourceta0_.ResourceTagId as Resource1_1_, resourceta0_.ResourceTagId as Resource1_2_0_, resourceta0_.ResourceId as ResourceId2_0_, resourceta0_.TagId as TagId2_0_ FROM dbo.T_ResourceTagAssociation resourceta0_ WHERE resourceta0_.ResourceId=@p0
+[记录时间：2010-08-04 01:50:16,312][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId3_0_, taginfo0_.Description as Descript2_3_0_, taginfo0_.Name as Name3_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-04 02:08:09,578][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 02:08:09,609][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 02:08:09,609][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 02:08:09,609][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 02:08:09,609][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 02:08:09,609][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 02:08:09,609][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 02:08:09,640][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 02:08:09,640][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 02:08:09,640][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 02:08:09,640][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 02:08:09,640][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 02:08:09,656][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 02:08:09,656][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 02:08:09,656][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 02:08:09,656][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 02:08:09,656][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 02:08:09,656][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 02:08:09,656][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 02:08:09,656][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 02:08:09,656][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 02:08:09,656][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 02:08:09,656][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 02:08:09,656][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 02:08:09,656][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 02:08:09,671][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 02:08:10,109][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 02:08:10,171][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourceta0_.ResourceTagId as Resource1_2_0_, resourceta0_.ResourceId as ResourceId2_0_, resourceta0_.TagId as TagId2_0_ FROM dbo.T_ResourceTagAssociation resourceta0_ WHERE resourceta0_.ResourceTagId=@p0
+[记录时间：2010-08-04 02:08:15,531][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId0_0_, resourcein0_.Description as Descript2_0_0_, resourcein0_.Name as Name0_0_, resourcein0_1_.Source as Source1_0_, resourcein0_1_.SourceName as SourceName1_0_, resourcein0_1_.Width as Width1_0_, resourcein0_1_.Height as Height1_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_Flash resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-08-04 02:08:15,546][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId3_0_, taginfo0_.Description as Descript2_3_0_, taginfo0_.Name as Name3_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-04 02:30:34,890][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourceta0_.ResourceId as ResourceId1_, resourceta0_.ResourceTagId as Resource1_1_, resourceta0_.ResourceTagId as Resource1_2_0_, resourceta0_.ResourceId as ResourceId2_0_, resourceta0_.TagId as TagId2_0_ FROM dbo.T_ResourceTagAssociation resourceta0_ WHERE resourceta0_.ResourceId=@p0
+[记录时间：2010-08-04 02:32:40,984][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 02:32:41,015][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 02:32:41,015][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 02:32:41,015][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 02:32:41,015][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 02:32:41,015][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 02:32:41,015][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 02:32:41,046][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 02:32:41,046][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 02:32:41,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 02:32:41,046][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 02:32:41,046][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 02:32:41,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 02:32:41,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 02:32:41,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 02:32:41,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 02:32:41,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 02:32:41,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 02:32:41,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 02:32:41,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 02:32:41,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 02:32:41,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 02:32:41,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 02:32:41,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 02:32:41,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 02:32:41,078][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 02:32:41,578][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 02:32:41,640][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourceta0_.ResourceTagId as Resource1_2_0_, resourceta0_.ResourceId as ResourceId2_0_, resourceta0_.TagId as TagId2_0_ FROM dbo.T_ResourceTagAssociation resourceta0_ WHERE resourceta0_.ResourceTagId=@p0
+[记录时间：2010-08-04 02:32:50,765][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId3_0_, taginfo0_.Description as Descript2_3_0_, taginfo0_.Name as Name3_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-04 02:41:04,968][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 02:41:05,000][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 02:41:05,000][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 02:41:05,000][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 02:41:05,000][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 02:41:05,000][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 02:41:05,000][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 02:41:05,031][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 02:41:05,031][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 02:41:05,031][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 02:41:05,031][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 02:41:05,031][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 02:41:05,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 02:41:05,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 02:41:05,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 02:41:05,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 02:41:05,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 02:41:05,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 02:41:05,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 02:41:05,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 02:41:05,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 02:41:05,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 02:41:05,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 02:41:05,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 02:41:05,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 02:41:05,062][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 02:41:05,468][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 02:41:05,562][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourceta0_.ResourceTagId as Resource1_2_0_, resourceta0_.ResourceId as ResourceId2_0_, resourceta0_.TagId as TagId2_0_ FROM dbo.T_ResourceTagAssociation resourceta0_ WHERE resourceta0_.ResourceTagId=@p0
+[记录时间：2010-08-04 02:41:24,750][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 02:41:24,765][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 02:41:24,781][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 02:41:24,781][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 02:41:24,781][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 02:41:24,781][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 02:41:24,781][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 02:41:24,812][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 02:41:24,812][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 02:41:24,812][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 02:41:24,812][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 02:41:24,812][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 02:41:24,812][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 02:41:24,812][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 02:41:24,812][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 02:41:24,812][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 02:41:24,812][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 02:41:24,828][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 02:41:24,828][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 02:41:24,828][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 02:41:24,828][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 02:41:24,828][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 02:41:24,828][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 02:41:24,828][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 02:41:24,828][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 02:41:24,843][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 02:41:25,250][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 02:41:25,343][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourceta0_.ResourceTagId as Resource1_2_0_, resourceta0_.ResourceId as ResourceId2_0_, resourceta0_.TagId as TagId2_0_ FROM dbo.T_ResourceTagAssociation resourceta0_ WHERE resourceta0_.ResourceTagId=@p0
+[记录时间：2010-08-04 02:41:49,156][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 02:41:49,187][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 02:41:49,187][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 02:41:49,187][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 02:41:49,187][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 02:41:49,187][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 02:41:49,187][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 02:41:49,218][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 02:41:49,218][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 02:41:49,218][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 02:41:49,218][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 02:41:49,234][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 02:41:49,234][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 02:41:49,234][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 02:41:49,234][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 02:41:49,234][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 02:41:49,234][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 02:41:49,234][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 02:41:49,234][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 02:41:49,234][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 02:41:49,234][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 02:41:49,234][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 02:41:49,234][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 02:41:49,234][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 02:41:49,234][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 02:41:49,250][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 02:41:49,656][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 02:41:49,750][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourceta0_.ResourceTagId as Resource1_2_0_, resourceta0_.ResourceId as ResourceId2_0_, resourceta0_.TagId as TagId2_0_ FROM dbo.T_ResourceTagAssociation resourceta0_ WHERE resourceta0_.ResourceTagId=@p0
+[记录时间：2010-08-04 02:43:32,546][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 02:43:32,562][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 02:43:32,562][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 02:43:32,578][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 02:43:32,578][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 02:43:32,578][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 02:43:32,578][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 02:43:32,609][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 02:43:32,609][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 02:43:32,609][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 02:43:32,609][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 02:43:32,609][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 02:43:32,609][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 02:43:32,609][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 02:43:32,609][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 02:43:32,609][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 02:43:32,609][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 02:43:32,609][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 02:43:32,609][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 02:43:32,609][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 02:43:32,609][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 02:43:32,625][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 02:43:32,625][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 02:43:32,625][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 02:43:32,625][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 02:43:32,640][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 02:43:33,046][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 02:43:33,109][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourceta0_.ResourceTagId as Resource1_2_0_, resourceta0_.ResourceId as ResourceId2_0_, resourceta0_.TagId as TagId2_0_ FROM dbo.T_ResourceTagAssociation resourceta0_ WHERE resourceta0_.ResourceTagId=@p0
+[记录时间：2010-08-04 02:43:33,187][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId0_0_, resourcein0_.Description as Descript2_0_0_, resourcein0_.Name as Name0_0_, resourcein0_1_.Source as Source1_0_, resourcein0_1_.SourceName as SourceName1_0_, resourcein0_1_.Width as Width1_0_, resourcein0_1_.Height as Height1_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_Flash resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-08-04 03:09:05,578][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 03:09:05,671][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 03:09:05,671][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 03:09:05,671][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 03:09:05,671][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 03:09:05,671][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 03:09:05,687][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 03:09:05,765][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 03:09:05,765][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 03:09:05,765][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 03:09:05,765][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 03:09:05,765][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 03:09:05,781][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 03:09:05,781][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 03:09:05,781][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 03:09:05,781][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 03:09:05,781][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 03:09:05,781][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 03:09:05,781][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 03:09:05,781][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 03:09:05,781][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 03:09:05,796][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 03:09:05,796][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 03:09:05,796][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 03:09:05,796][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 03:09:05,812][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 03:09:07,078][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 03:09:07,234][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourceta0_.ResourceTagId as Resource1_2_0_, resourceta0_.ResourceId as ResourceId2_0_, resourceta0_.TagId as TagId2_0_ FROM dbo.T_ResourceTagAssociation resourceta0_ WHERE resourceta0_.ResourceTagId=@p0
+[记录时间：2010-08-04 03:09:07,484][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId0_0_, resourcein0_.Description as Descript2_0_0_, resourcein0_.Name as Name0_0_, resourcein0_1_.Source as Source1_0_, resourcein0_1_.SourceName as SourceName1_0_, resourcein0_1_.Width as Width1_0_, resourcein0_1_.Height as Height1_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_Flash resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-08-04 03:11:55,328][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 03:11:55,343][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 03:11:55,343][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 03:11:55,359][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 03:11:55,359][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 03:11:55,359][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 03:11:55,359][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 03:11:55,390][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 03:11:55,390][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 03:11:55,390][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 03:11:55,390][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 03:11:55,390][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 03:11:55,390][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 03:11:55,390][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 03:11:55,390][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 03:11:55,390][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 03:11:55,390][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 03:11:55,390][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 03:11:55,390][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 03:11:55,390][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 03:11:55,390][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 03:11:55,390][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 03:11:55,406][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 03:11:55,406][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 03:11:55,406][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 03:11:55,421][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 03:11:55,843][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 03:11:55,906][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId0_0_, resourcein0_.Description as Descript2_0_0_, resourcein0_.Name as Name0_0_, resourcein0_1_.Source as Source1_0_, resourcein0_1_.SourceName as SourceName1_0_, resourcein0_1_.Width as Width1_0_, resourcein0_1_.Height as Height1_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_Flash resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-08-04 03:14:43,000][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 03:14:43,031][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 03:14:43,031][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 03:14:43,031][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 03:14:43,031][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 03:14:43,031][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 03:14:43,031][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 03:14:43,062][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 03:14:43,062][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 03:14:43,062][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 03:14:43,062][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 03:14:43,078][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 03:14:43,078][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 03:14:43,078][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 03:14:43,078][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 03:14:43,078][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 03:14:43,078][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 03:14:43,078][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 03:14:43,078][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 03:14:43,078][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 03:14:43,078][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 03:14:43,078][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 03:14:43,078][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 03:14:43,078][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 03:14:43,078][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 03:14:43,093][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 03:14:43,500][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 03:14:43,562][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId0_0_, resourcein0_.Description as Descript2_0_0_, resourcein0_.Name as Name0_0_, resourcein0_1_.Source as Source1_0_, resourcein0_1_.SourceName as SourceName1_0_, resourcein0_1_.Width as Width1_0_, resourcein0_1_.Height as Height1_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_Flash resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-08-04 03:14:49,375][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourceta0_.ResourceId as ResourceId1_, resourceta0_.ResourceTagId as Resource1_1_, resourceta0_.ResourceTagId as Resource1_2_0_, resourceta0_.ResourceId as ResourceId2_0_, resourceta0_.TagId as TagId2_0_ FROM dbo.T_ResourceTagAssociation resourceta0_ WHERE resourceta0_.ResourceId=@p0
+[记录时间：2010-08-04 03:15:21,125][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 03:15:21,156][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 03:15:21,156][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 03:15:21,156][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 03:15:21,156][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 03:15:21,156][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 03:15:21,171][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 03:15:21,187][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 03:15:21,187][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 03:15:21,203][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 03:15:21,203][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 03:15:21,203][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 03:15:21,203][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 03:15:21,203][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 03:15:21,203][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 03:15:21,203][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 03:15:21,203][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 03:15:21,203][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 03:15:21,203][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 03:15:21,203][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 03:15:21,203][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 03:15:21,203][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 03:15:21,203][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 03:15:21,203][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 03:15:21,203][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 03:15:21,234][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 03:15:21,625][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 03:15:21,687][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId0_0_, resourcein0_.Description as Descript2_0_0_, resourcein0_.Name as Name0_0_, resourcein0_1_.Source as Source1_0_, resourcein0_1_.SourceName as SourceName1_0_, resourcein0_1_.Width as Width1_0_, resourcein0_1_.Height as Height1_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_Flash resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-08-04 03:16:42,984][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 03:16:43,000][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 03:16:43,000][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 03:16:43,000][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 03:16:43,000][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 03:16:43,000][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 03:16:43,015][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 03:16:43,031][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 03:16:43,046][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 03:16:43,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 03:16:43,046][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 03:16:43,046][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 03:16:43,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 03:16:43,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 03:16:43,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 03:16:43,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 03:16:43,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 03:16:43,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 03:16:43,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 03:16:43,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 03:16:43,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 03:16:43,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 03:16:43,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 03:16:43,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 03:16:43,046][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 03:16:43,078][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 03:16:43,484][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 03:16:43,546][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId0_0_, resourcein0_.Description as Descript2_0_0_, resourcein0_.Name as Name0_0_, resourcein0_1_.Source as Source1_0_, resourcein0_1_.SourceName as SourceName1_0_, resourcein0_1_.Width as Width1_0_, resourcein0_1_.Height as Height1_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_Flash resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-08-04 03:16:43,593][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourceta0_.ResourceTagId as Resource1_2_0_, resourceta0_.ResourceId as ResourceId2_0_, resourceta0_.TagId as TagId2_0_ FROM dbo.T_ResourceTagAssociation resourceta0_ WHERE resourceta0_.ResourceTagId=@p0
+[记录时间：2010-08-04 03:16:49,421][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId0_0_, resourcein0_.Description as Descript2_0_0_, resourcein0_.Name as Name0_0_, resourcein0_1_.Source as Source1_0_, resourcein0_1_.SourceName as SourceName1_0_, resourcein0_1_.Width as Width1_0_, resourcein0_1_.Height as Height1_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_Flash resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-08-04 03:16:50,453][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourceta0_.ResourceId as ResourceId1_, resourceta0_.ResourceTagId as Resource1_1_, resourceta0_.ResourceTagId as Resource1_2_0_, resourceta0_.ResourceId as ResourceId2_0_, resourceta0_.TagId as TagId2_0_ FROM dbo.T_ResourceTagAssociation resourceta0_ WHERE resourceta0_.ResourceId=@p0
+[记录时间：2010-08-04 03:18:42,218][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 03:18:42,234][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 03:18:42,234][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 03:18:42,234][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 03:18:42,250][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 03:18:42,250][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 03:18:42,250][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 03:18:42,281][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 03:18:42,281][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 03:18:42,281][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 03:18:42,281][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 03:18:42,281][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 03:18:42,281][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 03:18:42,281][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 03:18:42,281][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 03:18:42,281][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 03:18:42,281][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 03:18:42,281][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 03:18:42,281][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 03:18:42,281][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 03:18:42,281][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 03:18:42,281][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 03:18:42,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 03:18:42,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 03:18:42,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 03:18:42,312][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 03:18:42,718][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 03:18:42,781][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId0_0_, resourcein0_.Description as Descript2_0_0_, resourcein0_.Name as Name0_0_, resourcein0_1_.Source as Source1_0_, resourcein0_1_.SourceName as SourceName1_0_, resourcein0_1_.Width as Width1_0_, resourcein0_1_.Height as Height1_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_Flash resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-08-04 03:18:42,828][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourceta0_.ResourceTagId as Resource1_2_0_, resourceta0_.ResourceId as ResourceId2_0_, resourceta0_.TagId as TagId2_0_ FROM dbo.T_ResourceTagAssociation resourceta0_ WHERE resourceta0_.ResourceTagId=@p0
+[记录时间：2010-08-04 03:19:07,312][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId0_0_, resourcein0_.Description as Descript2_0_0_, resourcein0_.Name as Name0_0_, resourcein0_1_.Source as Source1_0_, resourcein0_1_.SourceName as SourceName1_0_, resourcein0_1_.Width as Width1_0_, resourcein0_1_.Height as Height1_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_Flash resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-08-04 03:19:08,281][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourceta0_.ResourceId as ResourceId1_, resourceta0_.ResourceTagId as Resource1_1_, resourceta0_.ResourceTagId as Resource1_2_0_, resourceta0_.ResourceId as ResourceId2_0_, resourceta0_.TagId as TagId2_0_ FROM dbo.T_ResourceTagAssociation resourceta0_ WHERE resourceta0_.ResourceId=@p0
+[记录时间：2010-08-04 03:33:41,734][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 03:33:41,765][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 03:33:41,765][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 03:33:41,765][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 03:33:41,765][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 03:33:41,765][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 03:33:41,765][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 03:33:41,796][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 03:33:41,812][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 03:33:41,812][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 03:33:41,812][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 03:33:41,812][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 03:33:41,812][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 03:33:41,812][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 03:33:41,812][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 03:33:41,812][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 03:33:41,812][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 03:33:41,812][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 03:33:41,812][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 03:33:41,812][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 03:33:41,812][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 03:33:41,812][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 03:33:41,812][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 03:33:41,812][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 03:33:41,812][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 03:33:41,843][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 03:33:42,250][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 03:33:42,312][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId0_0_, resourcein0_.Description as Descript2_0_0_, resourcein0_.Name as Name0_0_, resourcein0_1_.Source as Source1_0_, resourcein0_1_.SourceName as SourceName1_0_, resourcein0_1_.Width as Width1_0_, resourcein0_1_.Height as Height1_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_Flash resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-08-04 03:33:42,359][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourceta0_.ResourceTagId as Resource1_2_0_, resourceta0_.ResourceId as ResourceId2_0_, resourceta0_.TagId as TagId2_0_ FROM dbo.T_ResourceTagAssociation resourceta0_ WHERE resourceta0_.ResourceTagId=@p0
+[记录时间：2010-08-04 03:34:02,656][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 03:34:02,671][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 03:34:02,671][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 03:34:02,671][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 03:34:02,671][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 03:34:02,671][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 03:34:02,687][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 03:34:02,718][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 03:34:02,718][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 03:34:02,718][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 03:34:02,718][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 03:34:02,718][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 03:34:02,718][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 03:34:02,718][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 03:34:02,718][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 03:34:02,718][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 03:34:02,718][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 03:34:02,718][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 03:34:02,718][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 03:34:02,718][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 03:34:02,718][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 03:34:02,718][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 03:34:02,718][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 03:34:02,718][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 03:34:02,718][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 03:34:02,750][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 03:34:03,156][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 03:34:03,203][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId0_0_, resourcein0_.Description as Descript2_0_0_, resourcein0_.Name as Name0_0_, resourcein0_1_.Source as Source1_0_, resourcein0_1_.SourceName as SourceName1_0_, resourcein0_1_.Width as Width1_0_, resourcein0_1_.Height as Height1_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_Flash resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-08-04 03:34:03,265][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourceta0_.ResourceTagId as Resource1_2_0_, resourceta0_.ResourceId as ResourceId2_0_, resourceta0_.TagId as TagId2_0_ FROM dbo.T_ResourceTagAssociation resourceta0_ WHERE resourceta0_.ResourceTagId=@p0
+[记录时间：2010-08-04 03:34:36,515][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 03:34:36,531][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 03:34:36,546][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 03:34:36,546][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 03:34:36,546][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 03:34:36,546][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 03:34:36,546][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 03:34:36,578][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 03:34:36,578][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 03:34:36,578][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 03:34:36,578][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 03:34:36,578][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 03:34:36,593][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 03:34:36,593][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 03:34:36,593][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 03:34:36,593][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 03:34:36,593][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 03:34:36,593][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 03:34:36,593][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 03:34:36,593][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 03:34:36,593][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 03:34:36,593][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 03:34:36,593][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 03:34:36,593][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 03:34:36,593][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 03:34:36,609][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 03:34:37,015][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 03:34:37,078][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId0_0_, resourcein0_.Description as Descript2_0_0_, resourcein0_.Name as Name0_0_, resourcein0_1_.Source as Source1_0_, resourcein0_1_.SourceName as SourceName1_0_, resourcein0_1_.Width as Width1_0_, resourcein0_1_.Height as Height1_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_Flash resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-08-04 03:34:37,125][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourceta0_.ResourceTagId as Resource1_2_0_, resourceta0_.ResourceId as ResourceId2_0_, resourceta0_.TagId as TagId2_0_ FROM dbo.T_ResourceTagAssociation resourceta0_ WHERE resourceta0_.ResourceTagId=@p0
+[记录时间：2010-08-04 03:35:10,812][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-04 03:35:10,843][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-04 03:35:10,843][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 03:35:10,843][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-04 03:35:10,843][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-04 03:35:10,843][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-04 03:35:10,843][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-04 03:35:10,875][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-04 03:35:10,875][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-04 03:35:10,875][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-04 03:35:10,875][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-04 03:35:10,875][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-04 03:35:10,875][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-04 03:35:10,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-04 03:35:10,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-04 03:35:10,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-04 03:35:10,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-04 03:35:10,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-04 03:35:10,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-04 03:35:10,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-04 03:35:10,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-04 03:35:10,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 03:35:10,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-04 03:35:10,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-04 03:35:10,890][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-04 03:35:10,906][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-04 03:35:11,312][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-04 03:35:11,375][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId0_0_, resourcein0_.Description as Descript2_0_0_, resourcein0_.Name as Name0_0_, resourcein0_1_.Source as Source1_0_, resourcein0_1_.SourceName as SourceName1_0_, resourcein0_1_.Width as Width1_0_, resourcein0_1_.Height as Height1_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_Flash resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-08-04 03:35:11,421][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourceta0_.ResourceTagId as Resource1_2_0_, resourceta0_.ResourceId as ResourceId2_0_, resourceta0_.TagId as TagId2_0_ FROM dbo.T_ResourceTagAssociation resourceta0_ WHERE resourceta0_.ResourceTagId=@p0

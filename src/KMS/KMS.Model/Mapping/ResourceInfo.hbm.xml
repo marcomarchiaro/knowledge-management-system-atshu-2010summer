@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping namespace="KMS.Model" assembly="KMS.Model" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ResourceInfo" table="T_Resource" schema="dbo">
+    <id name="ResourceId" type="Guid">
+      <generator class="guid" />
+    </id>
+    <property name="Description" type="String" length="500" />
+    <property name="Name" type="String" length="100" />
+    <bag name="ResourceTagAssociationInfos" table="T_ResourceTagAssociation" inverse="true">
+      <key column="ResourceId" />
+      <one-to-many class="ResourceTagAssociationInfo" />
+    </bag>
+  </class>
+</hibernate-mapping>

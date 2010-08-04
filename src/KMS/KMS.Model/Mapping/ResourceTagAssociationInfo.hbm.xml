@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping namespace="KMS.Model" assembly="KMS.Model" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ResourceTagAssociationInfo" table="T_ResourceTagAssociation" schema="dbo">
+    <id name="ResourceTagId" type="Int32">
+      <generator class="native" />
+    </id>
+    <many-to-one name="ResourceInfo" class="ResourceInfo" column="ResourceId" not-null="true" />
+    <many-to-one name="TagInfo" class="TagInfo" column="TagId" not-null="true" />
+  </class>
+</hibernate-mapping>

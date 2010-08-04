@@ -1,0 +1,10 @@
+F:\项目\知识管理\trunk\src\KMS\CommonNamingStrategy\bin\Release\NHibernate.Tool.Db2hbm.dll
+F:\项目\知识管理\trunk\src\KMS\CommonNamingStrategy\bin\Release\NHibernate.dll
+F:\项目\知识管理\trunk\src\KMS\CommonNamingStrategy\bin\Release\Iesi.Collections.dll
+F:\项目\知识管理\trunk\src\KMS\CommonNamingStrategy\bin\Release\log4net.dll
+F:\项目\知识管理\trunk\src\KMS\CommonNamingStrategy\bin\Release\Antlr3.Runtime.dll
+F:\项目\知识管理\trunk\src\KMS\CommonNamingStrategy\obj\Release\ResolveAssemblyReference.cache
+F:\项目\知识管理\trunk\src\KMS\CommonNamingStrategy\bin\Release\CommonNamingStrategy.dll
+F:\项目\知识管理\trunk\src\KMS\CommonNamingStrategy\bin\Release\CommonNamingStrategy.pdb
+F:\项目\知识管理\trunk\src\KMS\CommonNamingStrategy\obj\Release\CommonNamingStrategy.dll
+F:\项目\知识管理\trunk\src\KMS\CommonNamingStrategy\obj\Release\CommonNamingStrategy.pdb
