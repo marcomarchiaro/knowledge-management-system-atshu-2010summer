@@ -12,52 +12,61 @@ using System.Collections.Generic;
 
 namespace KMS.Model
 {
-	/// <summary>
-	/// a class mapping for the table: dbo.T_Resource
-	/// </summary>
-	public  partial class ResourceInfo 
-	{
+    /// <summary>
+    /// a class mapping for the table: dbo.T_Resource
+    /// </summary>
+    public partial class ResourceInfo
+    {
 
-	#region private fields
-		Guid _resourceId;	
-		String _description;	
-		String _name;	
-		IList<ResourceTagAssociationInfo> _resourceTagAssociationInfos = new List<ResourceTagAssociationInfo>();	
-	#endregion
-		
-	#region getter/setters		
-		/// <summary>
-		///		
-		/// </summary>
-		public virtual Guid ResourceId
-		{
-			get{ return _resourceId; }
-			set{ _resourceId = value; }
-		}
-		/// <summary>
-		///		
-		/// </summary>
-		public virtual String Description
-		{
-			get{ return _description; }
-			set{ _description = value; }
-		}
-		/// <summary>
-		///		
-		/// </summary>
-		public virtual String Name
-		{
-			get{ return _name; }
-			set{ _name = value; }
-		}
-		/// <summary>
-		///		
-		/// </summary>
-		public virtual IList<ResourceTagAssociationInfo> ResourceTagAssociationInfos
-		{
-			get{ return _resourceTagAssociationInfos; }
-			set{ _resourceTagAssociationInfos = value; }
-		}
-	#endregion
-	}
+        #region private fields
+        Guid _resourceId;
+        String _description;
+        String _name;
+        DateTime? _timeStamp;
+        IList<ResourceTagAssociationInfo> _resourceTagAssociationInfos = new List<ResourceTagAssociationInfo>();
+        #endregion
+
+        #region getter/setters
+        /// <summary>
+        ///		
+        /// </summary>
+        public virtual Guid ResourceId
+        {
+            get { return _resourceId; }
+            set { _resourceId = value; }
+        }
+        /// <summary>
+        ///		
+        /// </summary>
+        public virtual String Description
+        {
+            get { return _description; }
+            set { _description = value; }
+        }
+        /// <summary>
+        ///		
+        /// </summary>
+        public virtual String Name
+        {
+            get { return _name; }
+            set { _name = value; }
+        }
+        /// <summary>
+        ///		
+        /// </summary>
+        public virtual DateTime? TimeStamp
+        {
+            get { return _timeStamp; }
+            set { _timeStamp = value; }
+        }
+        /// <summary>
+        ///		
+        /// </summary>
+        public virtual IList<ResourceTagAssociationInfo> ResourceTagAssociationInfos
+        {
+            get { return _resourceTagAssociationInfos; }
+            set { _resourceTagAssociationInfos = value; }
+        }
+        #endregion
+    }
 }
