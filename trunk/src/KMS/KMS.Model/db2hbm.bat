@@ -1,1 +1,1 @@
-db2hbm.exe -config:config\db2hbm.xml -output:mapping\
+db2hbm.exe -config:config\db2hbm.xml -output:mapping2\

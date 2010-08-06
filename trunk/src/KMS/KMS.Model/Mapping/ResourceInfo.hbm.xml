@@ -4,6 +4,7 @@
     <id name="ResourceId" type="Guid">
       <generator class="guid" />
     </id>
+    <timestamp name="TimeStamp" ></timestamp>
     <property name="Description" type="String" length="500" />
     <property name="Name" type="String" length="100" />
     <bag name="ResourceTagAssociationInfos" table="T_ResourceTagAssociation" inverse="true">
