@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using NUnit.Framework;
+using NHibernate;
 using Castle.Windsor;
 using Castle.MicroKernel.Registration;
 using Castle.Facilities.NHibernateIntegration;
@@ -18,6 +19,7 @@ namespace KMS.BLL.Test
         IWindsorContainer container;
         IRepository<ResourceInfo> ResourceR;
         IRepository<Resource_ImageInfo> ResourceImageR;
+        IRepository<TagInfo> TagR;
         IRepository<ResourceTagAssociationInfo> ResourceTagAssociationR;
         ISessionManager SessionManager;
 
@@ -29,6 +31,7 @@ namespace KMS.BLL.Test
             ResourceR = container.Resolve<IRepository<ResourceInfo>>();
             ResourceImageR = container.Resolve<IRepository<Resource_ImageInfo>>();
             ResourceTagAssociationR = container.Resolve<IRepository<ResourceTagAssociationInfo>>();
+            TagR = container.Resolve<IRepository<TagInfo>>();
             SessionManager = container.Resolve<ISessionManager>();
         }
 
@@ -68,6 +71,23 @@ namespace KMS.BLL.Test
         {
             ResourceTagAssociationInfo rta = ResourceTagAssociationR.GetById(1);
             Assert.True(rta.ResourceInfo.GetType() is Resource_FlashInfo);
+        }
+
+        [Test]
+        public void UpdateTag()
+        {
+            TagInfo tag = TagR.GetById(1);
+            tag.Description = "updated";
+            TagR.UpdateOnSubmit(tag);
+            TagR.SubmitChanges();
+        }
+
+        [Test]
+        public void SameSession()
+        {
+            ISession s1 = SessionManager.OpenSession();
+            ISession s2 = SessionManager.OpenSession();
+            Assert.True(s1 == s2);
         }
     }
 }
