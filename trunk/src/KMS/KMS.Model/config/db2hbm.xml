@@ -47,9 +47,11 @@
     <!--<include table="T_Resource"/>
     <include table="T_Tag"/>-->
     <!--<include table=".*"/>-->
-    <include table=".*"></include>
+    <include table="Knowledge"></include>
+    <include table="KnowledgeClass"></include>
+    <include table="KnowledgeKnowledgeClassAssociation"></include>
+    <include table="KnowledgeTagAssociation"></include>
     <!--<include table="T_Resource"></include>-->
-    <exclude table="T_Tag"></exclude>
   </table-filter>
   <entities-namespace>KMS.Model</entities-namespace>
   <entities-assembly>KMS.Model</entities-assembly>

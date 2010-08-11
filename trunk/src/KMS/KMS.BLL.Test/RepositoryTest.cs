@@ -21,8 +21,10 @@ namespace KMS.BLL.Test
         IRepository<Resource_BinaryInfo> ResourceBinaryR;
         IRepository<TagInfo> TagR;
         IRepository<ResourceTagAssociationInfo> ResourceTagAssociationR;
+        IRepository<KnowledgeInfo> KnowledgeR;
         ISessionManager SessionManager;
 
+        //由于使用了caslte.ioc容器的nhibernate intergration，repository测试前要建立容器，windsor.config已经复制至本项目下。
         [SetUp]
         public void Init()
         {
@@ -31,6 +33,7 @@ namespace KMS.BLL.Test
             ResourceR = container.Resolve<IRepository<ResourceInfo>>();
             ResourceBinaryR = container.Resolve<IRepository<Resource_BinaryInfo>>();
             ResourceTagAssociationR = container.Resolve<IRepository<ResourceTagAssociationInfo>>();
+            KnowledgeR = container.Resolve<IRepository<KnowledgeInfo>>();
             TagR = container.Resolve<IRepository<TagInfo>>();
             SessionManager = container.Resolve<ISessionManager>();
         }
@@ -116,6 +119,25 @@ namespace KMS.BLL.Test
             TagR.SubmitChanges();
 
             Console.WriteLine(tag.TagId);
+        }
+
+        [Test]
+        public void InsertKnowledge()
+        {
+            KnowledgeInfo k = new KnowledgeInfo();
+            k.Description = "InsertTest";
+            KnowledgeR.SaveOnSubmit(k);
+            KnowledgeR.SubmitChanges();
+        }
+
+        [Test]
+        public void InsertKnowledgeClass()
+        {
+            IRepository<KnowledgeClassInfo> r = container.Resolve<IRepository<KnowledgeClassInfo>>();
+            KnowledgeClassInfo k = new KnowledgeClassInfo();
+            k.Description = "123";
+            r.SaveOnSubmit(k);
+            r.SubmitChanges();
         }
     }
 }

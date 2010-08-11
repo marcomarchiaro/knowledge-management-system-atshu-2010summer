@@ -10,5 +10,9 @@
       <key column="TagId" />
       <one-to-many class="ResourceTagAssociationInfo" />
     </bag>
+    <bag name="KnowledgeTagAssociationInfos" table="T_KnowledgeTagAssociation" inverse="true">
+      <key column="TagId" />
+      <one-to-many class="KnowledgeTagAssociationInfo" />
+    </bag>
   </class>
 </hibernate-mapping>
