@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping namespace="KMS.Model" assembly="KMS.Model" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="KnowledgeTagAssociationInfo" table="KnowledgeTagAssociation" schema="dbo">
+    <id name="KnowledgeTagId" type="Int32">
+      <generator class="native" />
+    </id>
+    <timestamp name="TimeStamp"></timestamp>
+    <many-to-one name="TagInfo" class="TagInfo" column="TagId" />
+    <many-to-one name="KnowledgeInfo" class="KnowledgeInfo" column="KnowledgeId" />
+  </class>
+</hibernate-mapping>

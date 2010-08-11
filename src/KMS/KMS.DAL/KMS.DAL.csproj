@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{4D2113D6-6194-4853-BAC5-77EAF2D90167}</ProjectGuid>
+    <ProjectGuid>{A1842DAE-07F4-4E27-B671-806C676DB765}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>KMS.Model</RootNamespace>
-    <AssemblyName>KMS.Model</AssemblyName>
+    <RootNamespace>KMS.DAL</RootNamespace>
+    <AssemblyName>KMS.DAL</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,6 +31,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Castle.Facilities.NHibernateIntegration, Version=1.1.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dependencies\Castle.Facilities.NHibernateIntegration.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dependencies\NHibernate.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -45,33 +53,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entity\KnowledgeClassInfo.cs" />
-    <Compile Include="Entity\KnowledgeInfo.cs" />
-    <Compile Include="Entity\KnowledgeKnowledgeClassAssociationInfo.cs" />
-    <Compile Include="Entity\KnowledgeTagAssociationInfo.cs" />
-    <Compile Include="Entity\ResourceInfo.cs" />
-    <Compile Include="Entity\ResourceTagAssociationInfo.cs" />
-    <Compile Include="Entity\TagInfo.cs" />
-    <Compile Include="Entity\Resource_URLInfo.cs" />
-    <Compile Include="Entity\Resource_BinaryInfo.cs" />
+    <Compile Include="IResource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="config\db2hbm.xml" />
-    <Content Include="config\hbm2net.xml" />
-    <Content Include="KMSTree.xml" />
-    <EmbeddedResource Include="Mapping\KnowledgeClassInfo.hbm.xml" />
-    <EmbeddedResource Include="Mapping\KnowledgeInfo.hbm.xml" />
-    <EmbeddedResource Include="Mapping\KnowledgeKnowledgeClassAssociationInfo.hbm.xml" />
-    <EmbeddedResource Include="Mapping\KnowledgeTagAssociationInfo.hbm.xml" />
-    <EmbeddedResource Include="Mapping\ResourceTagAssociationInfo.hbm.xml" />
-    <EmbeddedResource Include="Mapping\Resource_BinaryInfo.hbm.xml" />
-    <EmbeddedResource Include="Mapping\TagInfo.hbm.xml" />
-    <EmbeddedResource Include="Mapping\ResourceInfo.hbm.xml" />
-    <EmbeddedResource Include="Mapping\Resource_URLInfo.hbm.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="KnowledgeTree.xsd" />
+    <ProjectReference Include="..\KMS.Model\KMS.Model.csproj">
+      <Project>{4D2113D6-6194-4853-BAC5-77EAF2D90167}</Project>
+      <Name>KMS.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

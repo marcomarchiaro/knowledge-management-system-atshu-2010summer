@@ -22,7 +22,8 @@ namespace KMS.Model
 		Int32 _tagId;	
 		String _description;	
 		String _name;	
-		IList<ResourceTagAssociationInfo> _resourceTagAssociationInfos = new List<ResourceTagAssociationInfo>();	
+		IList<ResourceTagAssociationInfo> _resourceTagAssociationInfos = new List<ResourceTagAssociationInfo>();
+        IList<KnowledgeTagAssociationInfo> _knowledgeTagAssociationInfos = new List<KnowledgeTagAssociationInfo>();
 	#endregion
 		
 	#region getter/setters		
@@ -58,6 +59,14 @@ namespace KMS.Model
 			get{ return _resourceTagAssociationInfos; }
 			set{ _resourceTagAssociationInfos = value; }
 		}
+        /// <summary>
+        ///		
+        /// </summary>
+        public virtual IList<KnowledgeTagAssociationInfo> KnowledgeTagAssociationInfos
+        {
+            get { return _knowledgeTagAssociationInfos; }
+            set { _knowledgeTagAssociationInfos = value; }
+        }
 	#endregion
 	}
 }
