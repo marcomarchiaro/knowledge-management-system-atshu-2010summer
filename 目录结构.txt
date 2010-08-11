@@ -28,7 +28,7 @@ tools\hbm2net-1.0.0.2-alpha\: HibernateMapping To .NET Class, NHibernate映射文件
 db\: 数据库
 ===========
 
-说明：.sql是整个库的脚本文件，.bak即是数据库备份文件，以日期和时间作为文件名。
+说明：.sql是整个库的脚本文件，.bak即是数据库备份文件，以日期和时间作为文件名。例如 08_12_2_24.sql，即8月12日，2点24分。
 
 
 by 沈  毅 2010-8-4
