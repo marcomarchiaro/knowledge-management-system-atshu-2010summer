@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <hibernate-mapping namespace="KMS.Model" assembly="KMS.Model" xmlns="urn:nhibernate-mapping-2.2">
-  <class name="KnowledgeInfo" table="Knowledge" schema="dbo">
+  <class name="KnowledgeInfo" table="T_Knowledge" schema="dbo">
     <id name="KnowledgeId" type="Int32">
       <generator class="native" />
     </id>
     <timestamp name="TimeStamp"></timestamp>
-    <property name="Content" type="BinaryBlob" />
+    <property name="Content" type="StringClob" length="1073741823" />
     <property name="Description" type="String" length="500" />
     <property name="Name" type="String" length="50" />
-    <bag name="KnowledgeKnowledgeClassAssociationInfos" table="KnowledgeKnowledgeClassAssociation" inverse="true">
+    <bag name="KnowledgeKnowledgeClassAssociationInfos" table="T_KnowledgeKnowledgeClassAssociation" inverse="true">
       <key column="KnowledgeId" />
       <one-to-many class="KnowledgeKnowledgeClassAssociationInfo" />
     </bag>
-    <bag name="KnowledgeTagAssociationInfos" table="KnowledgeTagAssociation" inverse="true">
+    <bag name="KnowledgeTagAssociationInfos" table="T_KnowledgeTagAssociation" inverse="true">
       <key column="KnowledgeId" />
       <one-to-many class="KnowledgeTagAssociationInfo" />
     </bag>

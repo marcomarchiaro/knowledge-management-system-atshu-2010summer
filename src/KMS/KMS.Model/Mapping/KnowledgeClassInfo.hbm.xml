@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <hibernate-mapping namespace="KMS.Model" assembly="KMS.Model" xmlns="urn:nhibernate-mapping-2.2">
-  <class name="KnowledgeClassInfo" table="KnowledgeClass" schema="dbo">
+  <class name="KnowledgeClassInfo" table="T_KnowledgeClass" schema="dbo">
     <id name="KnowledgeClassId" type="Int32">
       <generator class="native" />
     </id>
@@ -8,11 +8,11 @@
     <property name="Description" type="String" length="500" />
     <property name="Name" type="String" length="50" />
     <many-to-one name="FatherKnowledgeClassInfo" class="KnowledgeClassInfo" column="FatherClassId" />
-    <bag name="KnowledgeKnowledgeClassAssociationInfos" table="KnowledgeKnowledgeClassAssociation" inverse="true">
+    <bag name="KnowledgeKnowledgeClassAssociationInfos" table="T_KnowledgeKnowledgeClassAssociation" inverse="true">
       <key column="KnowledgeClassId" />
       <one-to-many class="KnowledgeKnowledgeClassAssociationInfo" />
     </bag>
-    <bag name="KnowledgeClassInfos" table="KnowledgeClass" inverse="true">
+    <bag name="KnowledgeClassInfos" table="T_KnowledgeClass" inverse="true">
       <key column="FatherClassId" />
       <one-to-many class="KnowledgeClassInfo" />
     </bag>

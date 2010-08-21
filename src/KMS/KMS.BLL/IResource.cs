@@ -8,6 +8,8 @@ namespace KMS.BLL
 {
     public interface IResource
     {
-        void InsertResource(ResourceInfo resource);
+        ResourceInfo GetResourceById(Guid id);
+        void CreateResource(ResourceInfo resource);
+        void UpdateResource(ResourceInfo resource);
     }
 }
