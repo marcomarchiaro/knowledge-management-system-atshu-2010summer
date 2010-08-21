@@ -125,7 +125,8 @@ namespace KMS.BLL.Test
         public void InsertKnowledge()
         {
             KnowledgeInfo k = new KnowledgeInfo();
-            k.Description = "InsertTest";
+            k.Description = "InsertDes";
+            k.Content = "中文文本";
             KnowledgeR.SaveOnSubmit(k);
             KnowledgeR.SubmitChanges();
         }

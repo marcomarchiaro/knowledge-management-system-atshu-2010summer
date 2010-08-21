@@ -11,5 +11,6 @@ namespace KMS.DAL
     public interface IResource
     {
         ResourceInfo GetResourceById(Guid id);
+        void CreateResource(ResourceInfo resource);
     }
 }

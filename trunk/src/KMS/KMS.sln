@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KMS.Web", "KMS.Web\KMS.Web.csproj", "{6B63BD12-6057-4709-8414-F3279747F7AE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KMS.Model", "KMS.Model\KMS.Model.csproj", "{4D2113D6-6194-4853-BAC5-77EAF2D90167}"
@@ -13,7 +13,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KMS.BLL.Test", "KMS.BLL.Tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KMS.DAL", "KMS.DAL\KMS.DAL.csproj", "{A1842DAE-07F4-4E27-B671-806C676DB765}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KMS.DAL.Test", "KMS.DAL.Test\KMS.DAL.Test.csproj", "{2912C6D2-3AA7-490A-9F17-08CA772254ED}"
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = KMS.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -43,6 +48,10 @@ Global
 		{A1842DAE-07F4-4E27-B671-806C676DB765}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1842DAE-07F4-4E27-B671-806C676DB765}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1842DAE-07F4-4E27-B671-806C676DB765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2912C6D2-3AA7-490A-9F17-08CA772254ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2912C6D2-3AA7-490A-9F17-08CA772254ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2912C6D2-3AA7-490A-9F17-08CA772254ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2912C6D2-3AA7-490A-9F17-08CA772254ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

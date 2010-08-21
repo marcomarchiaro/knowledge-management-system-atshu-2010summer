@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <hibernate-mapping namespace="KMS.Model" assembly="KMS.Model" xmlns="urn:nhibernate-mapping-2.2">
-  <class name="KnowledgeTagAssociationInfo" table="KnowledgeTagAssociation" schema="dbo">
+  <class name="KnowledgeTagAssociationInfo" table="T_KnowledgeTagAssociation" schema="dbo">
     <id name="KnowledgeTagId" type="Int32">
       <generator class="native" />
     </id>

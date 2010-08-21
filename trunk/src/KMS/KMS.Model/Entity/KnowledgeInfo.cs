@@ -20,7 +20,7 @@ namespace KMS.Model
 
 	#region private fields
 		Int32 _knowledgeId;	
-		Byte[] _content;	
+		String _content;	
 		String _description;	
 		String _name;	
 		DateTime? _timeStamp;	
@@ -40,7 +40,7 @@ namespace KMS.Model
 		/// <summary>
 		///		
 		/// </summary>
-        public virtual Byte[] Content
+        public virtual String Content
 		{
 			get{ return _content; }
 			set{ _content = value; }
