@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using NHibernate;
-using Castle.Facilities.NHibernateIntegration;
 using KMS.Model;
 
-namespace KMS.DAL
+namespace KMS.BLL
 {
     public interface IResource
     {
         ResourceInfo GetResourceById(Guid id);
         void CreateResource(ResourceInfo resource);
+        void UpdateResource(ResourceInfo resource);
+        void DeleteResource(Guid id);
     }
 }

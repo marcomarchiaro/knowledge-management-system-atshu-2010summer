@@ -12,7 +12,7 @@
       <key column="KnowledgeClassId" />
       <one-to-many class="KnowledgeKnowledgeClassAssociationInfo" />
     </bag>
-    <bag name="KnowledgeClassInfos" table="T_KnowledgeClass" inverse="true">
+    <bag name="KnowledgeClassInfos" table="T_KnowledgeClass" inverse="true" fetch="join">
       <key column="FatherClassId" />
       <one-to-many class="KnowledgeClassInfo" />
     </bag>
