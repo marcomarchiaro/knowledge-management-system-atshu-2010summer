@@ -63,9 +63,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IResource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Resource.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\KMS.Model\KMS.Model.csproj">

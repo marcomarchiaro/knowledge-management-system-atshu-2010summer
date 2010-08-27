@@ -6,7 +6,7 @@ using KMS.Model;
 using NHibernate;
 using Castle.Facilities.NHibernateIntegration;
 
-namespace KMS.DAL
+namespace KMS.BLL
 {
     public class Resource : IResource
     {
@@ -19,18 +19,30 @@ namespace KMS.DAL
 
         public ResourceInfo GetResourceById(Guid id)
         {
-            ISession session = sessionManager.OpenSession();
-            return session.Get<ResourceInfo>(id);
+            return sessionManager.OpenSession().Get<ResourceInfo>(id);
         }
 
         public void CreateResource(ResourceInfo resource)
         {
+            sessionManager.OpenSession().Save(resource);
+        }
+
+        public void UpdateResource(ResourceInfo resource)
+        {
+            sessionManager.OpenSession().Update(resource);
+        }
+
+        public void DeleteResource(Guid id)
+        {
             ISession session = sessionManager.OpenSession();
-            session.Save(resource);
+            ResourceInfo resource = session.Load<ResourceInfo>(id);
+            session.Delete(resource);
         }
 
         #endregion
 
         private ISessionManager sessionManager;
+
+
     }
 }

@@ -19,21 +19,13 @@ namespace KMS.DAL.Test
         public void Init()
         {
             IWindsorContainer container = new WindsorContainer("Windsor.config");
-            container.Register(Component.For<IResource>().ImplementedBy<Resource>());
-
-            resource = container.Resolve<IResource>();
-            self = container.Resolve<ResourceTest>();
         }
 
         [Test]
         public virtual void CreateTest()
         {
-            Resource_URLInfo r = new Resource_URLInfo();
-            r.Description = "CreateTest";
-            resource.CreateResource(r);
         }
 
-        private IResource resource;
         private ResourceTest self;
     }
 }
