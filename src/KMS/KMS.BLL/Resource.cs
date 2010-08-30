@@ -42,7 +42,5 @@ namespace KMS.BLL
         #endregion
 
         private ISessionManager sessionManager;
-
-
     }
 }

@@ -8,9 +8,12 @@ namespace KMS.BLL
 {
     public interface IKnowledgeClass
     {
-        KnowledgeClassInfo GetRootClass();
-        KnowledgeClassInfo GetClassById(int classId);
-        IEnumerable<KnowledgeClassInfo> GetChildClasses(int classId);
-        void CreateClassUnderClass(KnowledgeClassInfo knowledgeClass, int fatherClassId);
+        public interface IKnowledgeClass
+        {
+            KnowledgeClassInfo GetRootClass();
+            KnowledgeClassInfo GetClassById(int classId);
+            IEnumerable<KnowledgeClassInfo> GetChildClasses(int classId);
+            void CreateClassUnderClass(KnowledgeClassInfo knowledgeClass, int fatherClassId);
+        }
     }
 }
