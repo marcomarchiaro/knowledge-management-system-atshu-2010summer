@@ -10,7 +10,7 @@ namespace KMS.BLL
         public static string GetValue(string key)
         {
             if (key == "DateRangeFilterTag")
-                return "dateRange:";
+                return "dateRange";
             else if (key == "RootKnowledgeClassId")
                 return "1";
             return System.Configuration.ConfigurationManager.AppSettings[key];
