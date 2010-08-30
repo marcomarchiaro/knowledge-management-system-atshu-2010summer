@@ -10,7 +10,12 @@ namespace KMS.BLL.Search.Knowledge
     {
         public IQueryable<KnowledgeInfo> OnFilter(IQueryable<KnowledgeInfo> range, string input)
         {
+            string tag = ConfigManager.GetValue("TagsFilterTag");
+            string content = InputParser.ParseContent(input, tag);
+
             throw new NotImplementedException();
         }
+
+        private readonly char[] seperateChars = new char[] { ',', ' ', ';' };
     }
 }

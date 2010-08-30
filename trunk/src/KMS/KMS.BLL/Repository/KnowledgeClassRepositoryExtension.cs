@@ -6,12 +6,12 @@ using KMS.Model;
 
 namespace KMS.BLL
 {
-    public class KnowledgeClassRepository : Repository<KnowledgeClassInfo>
+    public static class KnowledgeClassRepositoryExtension
     {
-        public KnowledgeClassInfo GetRootClass()
+        public static KnowledgeClassInfo GetRootClass(this IRepository<KnowledgeClassInfo> knowledgeClassRepository)
         {
             int id = Int32.Parse(ConfigManager.GetValue("RootKnowledgeClassId"));
-            return GetById(id);
+            return knowledgeClassRepository.GetById(id);
         }
     }
 }

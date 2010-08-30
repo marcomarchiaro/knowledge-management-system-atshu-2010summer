@@ -7,9 +7,6 @@ namespace KMS.BLL
 {
     public interface ITagAnalyzer
     {
-        public interface ITagAnalyzer
-        {
-            IEnumerable<string> Analyze(string input);
-        }
+        IEnumerable<string> Analyze(string input);
     }
 }
