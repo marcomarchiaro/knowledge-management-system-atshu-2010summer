@@ -6,7 +6,8 @@ using KMS.Model;
 
 namespace KMS.Presentation.Knowledge
 {
-    public interface IResourceHtmlRender
+    public interface IKnowledgeRender
     {
+        string RenderKnowledge(KnowledgeInfo knowledge);
     }
 }

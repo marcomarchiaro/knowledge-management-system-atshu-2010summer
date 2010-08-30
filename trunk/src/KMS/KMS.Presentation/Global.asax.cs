@@ -20,10 +20,17 @@ namespace KMS.Presentation
         protected void Application_Start()
         {
             RouteTable.Routes.MapRoute(
+                "Resource",
+                "Resource/{id}",
+                new { controller = "Resource", action = "GetResource" }
+                );
+
+            RouteTable.Routes.MapRoute(
                 "Default",                                              // Route name
                 "{controller}/{action}/{id}",                           // URL with parameters
                 new { controller = "Login", action = "Index", id = "" }  // Parameter defaults
             );
+
             InitializeWindsor();
         }
 
@@ -36,11 +43,11 @@ namespace KMS.Presentation
         {
             if (container != null)
                 return;
-            container = ContainerBuilder.Build();
-            IDependencyResolver resolver = new DependencyResolver(container);
-            IoCControllerFactory controllerFactory = new IoCControllerFactory(resolver);
+            //container = ContainerBuilder.Build();
+            //IDependencyResolver resolver = new DependencyResolver(container);
+            //IoCControllerFactory controllerFactory = new IoCControllerFactory(resolver);
             // set the controller factory to the Windsor controller factory (in MVC Contrib)
-            ControllerBuilder.Current.SetControllerFactory(controllerFactory);
+            //ControllerBuilder.Current.SetControllerFactory(new MyControllerFactory(container));
             ServiceLocator.SetLocatorProvider(() => container.Resolve<IServiceLocator>());
         }
 
