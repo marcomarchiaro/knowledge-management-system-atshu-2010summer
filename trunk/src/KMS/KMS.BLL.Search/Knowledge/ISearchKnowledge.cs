@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using KMS.Model;
 
-namespace KMS.BLL.Search
+namespace KMS.BLL.Search.Knowledge
 {
     public interface ISearchKnowledge
     {
