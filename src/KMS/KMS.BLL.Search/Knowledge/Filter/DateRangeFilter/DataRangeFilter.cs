@@ -8,9 +8,8 @@ namespace KMS.BLL.Search
 {
     public class DataRangeFilter : IKnowledgeFilter
     {
-        public DataRangeFilter(ConfigManager configManager)
+        public DataRangeFilter()
         {
-            this.configManager = configManager;
         }
 
         public IQueryable<KnowledgeInfo> OnFilter(IQueryable<KnowledgeInfo> range, string input)
@@ -31,7 +30,7 @@ namespace KMS.BLL.Search
 
         private bool tryParse(string input)
         {
-            string tagName = configManager["DateRangeFilterTag"];
+            string tagName = ConfigManager.GetValue("DateRangeFilterTag");
             int index = input.IndexOf(tagName);
             if (index < 0)
                 return false;
@@ -44,10 +43,9 @@ namespace KMS.BLL.Search
 
         private void getDateRange(out DateTime begin, out DateTime end, string input)
         {
-            string tagName = configManager["DateRangeFilterTag"];
+            string tagName = ConfigManager.GetValue("DateRangeFilterTag");
             throw new NotImplementedException();
         }
 
-        private ConfigManager configManager;
     }
 }

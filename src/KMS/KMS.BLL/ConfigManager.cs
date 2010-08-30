@@ -5,16 +5,15 @@ using System.Text;
 
 namespace KMS.BLL
 {
-    public class ConfigManager
+    public static class ConfigManager
     {
-        public string this[string name]
+        public static string GetValue(string key)
         {
-            get
-            {
-                if (name == "DateRangeFilterTag")
-                    return "dateRange:";
-                return System.Configuration.ConfigurationManager.AppSettings[name];
-            }
+            if (key == "DateRangeFilterTag")
+                return "dateRange:";
+            else if (key == "RootKnowledgeClassId")
+                return "1";
+            return System.Configuration.ConfigurationManager.AppSettings[key];
         }
     }
 }

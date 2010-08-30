@@ -34,6 +34,12 @@
     <Reference Include="Castle.Facilities.NHibernateIntegration">
       <HintPath>..\..\Dependencies\Castle.Facilities.NHibernateIntegration.dll</HintPath>
     </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\..\Dependencies\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.Linq">
+      <HintPath>..\..\Dependencies\NHibernate.Linq.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,15 +50,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Knowledge\DateRangeSearch\IDateRangeSearch.cs" />
+    <Compile Include="Knowledge\Filter\DateRangeFilter\DataRangeFilter.cs" />
+    <Compile Include="Knowledge\Filter\DateRangeFilter\IDateRangeSearch.cs" />
+    <Compile Include="Knowledge\Filter\IKnowledgeFilter.cs" />
     <Compile Include="Knowledge\ISearchKnowledge.cs" />
-    <Compile Include="Knowledge\SpecificDateSearch\ISpecificDateSearch.cs" />
-    <Compile Include="Knowledge\TagSearch\ITagAnalyzer.cs" />
-    <Compile Include="Knowledge\TagSearch\ITagSearch.cs" />
-    <Compile Include="Knowledge\TagSearch\TagAnalyzer.cs" />
+    <Compile Include="Knowledge\Filter\TagFilter\ITagAnalyzer.cs" />
+    <Compile Include="Knowledge\Filter\TagFilter\ITagFilter.cs" />
+    <Compile Include="Knowledge\Filter\TagFilter\TagAnalyzer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\KMS.BLL\KMS.BLL.csproj">
+      <Project>{89B49EBB-9B6B-4395-92A0-BE9CF5B1BC26}</Project>
+      <Name>KMS.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KMS.DAL\KMS.DAL.csproj">
+      <Project>{A1842DAE-07F4-4E27-B671-806C676DB765}</Project>
+      <Name>KMS.DAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\KMS.Model\KMS.Model.csproj">
       <Project>{4D2113D6-6194-4853-BAC5-77EAF2D90167}</Project>
       <Name>KMS.Model</Name>
