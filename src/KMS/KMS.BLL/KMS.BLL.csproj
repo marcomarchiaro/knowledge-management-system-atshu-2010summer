@@ -66,7 +66,7 @@
     <Compile Include="Interface\ITag.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\IRepository.cs" />
-    <Compile Include="Repository\KnowledgeClassRepository.cs" />
+    <Compile Include="Repository\KnowledgeClassRepositoryExtension.cs" />
     <Compile Include="Repository\Repository.cs" />
   </ItemGroup>
   <ItemGroup>

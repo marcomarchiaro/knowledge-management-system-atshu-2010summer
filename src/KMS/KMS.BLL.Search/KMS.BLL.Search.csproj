@@ -53,6 +53,7 @@
     <Compile Include="Knowledge\Filter\DateRangeFilter\IDateRangeSearch.cs" />
     <Compile Include="Knowledge\Filter\IKnowledgeFilter.cs" />
     <Compile Include="Knowledge\Filter\TagFilter\TagFilter.cs" />
+    <Compile Include="Knowledge\InputParser.cs" />
     <Compile Include="Knowledge\ISearchKnowledge.cs" />
     <Compile Include="Knowledge\Filter\TagFilter\ITagAnalyzer.cs" />
     <Compile Include="Knowledge\Filter\TagFilter\ITagFilter.cs" />
