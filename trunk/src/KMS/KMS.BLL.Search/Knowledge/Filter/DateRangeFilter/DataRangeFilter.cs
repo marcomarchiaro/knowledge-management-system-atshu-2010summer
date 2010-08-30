@@ -9,10 +9,6 @@ namespace KMS.BLL.Search.Knowledge
 {
     public class DataRangeFilter : IKnowledgeFilter
     {
-        public DataRangeFilter()
-        {
-        }
-
         /// <summary>
         /// 日期范围过滤器
         /// </summary>
