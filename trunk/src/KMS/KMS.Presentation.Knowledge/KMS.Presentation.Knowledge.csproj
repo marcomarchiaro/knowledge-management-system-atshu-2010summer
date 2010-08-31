@@ -47,6 +47,10 @@
     <Compile Include="ResourceRender.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\KMS.BLL\KMS.BLL.csproj">
+      <Project>{89B49EBB-9B6B-4395-92A0-BE9CF5B1BC26}</Project>
+      <Name>KMS.BLL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\KMS.Model\KMS.Model.csproj">
       <Project>{4D2113D6-6194-4853-BAC5-77EAF2D90167}</Project>
       <Name>KMS.Model</Name>

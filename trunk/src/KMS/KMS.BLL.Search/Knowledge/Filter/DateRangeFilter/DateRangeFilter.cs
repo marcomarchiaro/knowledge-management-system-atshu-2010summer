@@ -20,7 +20,7 @@ namespace KMS.BLL.Search.Knowledge
         /// <param name="range"></param>
         /// <param name="input">dateRange:1989-6-22~2000-2-3</param>
         /// <returns></returns>
-        public IQueryable<KnowledgeInfo> OnFilter(IQueryable<KnowledgeInfo> range, string input)
+        public IEnumerable<KnowledgeInfo> OnFilter(IEnumerable<KnowledgeInfo> range, string input)
         {
             string tagName = ConfigManager.GetValue("DateRangeFilterTag");
             string content = inputParser.GetContent(input, tagName);

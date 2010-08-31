@@ -8,6 +8,6 @@ namespace KMS.BLL.Search.Knowledge
 {
     public interface IKnowledgeFilter
     {
-        IQueryable<KnowledgeInfo> OnFilter(IQueryable<KnowledgeInfo> range, string input);
+        IEnumerable<KnowledgeInfo> OnFilter(IEnumerable<KnowledgeInfo> range, string input);
     }
 }

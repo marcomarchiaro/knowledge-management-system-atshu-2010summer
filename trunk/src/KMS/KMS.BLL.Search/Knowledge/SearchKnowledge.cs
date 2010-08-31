@@ -20,7 +20,7 @@ namespace KMS.BLL.Search.Knowledge
 
         public IEnumerable<KnowledgeInfo> Search(string input)
         {
-            var result = knowledgeRepository.GetAll();
+            IEnumerable<KnowledgeInfo> result = knowledgeRepository.GetAll();
             foreach (var p in filterList)
             {
                 result = p.OnFilter(result, input);
