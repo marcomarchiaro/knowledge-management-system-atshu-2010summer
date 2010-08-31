@@ -32,6 +32,10 @@ namespace KMS.Presentation
                                    .FromAssembly(Assembly.GetExecutingAssembly())
                                    .Configure(c => c.LifeStyle.Transient));
 
+            container.Register(
+                Component.For(typeof(IRepository<>)).ImplementedBy(typeof(Repository<>)).LifeStyle.Transient,
+                Component.For<IResourceService>().ImplementedBy<ResourceService>().LifeStyle.Transient
+                );
 //            register services
 //             container.Register(
 //                 Component.For(typeof(IRepository<>)).ImplementedBy(typeof(Repository<>)).LifeStyle.Transient
