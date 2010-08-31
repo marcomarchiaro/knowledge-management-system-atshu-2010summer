@@ -32,7 +32,6 @@ namespace KMS.BLL.Search.Test
                 Console.WriteLine(p.KnowledgeId);
             }
         }
-
         private IRepository<KnowledgeInfo> knowledgeRepository;
         private IRepository<TagInfo> tagRepository;
         private IRepository<KnowledgeTagAssociationInfo> knowledgeTagAssociationRepository;
