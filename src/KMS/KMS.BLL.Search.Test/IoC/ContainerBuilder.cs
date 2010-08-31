@@ -8,6 +8,7 @@ using Castle.Windsor;
 using Castle.Windsor.Configuration.Interpreters;
 using KMS.BLL;
 using KMS.BLL.Search.Knowledge;
+using KMS.DAL;
 
 namespace KMS.BLL.Search.Test
 {

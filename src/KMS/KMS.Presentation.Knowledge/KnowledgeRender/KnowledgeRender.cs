@@ -10,9 +10,9 @@ namespace KMS.Presentation.Knowledge
 {
     public class KnowledgeRender : IKnowledgeRender
     {
-        public KnowledgeRender(IRepository<ResourceInfo> resourceRepository, IResourceRender resourceRender)
+        public KnowledgeRender(IResourceService resourceService, IResourceRender resourceRender)
         {
-            this.resourceRepository = resourceRepository;
+            this.resourceService = resourceService;
             this.resourceRender = resourceRender;
         }
 
@@ -99,13 +99,13 @@ namespace KMS.Presentation.Knowledge
                 if (string.IsNullOrEmpty(temp)) continue;
 
                 Guid resourceId = new Guid(temp);
-                resourceRender(resourceRepository.GetById(resourceId));
+                resourceRender.RenderResource(resourceService.GetById(resourceId));
             }
             
             throw new NotImplementedException();
         }
 
-        private IRepository<ResourceInfo> resourceRepository;
+        private IResourceService resourceService;
         private IResourceRender resourceRender;
     }
 }

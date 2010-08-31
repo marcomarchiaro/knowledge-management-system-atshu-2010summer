@@ -10,6 +10,7 @@ using Castle.Facilities.NHibernateIntegration;
 using KMS.BLL;
 using KMS.Model;
 using System.IO;
+using KMS.DAL;
 
 
 namespace KMS.BLL.Test

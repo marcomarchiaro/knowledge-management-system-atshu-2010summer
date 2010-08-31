@@ -6,8 +6,8 @@ using KMS.Model;
 
 namespace KMS.BLL
 {
-    public interface IResourceService
+    public interface IKnowledgeService
     {
-        ResourceInfo GetById(object id);
+        KnowledgeInfo GetById(object id);
     }
 }
