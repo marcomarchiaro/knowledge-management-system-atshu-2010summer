@@ -51,7 +51,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="KeyWordAnalyzer.cs" />
     <Compile Include="Knowledge\Filter\DateRangeFilter\DateRangeFilter.cs" />
     <Compile Include="Knowledge\Filter\IKnowledgeFilter.cs" />
     <Compile Include="Knowledge\Filter\TagFilter\TagFilter.cs" />

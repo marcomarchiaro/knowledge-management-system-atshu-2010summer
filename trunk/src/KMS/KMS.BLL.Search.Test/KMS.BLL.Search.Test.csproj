@@ -68,6 +68,7 @@
     <Compile Include="InputParserTest.cs" />
     <Compile Include="IoC\ContainerBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TagFilterTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\KMS.BLL.Search\KMS.BLL.Search.csproj">

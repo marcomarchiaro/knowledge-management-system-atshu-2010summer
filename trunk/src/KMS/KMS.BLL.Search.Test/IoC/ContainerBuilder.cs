@@ -31,6 +31,7 @@ namespace KMS.BLL.Search.Test
 //            register services
             container.Register(
                 Component.For<DateRangeFilter>().LifeStyle.Transient,
+                Component.For<TagFilter>().LifeStyle.Transient,
                 Component.For(typeof(IRepository<>)).ImplementedBy(typeof(Repository<>)).LifeStyle.Transient
                 );
 

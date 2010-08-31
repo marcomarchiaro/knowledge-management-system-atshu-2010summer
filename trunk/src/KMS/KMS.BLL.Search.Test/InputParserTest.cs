@@ -18,6 +18,14 @@ namespace KMS.BLL.Search.Test
         }
 
         [Test]
+        public void Test2()
+        {
+            string text = "tags:a b c";
+            string content = InputParser.ParseContent(text, "tags");
+            Console.WriteLine(content);
+        }
+
+        [Test]
         public void ComplicatedText()
         {
             string text = "  dateRange:123~1345 tags:a b c ";
