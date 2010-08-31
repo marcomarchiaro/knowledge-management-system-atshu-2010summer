@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using KMS.Model;
+using KMS.DAL;
 
 namespace KMS.BLL.Search.Knowledge
 {

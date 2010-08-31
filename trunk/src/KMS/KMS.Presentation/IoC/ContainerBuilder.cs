@@ -12,6 +12,7 @@ using Castle.Facilities.NHibernateIntegration;
 using Castle.Facilities.Logging;
 using Microsoft.Practices.ServiceLocation;
 using KMS.BLL;
+using KMS.DAL;
 
 namespace KMS.Presentation
 {

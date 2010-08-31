@@ -6,6 +6,7 @@ using NUnit.Framework;
 using Castle.Windsor;
 using KMS.Model;
 using KMS.BLL.Search.Knowledge;
+using KMS.DAL;
 
 namespace KMS.BLL.Search.Test
 {

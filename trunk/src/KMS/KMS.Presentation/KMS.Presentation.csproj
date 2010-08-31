@@ -153,6 +153,10 @@
       <Project>{89B49EBB-9B6B-4395-92A0-BE9CF5B1BC26}</Project>
       <Name>KMS.BLL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\KMS.DAL\KMS.DAL.csproj">
+      <Project>{A1842DAE-07F4-4E27-B671-806C676DB765}</Project>
+      <Name>KMS.DAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\KMS.Model\KMS.Model.csproj">
       <Project>{4D2113D6-6194-4853-BAC5-77EAF2D90167}</Project>
       <Name>KMS.Model</Name>
