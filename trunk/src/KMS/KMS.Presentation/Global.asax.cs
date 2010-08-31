@@ -22,7 +22,7 @@ namespace KMS.Presentation
             RouteTable.Routes.MapRoute(
                 "Resource",
                 "Resource/{id}",
-                new { controller = "Resource", action = "GetResource" }
+                new { controller = "Resource", action = "Resource" }
                 );
 
             RouteTable.Routes.MapRoute(
@@ -43,11 +43,11 @@ namespace KMS.Presentation
         {
             if (container != null)
                 return;
-            //container = ContainerBuilder.Build();
+            container = ContainerBuilder.Build();
             //IDependencyResolver resolver = new DependencyResolver(container);
             //IoCControllerFactory controllerFactory = new IoCControllerFactory(resolver);
             // set the controller factory to the Windsor controller factory (in MVC Contrib)
-            //ControllerBuilder.Current.SetControllerFactory(new MyControllerFactory(container));
+            ControllerBuilder.Current.SetControllerFactory(new WindsorControllerFactory(container));
             ServiceLocator.SetLocatorProvider(() => container.Resolve<IServiceLocator>());
         }
 

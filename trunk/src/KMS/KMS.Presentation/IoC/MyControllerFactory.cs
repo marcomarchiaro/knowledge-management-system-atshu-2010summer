@@ -18,7 +18,7 @@ namespace KMS.Presentation
 
         public IController CreateController(RequestContext requestContext, string controllerName)
         {
-            Assembly ass = Assembly.GetExecutingAssembly();
+            Assembly ass = Assembly.GetAssembly(typeof(MyControllerFactory));
             Type type = ass.GetType(controllerName + "Controller");
             if (type == null)
                 return null;

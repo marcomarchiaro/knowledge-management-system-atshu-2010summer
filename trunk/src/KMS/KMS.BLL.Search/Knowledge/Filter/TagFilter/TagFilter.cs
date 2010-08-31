@@ -36,7 +36,7 @@ namespace KMS.BLL.Search.Knowledge
 
         private IEnumerable<KnowledgeInfo> getUnionResult(IEnumerable<KnowledgeInfo> range, IEnumerable<string> tags)
         {
-            IEnumerable<KnowledgeInfo> result = null;
+            IEnumerable<KnowledgeInfo> result = new List<KnowledgeInfo>();
             foreach (var t in tags)
             {
                 
@@ -44,38 +44,13 @@ namespace KMS.BLL.Search.Knowledge
                             from kt in r.KnowledgeTagAssociationInfos
                             where kt.TagInfo.Name == t
                             select r;
-
-                Console.WriteLine("=================");
-                Console.WriteLine("tagName:{0}", t);
-                foreach (var aa in result2)
-                {
-                    Console.Write("{0}, ", aa.KnowledgeId);
-                }
-                Console.WriteLine("=================");
-
-                if (result == null)
-                {
-                    result = result2;
-                }
-                else
-                {
-                    result = this.union(result, result2);
-                }
-                    
+                result = this.union(result, result2);
             }
             return result;
         }
 
         private IEnumerable<KnowledgeInfo> union(IEnumerable<KnowledgeInfo> set1, IEnumerable<KnowledgeInfo> set2)
         {
-            Console.WriteLine("=====Union1Begin======");
-            foreach (var p in set1)
-                Console.Write("{0}, ", p.KnowledgeId);
-            Console.WriteLine("=====Union1End======");
-            Console.WriteLine("=====Union2Begin======");
-            foreach (var p in set2)
-                Console.Write("{0}, ", p.KnowledgeId);
-            Console.WriteLine("=====Union2End======");
             IList<KnowledgeInfo> list = set1.ToList();
             foreach (var p in set2)
             {

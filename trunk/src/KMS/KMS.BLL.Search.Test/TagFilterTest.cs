@@ -27,7 +27,7 @@ namespace KMS.BLL.Search.Test
         {
             var result = knowledgeRepository.GetAll();
             var result2 = tagFilter.OnFilter(result, "tags:a b c");
-            foreach(var p in result)
+            foreach(var p in result2)
             {
                 Console.WriteLine(p.KnowledgeId);
             }

@@ -9,6 +9,7 @@ using Castle.MicroKernel.Registration;
 using Castle.Facilities.NHibernateIntegration;
 using KMS.BLL;
 using KMS.Model;
+using System.IO;
 
 
 namespace KMS.BLL.Test
@@ -58,6 +59,22 @@ namespace KMS.BLL.Test
             ri.Binary = ASCIIEncoding.ASCII.GetBytes("123");
             ri.MIME = "jpeg";
             ResourceBinaryR.SaveOnSubmit(ri);
+            ResourceBinaryR.SubmitChanges();
+        }
+
+        //写入一张图片
+        [Test]
+        public void InsertJpeg()
+        {
+            Resource_BinaryInfo rb = new Resource_BinaryInfo();
+            FileStream file = File.OpenRead(@"c:\1.jpg");
+            byte[] content = new byte[file.Length];
+            file.Read(content, 0, content.Length);
+            file.Close();
+            rb.Binary = content;
+            rb.MIME = "image/jpeg";
+            rb.Description = "c盘下的图片";
+            ResourceBinaryR.SaveOnSubmit(rb);
             ResourceBinaryR.SubmitChanges();
         }
 
