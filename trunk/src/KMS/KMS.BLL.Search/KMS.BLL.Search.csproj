@@ -51,10 +51,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="KeyWordAnalyzer.cs" />
     <Compile Include="Knowledge\Filter\DateRangeFilter\DateRangeFilter.cs" />
     <Compile Include="Knowledge\Filter\IKnowledgeFilter.cs" />
     <Compile Include="Knowledge\Filter\TagFilter\TagFilter.cs" />
     <Compile Include="IKeyWordAnalyzer.cs" />
+    <Compile Include="Knowledge\IInputParser.cs" />
     <Compile Include="Knowledge\InputParser.cs" />
     <Compile Include="Knowledge\ISearchKnowledge.cs" />
     <Compile Include="Knowledge\SearchKnowledge.cs" />

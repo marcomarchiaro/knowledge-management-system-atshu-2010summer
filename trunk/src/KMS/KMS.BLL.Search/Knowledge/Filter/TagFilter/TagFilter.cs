@@ -3,26 +3,30 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using KMS.Model;
+using KMS.BLL.Search;
 
 namespace KMS.BLL.Search.Knowledge
 {
     public class TagFilter : IKnowledgeFilter
     {
-        public TagFilter(IInputParser inputParser)
+        public TagFilter(IInputParser inputParser, IKeyWordAnalyzer keyWordAnalyzer)
         {
             this.inputParser = inputParser;
+            this.keyWordAnalyzer = keyWordAnalyzer;
         }
 
         public IQueryable<KnowledgeInfo> OnFilter(IQueryable<KnowledgeInfo> range, string input)
         {
-            string tagName = ConfigManager.GetValue("TagsFilterTag");
+            string tagName = ConfigManager.GetValue("TagFilterTag");
             string content = inputParser.GetContent(input, tagName);
-            Console.WriteLine(content);
-            string[] tags = content.Split(seperateChars, StringSplitOptions.RemoveEmptyEntries);
+            if (content == null)
+                return range;
+            string[] roughTags = content.Split(seperateChars, StringSplitOptions.RemoveEmptyEntries);
+            IEnumerable<string> tags = keyWordAnalyzer.DoAnalyze(roughTags);
             
             if (tags.Count() == 0)
                 return range;
-            else if (tags.Count() == 1 && tags[0].Trim() == "")
+            else if (tags.Count() == 1 && tags.First().Trim() == "")
                 return range;
             else
             {
@@ -30,13 +34,13 @@ namespace KMS.BLL.Search.Knowledge
                 //return result;
 
                 IQueryable<KnowledgeInfo> result = null;
-                for (int i = 0; i < tags.Count(); i++)
+                foreach(var t in tags)
                 {
-                    tags[i] = tags[i].Trim();
+                    string t2 = t.Trim();
                     if (result == null)
-                        result = getOrResult(range, tags[i]);
+                        result = getOrResult(range, t2);
                     else
-                        result = result.Union(getOrResult(range, tags[i]));
+                        result = result.Union(getOrResult(range, t2));
                 }
                 return result;
             }
@@ -57,7 +61,6 @@ namespace KMS.BLL.Search.Knowledge
             IQueryable<KnowledgeInfo> result = null;
             foreach (var t in tags)
             {
-                Console.WriteLine(t);
                 var result2 = from r in range
                               from kt in r.KnowledgeTagAssociationInfos
                               where kt.TagInfo.Name == t
@@ -73,5 +76,6 @@ namespace KMS.BLL.Search.Knowledge
         private readonly char[] seperateChars = new char[] { ',', ' ', ';' };
 
         private IInputParser inputParser;
+        private IKeyWordAnalyzer keyWordAnalyzer;
     }
 }
