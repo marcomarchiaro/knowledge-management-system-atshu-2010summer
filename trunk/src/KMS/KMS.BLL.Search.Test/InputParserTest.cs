@@ -26,5 +26,20 @@ namespace KMS.BLL.Search.Test
             Assert.AreEqual("123~1345", content1);
             Assert.AreEqual("a b c", content2);
         }
+        [Test]
+        public void LongText()
+        {
+            string text = " tags: x1, x2, x3 tag:123 31,4 dateRange: 2007-1-1~ 2010-2 date: 2009-1-1";
+            string content1 = InputParser.ParseContent(text, "tags");
+            string content2 = InputParser.ParseContent(text, "tag");
+            string content3 = InputParser.ParseContent(text, "dateRange");
+            string content4 = InputParser.ParseContent(text, "date");
+
+            Assert.AreEqual("x1, x2, x3", content1);
+            Assert.AreEqual("123 31,4", content2);
+            Assert.AreEqual("2007-1-1~ 2010-2", content3);
+            Assert.AreEqual("2009-1-1", content4);
+
+        }
     }
 }
