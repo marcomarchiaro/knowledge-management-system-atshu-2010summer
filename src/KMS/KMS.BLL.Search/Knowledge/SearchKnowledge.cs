@@ -13,7 +13,7 @@ namespace KMS.BLL.Search.Knowledge
             this.knowledgeRepository = knowledgeRepository;
 
             filterList.Add(new DateRangeFilter(new InputParser()));
-            filterList.Add(new TagFilter(new InputParser()));
+            filterList.Add(new TagFilter(new InputParser(), new KeyWordAnalyzer()));
         }
 
         public IList<IKnowledgeFilter> filterList = new List<IKnowledgeFilter>();

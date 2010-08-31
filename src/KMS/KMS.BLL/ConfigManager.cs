@@ -11,7 +11,7 @@ namespace KMS.BLL
         {
             if (key == "DateRangeFilterTag")
                 return "dateRange";
-            else if (key == "TagsFilterTag")
+            else if (key == "TagFilterTag")
                 return "tags";
             else if (key == "RootKnowledgeClassId")
                 return "1";
