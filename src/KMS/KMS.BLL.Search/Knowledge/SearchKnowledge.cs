@@ -12,8 +12,8 @@ namespace KMS.BLL.Search.Knowledge
         {
             this.knowledgeRepository = knowledgeRepository;
 
-            filterList.Add(new DateRangeFilter());
-            filterList.Add(new TagFilter());
+            filterList.Add(new DateRangeFilter(new InputParser()));
+            filterList.Add(new TagFilter(new InputParser()));
         }
 
         public IList<IKnowledgeFilter> filterList = new List<IKnowledgeFilter>();

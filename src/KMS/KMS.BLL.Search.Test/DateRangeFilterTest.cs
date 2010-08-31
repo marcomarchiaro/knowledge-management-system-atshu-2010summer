@@ -55,7 +55,7 @@ namespace KMS.BLL.Search.Test
         public void FilterTest()
         {
             var result = knowledgeRepository.GetAll();
-            result = dateRangeFilter.OnFilter(result, "dateRange:2010-8-2~2010-8-5");
+            result = dateRangeFilter.OnFilter(result, "dateRange:2010-7-25~2010-8-5");
             foreach (var p in result.ToList())
             {
                 Console.WriteLine(p.Name + "  " + p.TimeStamp);
