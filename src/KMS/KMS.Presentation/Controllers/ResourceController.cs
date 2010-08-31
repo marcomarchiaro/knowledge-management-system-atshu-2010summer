@@ -18,9 +18,9 @@ namespace KMS.Presentation.Controllers
             this.resourceService = resourceService;
         }
 
-        public ActionResult Resource(string id)
+        public ActionResult Resource(string resourceId)
         {
-            Guid guid = new Guid(id);
+            Guid guid = new Guid(resourceId);
             ResourceInfo resource = resourceService.GetById(guid);
             if (resource is Resource_URLInfo)
                 return this.Resource_URL(resource as Resource_URLInfo);
