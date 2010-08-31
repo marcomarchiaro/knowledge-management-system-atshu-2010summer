@@ -77,7 +77,6 @@ namespace KMS.BLL.Search
             }
             return result.Distinct().ToArray();
         }
-
         static private List<string> keywords = new List<string>();
         static private List<string> ignore = new List<string>();
 
