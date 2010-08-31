@@ -36,9 +36,8 @@ namespace KMS.BLL.Search.Knowledge
                     if (result[i] == ' ') break;
                 }
             }
-            if (i<0 || i>=result.Length) return result;
-            else return result.Remove(i);
-            throw new NotImplementedException();
+            if (i<0 || i>=result.Length) return result.Trim();
+            else return result.Remove(i).Trim();
         }
     }
 }
