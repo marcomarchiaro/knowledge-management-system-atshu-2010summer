@@ -16,28 +16,36 @@ namespace KMS.BLL.Search.Knowledge
         public static string ParseContent(string input, string tag)
         {
             int flag = 0;
-            tag = tag + ':';
-            int i;
+            int i, j = 0;
             string result = null;
+            tag = tag + ':';
             int index = input.IndexOf(tag);
+
             if (index == -1) return null;
+
             for (i = index; i < input.Length; i++)
             {
                 if (flag == 1)
                 {
                     result += input[i];
                 }
+                else if (flag >= 2)
+                {
+                    break;
+                }
                 if (input[i] == ':') flag++;
             }
-            if (!result.EndsWith(" "))
+
+            if (i != input.Length)
             {
-                for (i = result.Length - 1; i >= 0; i--)
+                for (j = result.Length - 1; j >= 0; j--)
                 {
-                    if (result[i] == ' ') break;
+                    if (result[j] == ' ') break;
                 }
+
+                return result.Remove(j).Trim();
             }
-            if (i<0 || i>=result.Length) return result.Trim();
-            else return result.Remove(i).Trim();
+            return result.Trim();
         }
     }
 }
