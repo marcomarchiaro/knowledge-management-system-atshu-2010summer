@@ -12,7 +12,7 @@ namespace KMS.BLL.Search.Knowledge
         {
             this.knowledgeRepository = knowledgeRepository;
 
-            filterList.Add(new DataRangeFilter());
+            filterList.Add(new DateRangeFilter());
             filterList.Add(new TagFilter());
         }
 

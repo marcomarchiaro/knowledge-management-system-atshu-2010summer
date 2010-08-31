@@ -7,7 +7,7 @@ using KMS.Model;
 
 namespace KMS.BLL.Search.Knowledge
 {
-    public class DataRangeFilter : IKnowledgeFilter
+    public class DateRangeFilter : IKnowledgeFilter
     {
         /// <summary>
         /// 日期范围过滤器
