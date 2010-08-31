@@ -15,7 +15,7 @@ namespace KMS.BLL.Search.Knowledge
             this.keyWordAnalyzer = keyWordAnalyzer;
         }
 
-        public IQueryable<KnowledgeInfo> OnFilter(IQueryable<KnowledgeInfo> range, string input)
+        public IEnumerable<KnowledgeInfo> OnFilter(IEnumerable<KnowledgeInfo> range, string input)
         {
             string tagName = ConfigManager.GetValue("TagFilterTag");
             string content = inputParser.GetContent(input, tagName);
@@ -30,47 +30,59 @@ namespace KMS.BLL.Search.Knowledge
                 return range;
             else
             {
-                //IQueryable<KnowledgeInfo> result = getAndResult(range, tags);
-                //return result;
-
-                IQueryable<KnowledgeInfo> result = null;
-                foreach(var t in tags)
-                {
-                    string t2 = t.Trim();
-                    if (result == null)
-                        result = getOrResult(range, t2);
-                    else
-                        result = result.Union(getOrResult(range, t2));
-                }
-                return result;
+                return getUnionResult(range, tags);
             }
         }
 
-        private IQueryable<KnowledgeInfo> getOrResult(IQueryable<KnowledgeInfo> range, string tag)
+        private IEnumerable<KnowledgeInfo> getUnionResult(IEnumerable<KnowledgeInfo> range, IEnumerable<string> tags)
         {
-            var result = from r in range
-                         from kt in r.KnowledgeTagAssociationInfos
-                         where kt.TagInfo.Name == tag
-                         select r;
-            return result;
-        }
-
-        private IQueryable<KnowledgeInfo> getAndResult(IQueryable<KnowledgeInfo> range, string[] tags)
-        {
-            IList<IQueryable<KnowledgeInfo>> results = new List<IQueryable<KnowledgeInfo>>();
-            IQueryable<KnowledgeInfo> result = null;
+            IEnumerable<KnowledgeInfo> result = null;
             foreach (var t in tags)
             {
+                
                 var result2 = from r in range
-                              from kt in r.KnowledgeTagAssociationInfos
-                              where kt.TagInfo.Name == t
-                              select r;
+                            from kt in r.KnowledgeTagAssociationInfos
+                            where kt.TagInfo.Name == t
+                            select r;
+
+                Console.WriteLine("=================");
+                Console.WriteLine("tagName:{0}", t);
+                foreach (var aa in result2)
+                {
+                    Console.Write("{0}, ", aa.KnowledgeId);
+                }
+                Console.WriteLine("=================");
+
                 if (result == null)
+                {
                     result = result2;
+                }
                 else
-                    result = result.Intersect(result2);
+                {
+                    result = this.union(result, result2);
+                }
+                    
             }
             return result;
+        }
+
+        private IEnumerable<KnowledgeInfo> union(IEnumerable<KnowledgeInfo> set1, IEnumerable<KnowledgeInfo> set2)
+        {
+            Console.WriteLine("=====Union1Begin======");
+            foreach (var p in set1)
+                Console.Write("{0}, ", p.KnowledgeId);
+            Console.WriteLine("=====Union1End======");
+            Console.WriteLine("=====Union2Begin======");
+            foreach (var p in set2)
+                Console.Write("{0}, ", p.KnowledgeId);
+            Console.WriteLine("=====Union2End======");
+            IList<KnowledgeInfo> list = set1.ToList();
+            foreach (var p in set2)
+            {
+                if (!list.Contains(p))
+                    list.Add(p);
+            }
+            return list;
         }
 
         private readonly char[] seperateChars = new char[] { ',', ' ', ';' };
