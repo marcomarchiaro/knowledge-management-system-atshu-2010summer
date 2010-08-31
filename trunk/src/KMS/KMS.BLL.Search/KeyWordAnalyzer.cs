@@ -56,25 +56,29 @@ namespace KMS.BLL.Search
         public IEnumerable<string> DoAnalyze(IEnumerable<string> inputs)
         {
             List<string> result = new List<string>();
+            string input = "";
+            int index = 0;
             Sychronize();
             foreach (string str in inputs)
             {
-                string input = str;
-                int index = 0;
-                foreach (string s in keywords)
-                {
-                    index = input.IndexOf(s);
-                    if (index == -1) continue;
-                    result.Add(s);
-                    input = input.Remove(index, s.Count());
-                }
+                input += str;
+            }
+            if (string.IsNullOrWhiteSpace(input)) return result;
 
-                string[] ignoreList = ignore.ToArray();
+            foreach (string s in keywords)
+            {
+                index = input.IndexOf(s);
+                if (index == -1) continue;
+                result.Add(s);
+                input = input.Remove(index, s.Count());
+            }
 
-                foreach (string s in input.Split(ignoreList, StringSplitOptions.RemoveEmptyEntries))
-                {
-                    result.Add(s);
-                }
+            string[] ignoreList = ignore.ToArray();
+
+            foreach (string s in input.Split(ignoreList, StringSplitOptions.RemoveEmptyEntries))
+            {
+                if (string.IsNullOrWhiteSpace(s)) continue;
+                result.Add(s);
             }
             return result.Distinct().ToArray();
         }
