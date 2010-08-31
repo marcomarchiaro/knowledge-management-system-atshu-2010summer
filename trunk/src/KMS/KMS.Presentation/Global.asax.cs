@@ -21,7 +21,7 @@ namespace KMS.Presentation
         {
             RouteTable.Routes.MapRoute(
                 "Resource",
-                "Resource/{id}",
+                "Resource/{resourceId}",
                 new { controller = "Resource", action = "Resource" }
                 );
 

@@ -13,9 +13,16 @@ namespace KMS.Presentation.Knowledge
             throw new NotImplementedException();
         }
 
-        private string RenderResource_Binary(Resource_BinaryInfo resource_b)
+        private string RenderResource_Binary(Resource_BinaryInfo resource)
         {
+            string url = getResourcePath(resource.ResourceId);
+            string MIME = resource.MIME;
             throw new NotImplementedException();
+        }
+
+        private string getResourcePath(Guid resourceId)
+        {
+            return "/Resource/" + resourceId.ToString();
         }
     }
 }
