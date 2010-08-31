@@ -41,6 +41,7 @@ namespace KMS.BLL.Search
                     ignore.Add(str);
                     str = sr.ReadLine();
                 }
+                ignore.Add(" ");
                 sr.Close();
                 fs.Close();
             }
