@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{9ECBD815-C498-4DC2-91D3-05D3BBE0CAC5}</ProjectGuid>
+    <ProjectGuid>{A4212B71-FFE4-4612-86DE-CC354038664D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>KMS.BLL.Search</RootNamespace>
-    <AssemblyName>KMS.BLL.Search</AssemblyName>
+    <RootNamespace>KMS.BLL.Search.Test</RootNamespace>
+    <AssemblyName>KMS.BLL.Search.Test</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,14 +31,29 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Castle.Facilities.NHibernateIntegration">
-      <HintPath>..\..\Dependencies\Castle.Facilities.NHibernateIntegration.dll</HintPath>
+    <Reference Include="Castle.Core">
+      <HintPath>..\..\Dependencies\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.MicroKernel">
+      <HintPath>..\..\Dependencies\Castle.MicroKernel.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Windsor">
+      <HintPath>..\..\Dependencies\Castle.Windsor.dll</HintPath>
+    </Reference>
+    <Reference Include="LinFu.DynamicProxy">
+      <HintPath>..\..\Dependencies\LinFu.DynamicProxy.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate">
       <HintPath>..\..\Dependencies\NHibernate.dll</HintPath>
     </Reference>
+    <Reference Include="NHibernate.ByteCode.LinFu">
+      <HintPath>..\..\Dependencies\NHibernate.ByteCode.LinFu.dll</HintPath>
+    </Reference>
     <Reference Include="NHibernate.Linq">
       <HintPath>..\..\Dependencies\NHibernate.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\..\Dependencies\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -49,24 +64,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="KeyWordAnalyzer.cs" />
-    <Compile Include="Knowledge\Filter\DateRangeFilter\DateRangeFilter.cs" />
-    <Compile Include="Knowledge\Filter\IKnowledgeFilter.cs" />
-    <Compile Include="Knowledge\Filter\TagFilter\TagFilter.cs" />
-    <Compile Include="IKeyWordAnalyzer.cs" />
-    <Compile Include="Knowledge\InputParser.cs" />
-    <Compile Include="Knowledge\ISearchKnowledge.cs" />
-    <Compile Include="Knowledge\SearchKnowledge.cs" />
+    <Compile Include="DateRangeFilterTest.cs" />
+    <Compile Include="InputParserTest.cs" />
+    <Compile Include="IoC\ContainerBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\KMS.BLL.Search\KMS.BLL.Search.csproj">
+      <Project>{9ECBD815-C498-4DC2-91D3-05D3BBE0CAC5}</Project>
+      <Name>KMS.BLL.Search</Name>
+    </ProjectReference>
     <ProjectReference Include="..\KMS.BLL\KMS.BLL.csproj">
       <Project>{89B49EBB-9B6B-4395-92A0-BE9CF5B1BC26}</Project>
       <Name>KMS.BLL</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\KMS.DAL\KMS.DAL.csproj">
-      <Project>{A1842DAE-07F4-4E27-B671-806C676DB765}</Project>
-      <Name>KMS.DAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\KMS.Model\KMS.Model.csproj">
       <Project>{4D2113D6-6194-4853-BAC5-77EAF2D90167}</Project>
@@ -74,11 +84,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AnalyzerDict\dict3.txt" />
-    <Content Include="AnalyzerDict\ignore.txt">
+    <Content Include="Windsor.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="TextFile1.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

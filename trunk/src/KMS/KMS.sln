@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KMS.Presentation.Knowledge"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDebug", "ConsoleDebug\ConsoleDebug.csproj", "{422E5229-D043-4A69-A2B0-C35C810068C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KMS.BLL.Search.Test", "KMS.BLL.Search.Test\KMS.BLL.Search.Test.csproj", "{A4212B71-FFE4-4612-86DE-CC354038664D}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = KMS.vsmdi
@@ -134,6 +136,16 @@ Global
 		{422E5229-D043-4A69-A2B0-C35C810068C6}.Release|Mixed Platforms.Build.0 = Release|x86
 		{422E5229-D043-4A69-A2B0-C35C810068C6}.Release|x86.ActiveCfg = Release|x86
 		{422E5229-D043-4A69-A2B0-C35C810068C6}.Release|x86.Build.0 = Release|x86
+		{A4212B71-FFE4-4612-86DE-CC354038664D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4212B71-FFE4-4612-86DE-CC354038664D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4212B71-FFE4-4612-86DE-CC354038664D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A4212B71-FFE4-4612-86DE-CC354038664D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A4212B71-FFE4-4612-86DE-CC354038664D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A4212B71-FFE4-4612-86DE-CC354038664D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4212B71-FFE4-4612-86DE-CC354038664D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4212B71-FFE4-4612-86DE-CC354038664D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A4212B71-FFE4-4612-86DE-CC354038664D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A4212B71-FFE4-4612-86DE-CC354038664D}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

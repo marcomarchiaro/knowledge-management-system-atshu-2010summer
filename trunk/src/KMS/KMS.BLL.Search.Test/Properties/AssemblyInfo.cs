@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ConsoleDebug")]
+[assembly: AssemblyTitle("KMS.BLL.Search.Test")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("番茄花园")]
-[assembly: AssemblyProduct("ConsoleDebug")]
+[assembly: AssemblyProduct("KMS.BLL.Search.Test")]
 [assembly: AssemblyCopyright("Copyright © 番茄花园 2010")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("5f7321fc-8f53-48bc-8b39-510c10c959b3")]
+[assembly: Guid("efa15bc9-de56-46b9-8799-58e130ee42ab")]
 
 // Version information for an assembly consists of the following four values:
 //
