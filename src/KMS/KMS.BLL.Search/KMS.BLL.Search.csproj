@@ -74,11 +74,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AnalyzerDict\dict3.txt" />
+    <Content Include="AnalyzerDict\dict3.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="AnalyzerDict\ignore.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="TextFile1.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
