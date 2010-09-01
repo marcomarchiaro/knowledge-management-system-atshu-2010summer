@@ -70,6 +70,10 @@
       <Project>{9ECBD815-C498-4DC2-91D3-05D3BBE0CAC5}</Project>
       <Name>KMS.BLL.Search</Name>
     </ProjectReference>
+    <ProjectReference Include="..\KMS.Presentation.Knowledge\KMS.Presentation.Knowledge.csproj">
+      <Project>{3223A1E7-485E-49AD-BDEF-10A3ACB1F41E}</Project>
+      <Name>KMS.Presentation.Knowledge</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
