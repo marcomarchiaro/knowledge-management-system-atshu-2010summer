@@ -8,9 +8,10 @@ using Castle.Windsor;
 using Castle.Windsor.Configuration.Interpreters;
 using KMS.BLL;
 using KMS.BLL.Search.Knowledge;
+using KMS.BLL.Search;
 using KMS.DAL;
 
-namespace KMS.BLL.Search.Test
+namespace KMS.Test
 {
     public static class ContainerBuilder
     {
