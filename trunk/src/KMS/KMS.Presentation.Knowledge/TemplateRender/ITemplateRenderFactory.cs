@@ -5,8 +5,8 @@ using System.Text;
 
 namespace KMS.Presentation.Knowledge
 {
-    public interface IMultiMediaProvider
+    public interface ITemplateRenderFactory
     {
-        IMultiMediaRender GetRender(string MIME);
+        ITemplateRender GetRender(IEnumerable<string> tagNames);
     }
 }

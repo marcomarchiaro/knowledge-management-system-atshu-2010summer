@@ -10,10 +10,10 @@ namespace KMS.Presentation.Knowledge
 {
     public class KnowledgeRender : IKnowledgeRender
     {
-        public KnowledgeRender(IResourceService resourceService, IResourceRender resourceRender)
+        public KnowledgeRender(IResourceService resourceService, ITemplateRenderFactory templateRenderFactory)
         {
             this.resourceService = resourceService;
-            this.resourceRender = resourceRender;
+            this.templateRenderFactory = templateRenderFactory;
         }
 
         public string RenderKnowledge(KnowledgeInfo knowledge)
@@ -95,6 +95,6 @@ namespace KMS.Presentation.Knowledge
         }
 
         private IResourceService resourceService;
-        private IResourceRender resourceRender;
+        private ITemplateRenderFactory templateRenderFactory;
     }
 }
