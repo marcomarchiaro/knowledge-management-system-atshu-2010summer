@@ -5,8 +5,8 @@ using System.Text;
 
 namespace KMS.Presentation.Knowledge
 {
-    public interface IRenderHTMLByMIME
+    public interface IMultiMediaProvider
     {
-        string RenderHTML(string MIME);
+        IMultiMediaRender GetRender(string MIME);
     }
 }

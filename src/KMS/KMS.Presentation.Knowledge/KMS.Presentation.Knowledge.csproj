@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="KnowledgeRender\IKnowledgeRender.cs" />
+    <Compile Include="RenderHTMLByMIME\IRenderHTMLByMIME.cs" />
+    <Compile Include="RenderHTMLByMIME\JPEGRender.cs" />
     <Compile Include="ResourceRender\IResourceRender.cs" />
     <Compile Include="KnowledgeRender\KnowledgeRender.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

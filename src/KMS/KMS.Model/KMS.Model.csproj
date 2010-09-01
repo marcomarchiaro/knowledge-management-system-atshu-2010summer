@@ -65,7 +65,6 @@
   <ItemGroup>
     <Content Include="config\db2hbm.xml" />
     <Content Include="config\hbm2net.xml" />
-    <Content Include="KMSTree.xml" />
     <EmbeddedResource Include="Mapping\KnowledgeClassInfo.hbm.xml" />
     <EmbeddedResource Include="Mapping\KnowledgeInfo.hbm.xml" />
     <EmbeddedResource Include="Mapping\KnowledgeKnowledgeClassAssociationInfo.hbm.xml" />
@@ -75,9 +74,6 @@
     <EmbeddedResource Include="Mapping\TagInfo.hbm.xml" />
     <EmbeddedResource Include="Mapping\ResourceInfo.hbm.xml" />
     <EmbeddedResource Include="Mapping\Resource_URLInfo.hbm.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="KnowledgeTree.xsd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
