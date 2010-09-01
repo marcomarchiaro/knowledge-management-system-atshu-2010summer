@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping namespace="KMS.Model" assembly="KMS.Model" xmlns="urn:nhibernate-mapping-2.2">
+  <joined-subclass name="Resource_URLInfo" extends="ResourceInfo" table="T_Resource_URL" schema="dbo">
+    <key column="ResourceId"/>
+    <property name="MIME" type="String" length="50" />
+    <property name="SourceName" type="String" length="50" />
+    <property name="URL" type="String" length="255" />
+    <property name="Width" type="Int32" precision="10" />
+    <property name="Height" type="Int32" precision="10" />
+  </joined-subclass>
+</hibernate-mapping>
