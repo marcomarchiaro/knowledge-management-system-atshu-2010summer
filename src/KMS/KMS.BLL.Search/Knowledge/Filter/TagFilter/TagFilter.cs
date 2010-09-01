@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using KMS.Model;
 using KMS.BLL.Search;
+using KMS.Common;
 
 namespace KMS.BLL.Search.Knowledge
 {

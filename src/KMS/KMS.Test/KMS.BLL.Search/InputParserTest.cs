@@ -5,7 +5,7 @@ using System.Text;
 using NUnit.Framework;
 using KMS.BLL.Search.Knowledge;
 
-namespace KMS.BLL.Search.Test
+namespace KMS.Test
 {
     [TestFixture]
     public class InputParserTest

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace KMS.BLL
+namespace KMS.Common
 {
     public static class ConfigManager
     {
@@ -15,6 +15,8 @@ namespace KMS.BLL
                 return "tags";
             else if (key == "RootKnowledgeClassId")
                 return "1";
+            else if (key == "BinaryResourceLocation")
+                return "/BinaryResource";
             return System.Configuration.ConfigurationManager.AppSettings[key];
         }
     }

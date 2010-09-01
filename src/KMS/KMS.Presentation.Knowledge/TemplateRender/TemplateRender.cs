@@ -12,7 +12,7 @@ namespace KMS.Presentation.Knowledge
             throw new NotImplementedException();
         }
 
-        public string Render(string segment)
+        public string Render(string fregment)
         {
             throw new NotImplementedException();
         }

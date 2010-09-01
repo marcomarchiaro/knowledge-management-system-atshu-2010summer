@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Collections.Specialized;
 
 namespace KMS.Presentation.Knowledge
 {
     public interface IMultiMediaRender
     {
-        bool IsSupport(string MIME);
-        string RenderHTML(string URL, string MIME, object options);
+        bool IsSupported(string MIME);
+        string Render(string URL, string MIME, NameValueCollection options);
     }
 }
