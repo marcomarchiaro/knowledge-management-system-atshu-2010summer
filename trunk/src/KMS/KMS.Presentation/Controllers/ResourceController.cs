@@ -18,13 +18,13 @@ namespace KMS.Presentation.Controllers
             this.resourceService = resourceService;
         }
 
-        public ActionResult Resource(string resourceId)
+        public ActionResult GetResource(string resourceId)
         {
             Guid guid = new Guid(resourceId);
             throw new NotImplementedException();
         }
 
-        public ActionResult BinaryResource(string resourceId)
+        public ActionResult GetBinaryResource(string resourceId)
         {
             Guid guid = new Guid(resourceId);
             ResourceInfo resource = resourceService.GetById(guid);

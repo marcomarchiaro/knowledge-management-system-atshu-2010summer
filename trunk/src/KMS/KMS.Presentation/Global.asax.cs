@@ -20,9 +20,9 @@ namespace KMS.Presentation
         protected void Application_Start()
         {
             RouteTable.Routes.MapRoute(
-                "Resource",
-                "Resource/{resourceId}",
-                new { controller = "Resource", action = "Resource" }
+                "BinaryResource",
+                "BinaryResource/{resourceId}",
+                new { controller = "Resource", action = "GetBinaryResource" }
                 );
 
             RouteTable.Routes.MapRoute(
