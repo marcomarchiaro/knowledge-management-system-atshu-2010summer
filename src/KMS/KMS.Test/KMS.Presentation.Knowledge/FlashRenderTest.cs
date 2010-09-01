@@ -29,9 +29,10 @@ namespace KMS.Test.KMS.Presentation.Knowledge
             attr.Add("height", "400");
             attr.Add("type", "application/x-shockwave-flash");
 
-
             bool mimeFail = render.IsSupported(MIME1);
             string content2 = render.Render(URL, MIME2, attr);
+
+            Assert.Throws<MIMENotSupportedException>(delegate { render.Render(URL, MIME1, attr); });
             Assert.IsFalse(mimeFail);
             Assert.AreEqual(expected, content2);
             
