@@ -16,30 +16,53 @@ namespace KMS.Presentation.Knowledge
             this.templateRender = templateRender;
         }
 
-        public string RenderKnowledge(KnowledgeInfo knowledge)
-        {         
-            XmlDocument xml = new XmlDocument();
-            string content = knowledge.Content;
-            xml.LoadXml(content);
-            XmlNodeList nodeList = xml.DocumentElement.ChildNodes;
+        static void dfs(XmlNode node, Action<XmlNode> visit)
+        {
+            if (node.HasChildNodes)
+            {
+                foreach (XmlNode p in node.ChildNodes)
+                {
+                    dfs(p, visit);
+                }
+            }
+            visit(node);
+        }
 
-            foreach (var node in nodeList)
+        public string RenderKnowledge(KnowledgeInfo knowledge)
+        {
+            XmlDocument xml = new XmlDocument();
+            List<XmlElement> nodelist = new List<XmlElement>();
+
+            if (string.IsNullOrWhiteSpace(knowledge.Content))
+                return null;
+
+            xml.LoadXml(knowledge.Content);
+
+            dfs(xml, (x) =>
+            {
+                if (x is XmlElement && !x.HasChildNodes)
+                {
+                    nodelist.Add((XmlElement)x);
+                }
+            });
+
+            foreach (var node in nodelist)
             {
                 XmlElement xe = node as XmlElement;
                 XmlNode parent = xe.ParentNode;
-                if (xe == null) continue;
+
+                if (xe == null)
+                    continue;
 
                 if (!templateRender.IsSupported(xe.Name))
                     continue;
 
-                string rendered = templateRender.Render(xe.ToString());
+                string rendered = templateRender.Render(xe.OuterXml);
 
                 XmlDocumentFragment fragment = xml.CreateDocumentFragment();
                 fragment.InnerXml = rendered;
-                XmlNode x= fragment.FirstChild;
-
+                XmlNode x = fragment.FirstChild;
                 parent.ReplaceChild(x, xe);
-
             }
             return xml.OuterXml;
         }
