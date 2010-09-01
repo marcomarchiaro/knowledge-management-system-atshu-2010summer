@@ -11,9 +11,12 @@ namespace KMS.Presentation.Knowledge
     public interface ITemplateRender
     {
         /// <summary>
-        /// 支持的模板标记，如KMSResource
+        /// 是否支持指定标记
         /// </summary>
-        IEnumerable<string> SupportedTags { get; }
+        /// <param name="tagName">标记名</param>
+        /// <returns></returns>
+        bool IsSupported(string tagName);
+
         /// <summary>
         /// 将模板标记转换为HTML标记
         /// </summary>

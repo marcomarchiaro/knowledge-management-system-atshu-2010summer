@@ -7,7 +7,7 @@ namespace KMS.Presentation.Knowledge
 {
     public interface IMultiMediaRender
     {
-        IEnumerable<string> SupportedMIME { get; }
+        bool IsSupport(string MIME);
         string RenderHTML(string URL, string MIME, object options);
     }
 }
