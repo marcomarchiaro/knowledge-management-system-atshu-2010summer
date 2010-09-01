@@ -7,21 +7,13 @@ using KMS.BLL;
 using KMS.Model;
 using KMS.Presentation.Knowledge;
 using Castle.Facilities.Logging;
-using log4net;
 
 namespace KMS.Presentation.Controllers
 {
     public class ResourceController : Controller
     {
-        public ILog logger { get; set; }
         //
         // GET: /Resource/
-
-        public string abc()
-        {
-            return "123";
-        }
-
         public ResourceController(IResourceService resourceService)
         {
             this.resourceService = resourceService;
