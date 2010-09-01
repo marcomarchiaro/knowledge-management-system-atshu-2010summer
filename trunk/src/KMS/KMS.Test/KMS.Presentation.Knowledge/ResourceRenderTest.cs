@@ -9,7 +9,7 @@ using KMS.BLL;
 using KMS.Model;
 using NUnit.Framework;
 
-namespace ConsoleDebug
+namespace KMS.Test
 {
     [TestFixture]
     public class ResourceRenderTest
