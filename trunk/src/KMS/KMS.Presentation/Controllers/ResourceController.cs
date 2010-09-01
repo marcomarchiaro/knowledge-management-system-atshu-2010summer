@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using KMS.BLL;
 using KMS.Model;
+using KMS.Presentation.Knowledge;
 
 namespace KMS.Presentation.Controllers
 {
@@ -13,15 +14,10 @@ namespace KMS.Presentation.Controllers
         //
         // GET: /Resource/
 
-        public ResourceController(IResourceService resourceService)
+        public ResourceController(IResourceService resourceService, IResourceRender resourceRender)
         {
             this.resourceService = resourceService;
-        }
-
-        public ActionResult GetResource(string resourceId)
-        {
-            Guid guid = new Guid(resourceId);
-            throw new NotImplementedException();
+            this.resourceRender = resourceRender;
         }
 
         public ActionResult GetBinaryResource(string resourceId)
@@ -39,5 +35,6 @@ namespace KMS.Presentation.Controllers
         }
 
         private IResourceService resourceService;
+        private IResourceRender resourceRender;
     }
 }
