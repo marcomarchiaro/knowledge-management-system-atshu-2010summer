@@ -6,18 +6,26 @@ using System.Web.Mvc;
 using KMS.BLL;
 using KMS.Model;
 using KMS.Presentation.Knowledge;
+using Castle.Facilities.Logging;
+using log4net;
 
 namespace KMS.Presentation.Controllers
 {
     public class ResourceController : Controller
     {
+        public ILog logger { get; set; }
         //
         // GET: /Resource/
 
-        public ResourceController(IResourceService resourceService, IResourceRender resourceRender)
+        public string abc()
+        {
+            return "123";
+        }
+
+        public ResourceController(IResourceService resourceService)
         {
             this.resourceService = resourceService;
-            this.resourceRender = resourceRender;
+            //this.resourceRender = resourceRender;
         }
 
         public ActionResult GetBinaryResource(string resourceId)
@@ -35,6 +43,5 @@ namespace KMS.Presentation.Controllers
         }
 
         private IResourceService resourceService;
-        private IResourceRender resourceRender;
     }
 }

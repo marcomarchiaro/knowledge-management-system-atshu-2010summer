@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Collections.Specialized;
+using KMS.Common;
 
 namespace KMS.Presentation.Knowledge
 {
@@ -11,7 +12,7 @@ namespace KMS.Presentation.Knowledge
         public string Render(string URL, string MIME, NameValueCollection options)
         {
             if (!IsSupported(MIME))
-                throw new Exception("MIME类型不匹配。");
+                throw new MIMENotSupportedException();
             string attrs = generateAttrs(options);
             string tag = string.Format(@"<img src='{0}' {1}/>", URL, attrs);
             return tag;
