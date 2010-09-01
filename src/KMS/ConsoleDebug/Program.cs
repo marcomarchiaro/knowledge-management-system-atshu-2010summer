@@ -7,6 +7,7 @@ using KMS.BLL.Search;
 using KMS.Presentation.Knowledge;
 using KMS.BLL;
 using KMS.Model;
+using KMS.Test;
 
 namespace ConsoleDebug
 {
@@ -14,6 +15,8 @@ namespace ConsoleDebug
     {
         static void Main(string[] args)
         {
+            TemplateRenderTest test = new TemplateRenderTest();
+            test.Test1();
         }
     }
 }

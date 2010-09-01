@@ -84,6 +84,7 @@
     <Compile Include="KnowledgeRender\KnowledgeRender.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TemplateRender\ITemplateRender.cs" />
+    <Compile Include="TemplateRender\MultiMediaRender\FlashRender.cs" />
     <Compile Include="TemplateRender\ResourceTemplateRender.cs" />
     <Compile Include="TemplateRender\MultiMediaRender\ImageRender.cs" />
     <Compile Include="TemplateRender\MultiMediaRender\IMultiMediaRender.cs" />

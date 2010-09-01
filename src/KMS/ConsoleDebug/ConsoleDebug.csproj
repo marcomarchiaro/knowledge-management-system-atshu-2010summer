@@ -86,6 +86,10 @@
       <Project>{3223A1E7-485E-49AD-BDEF-10A3ACB1F41E}</Project>
       <Name>KMS.Presentation.Knowledge</Name>
     </ProjectReference>
+    <ProjectReference Include="..\KMS.Test\KMS.Test.csproj">
+      <Project>{A743A194-8CD5-409A-989C-63A56C231D01}</Project>
+      <Name>KMS.Test</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
