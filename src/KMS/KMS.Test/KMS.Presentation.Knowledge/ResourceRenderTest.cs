@@ -7,41 +7,49 @@ using KMS.BLL.Search;
 using KMS.Presentation.Knowledge;
 using KMS.BLL;
 using KMS.Model;
+using NUnit.Framework;
 
 namespace ConsoleDebug
 {
-    class Program
+    [TestFixture]
+    public class ResourceRenderTest
     {
-        static void Main(string[] args)
+        [Test]
+        public void TestResource_URL()
         {
-            test1();
-        }
-
-        static void test1()
-        {
-            IResourceRender resourceRender = new ResourceRender(new ResourceService2(), new MultiMediaRender());
+            IResourceRender resourceRender = new ResourceRender(new ResourceServiceURL(), new MultiMediaRender());
             string str = resourceRender.Render(new Guid("f01a54e4-0056-46e3-9342-617d3a4048d3"));
             Console.WriteLine(str);
-            Console.ReadKey();
+        }
+
+        [Test]
+        public void TestResource_Binary()
+        {
+            IResourceRender resourceRender = new ResourceRender(new ResourceServiceBinary(), new MultiMediaRender());
+            string str = resourceRender.Render(new Guid("f01a54e4-0056-46e3-9342-617d3a4048d3"));
+            Console.WriteLine(str);
         }
     }
 
-    class ResourceService2 : IResourceService
+    public class ResourceServiceBinary : IResourceService
     {
-        public ResourceInfo GetById2(Guid id)
+        public ResourceInfo GetById(Guid id)
         {
-            Resource_URLInfo resource = new Resource_URLInfo();
-            resource.URL = "http://www.baidu.com";
+            Resource_BinaryInfo resource = new Resource_BinaryInfo();
             resource.MIME = "image/jpeg";
             resource.ResourceId = new Guid("f01a54e4-0056-46e3-9342-617d3a4048d3");
             resource.Width = 100;
             resource.Height = 200;
             return resource;
         }
+    }
 
+    public class ResourceServiceURL : IResourceService
+    {
         public ResourceInfo GetById(Guid id)
         {
-            Resource_BinaryInfo resource = new Resource_BinaryInfo();
+            Resource_URLInfo resource = new Resource_URLInfo();
+            resource.URL = "http://www.baidu.com";
             resource.MIME = "image/jpeg";
             resource.ResourceId = new Guid("f01a54e4-0056-46e3-9342-617d3a4048d3");
             resource.Width = 100;
