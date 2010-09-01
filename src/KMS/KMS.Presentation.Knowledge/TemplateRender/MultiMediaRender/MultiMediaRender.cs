@@ -12,6 +12,7 @@ namespace KMS.Presentation.Knowledge
         public MultiMediaRender()
         {
             renders.Add(new ImageRender());
+            renders.Add(new FlashRender());
         }
 
         public bool IsSupported(string MIME)
