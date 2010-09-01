@@ -88,7 +88,7 @@ namespace KMS.Presentation.Knowledge
                 if (string.IsNullOrEmpty(temp)) continue;
 
                 Guid resourceId = new Guid(temp);
-                resourceRender.RenderResource(resourceService.GetById(resourceId));
+                //resourceRender.RenderResource(resourceService.GetById(resourceId));
             }
             
             throw new NotImplementedException();
