@@ -17,6 +17,7 @@ namespace ConsoleDebug
         {
             TemplateRenderTest test = new TemplateRenderTest();
             test.Test1();
+            KnowledgeRenderTest.Test();
         }
     }
 }
