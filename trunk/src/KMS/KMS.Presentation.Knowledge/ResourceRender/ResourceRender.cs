@@ -15,14 +15,14 @@ namespace KMS.Presentation.Knowledge
 
         private string RenderResource_Binary(Resource_BinaryInfo resource)
         {
-            string url = getResourcePath(resource.ResourceId);
+            string url = getBinaryResourceLocation(resource);
             string MIME = resource.MIME;
             throw new NotImplementedException();
         }
 
-        private string getResourcePath(Guid resourceId)
+        private string getBinaryResourceLocation(Resource_BinaryInfo resource)
         {
-            return "/Resource/" + resourceId.ToString();
+            return "/BinaryResource/" + resource.ResourceId;
         }
     }
 }

@@ -51,11 +51,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="KeyWordAnalyzer.cs" />
+    <Compile Include="KeyWordAnalyzer\KeyWordAnalyzer.cs" />
     <Compile Include="Knowledge\Filter\DateRangeFilter\DateRangeFilter.cs" />
     <Compile Include="Knowledge\Filter\IKnowledgeFilter.cs" />
     <Compile Include="Knowledge\Filter\TagFilter\TagFilter.cs" />
-    <Compile Include="IKeyWordAnalyzer.cs" />
+    <Compile Include="KeyWordAnalyzer\IKeyWordAnalyzer.cs" />
     <Compile Include="Knowledge\IInputParser.cs" />
     <Compile Include="Knowledge\InputParser.cs" />
     <Compile Include="Knowledge\ISearchKnowledge.cs" />
@@ -63,10 +63,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AnalyzerDict\dict3.txt">
+    <Content Include="KeyWordAnalyzer\AnalyzerDict\dict3.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="AnalyzerDict\ignore.txt">
+    <Content Include="KeyWordAnalyzer\AnalyzerDict\ignore.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

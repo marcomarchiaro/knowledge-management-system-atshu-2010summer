@@ -21,26 +21,21 @@ namespace KMS.Presentation.Controllers
         public ActionResult Resource(string resourceId)
         {
             Guid guid = new Guid(resourceId);
+            throw new NotImplementedException();
+        }
+
+        public ActionResult BinaryResource(string resourceId)
+        {
+            Guid guid = new Guid(resourceId);
             ResourceInfo resource = resourceService.GetById(guid);
-            if (resource is Resource_URLInfo)
-                return this.Resource_URL(resource as Resource_URLInfo);
-            else if (resource is Resource_BinaryInfo)
-                return this.Resource_Binary(resource as Resource_BinaryInfo);
-            else
-                return Content("", "text/plain");
-        }
-
-        private ActionResult Resource_Binary(Resource_BinaryInfo resource)
-        {
-            byte[] content = resource.Binary;
-            string MIME = resource.MIME;
-            return File(content, MIME);
-        }
-
-        private ActionResult Resource_URL(Resource_URLInfo resource)
-        {
-            string url = resource.URL;
-            return Content(url, "text/plain");
+            if (resource is Resource_BinaryInfo)
+            {
+                Resource_BinaryInfo resource2 = (Resource_BinaryInfo)resource;
+                byte[] content = resource2.Binary;
+                string MIME = resource2.MIME;
+                return File(content, MIME);
+            }
+            throw new Exception("无法找到资源");
         }
 
         private IResourceService resourceService;
