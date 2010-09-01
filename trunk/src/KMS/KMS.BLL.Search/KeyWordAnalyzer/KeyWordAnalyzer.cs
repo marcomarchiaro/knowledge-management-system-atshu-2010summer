@@ -12,13 +12,13 @@ namespace KMS.BLL.Search
     public class KeyWordAnalyzer : IKeyWordAnalyzer
     {
         /// <summary>
-        /// 分析器同步（暂时无用）
+        /// 分析器同步
         /// </summary>
         public void Sychronize()
         {
             if (keywords.Count == 0)
             {
-                FileStream fs = new FileStream("./AnalyzerDict/dict3.txt", FileMode.Open, FileAccess.ReadWrite);
+                FileStream fs = new FileStream("./KeyWordAnalyzer/AnalyzerDict/dict3.txt", FileMode.Open, FileAccess.ReadWrite);
                 StreamReader sr = new StreamReader(fs);
                 sr.BaseStream.Seek(0, SeekOrigin.Begin);
                 string str = sr.ReadLine();
@@ -32,7 +32,7 @@ namespace KMS.BLL.Search
             }
             if (ignore.Count == 0)
             {
-                FileStream fs = new FileStream("./AnalyzerDict/ignore.txt", FileMode.Open, FileAccess.ReadWrite);
+                FileStream fs = new FileStream("./KeyWordAnalyzer/AnalyzerDict/ignore.txt", FileMode.Open, FileAccess.ReadWrite);
                 StreamReader sr = new StreamReader(fs);
                 sr.BaseStream.Seek(0, SeekOrigin.Begin);
                 string str = sr.ReadLine();
