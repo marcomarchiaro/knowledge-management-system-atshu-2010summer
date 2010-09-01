@@ -8,7 +8,7 @@ namespace KMS.Presentation.Knowledge
 {
     public interface IResourceRender
     {
-        string RenderResource(ResourceInfo resource);
-        string RenderResource(Guid id);
+        string Render(ResourceInfo resource);
+        string Render(Guid resourceId);
     }
 }

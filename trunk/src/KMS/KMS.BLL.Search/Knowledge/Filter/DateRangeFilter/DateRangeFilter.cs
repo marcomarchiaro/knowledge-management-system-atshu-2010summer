@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using KMS.Model;
+using KMS.Common;
 
 namespace KMS.BLL.Search.Knowledge
 {

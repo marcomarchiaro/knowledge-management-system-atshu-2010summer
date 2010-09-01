@@ -20,8 +20,8 @@ namespace KMS.Presentation.Knowledge
         /// <summary>
         /// 将模板标记转换为HTML标记
         /// </summary>
-        /// <param name="segment">如：<KMSResource id="xxx-xxx-xxx-xxx" width="10" height="20" /></param>
+        /// <param name="fregment">如：<KMSResource id="xxx-xxx-xxx-xxx" width="10" height="20" /></param>
         /// <returns>如：<img src="xxx.com" width="10" height="20" /></returns>
-        string Render(string segment);
+        string Render(string fregment);
     }
 }

@@ -71,10 +71,21 @@
       <Project>{9ECBD815-C498-4DC2-91D3-05D3BBE0CAC5}</Project>
       <Name>KMS.BLL.Search</Name>
     </ProjectReference>
+<<<<<<< .mine
+    <ProjectReference Include="..\KMS.BLL\KMS.BLL.csproj">
+      <Project>{89B49EBB-9B6B-4395-92A0-BE9CF5B1BC26}</Project>
+      <Name>KMS.BLL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\KMS.Model\KMS.Model.csproj">
       <Project>{4D2113D6-6194-4853-BAC5-77EAF2D90167}</Project>
       <Name>KMS.Model</Name>
     </ProjectReference>
+=======
+    <ProjectReference Include="..\KMS.Model\KMS.Model.csproj">
+      <Project>{4D2113D6-6194-4853-BAC5-77EAF2D90167}</Project>
+      <Name>KMS.Model</Name>
+    </ProjectReference>
+>>>>>>> .r83
     <ProjectReference Include="..\KMS.Presentation.Knowledge\KMS.Presentation.Knowledge.csproj">
       <Project>{3223A1E7-485E-49AD-BDEF-10A3ACB1F41E}</Project>
       <Name>KMS.Presentation.Knowledge</Name>

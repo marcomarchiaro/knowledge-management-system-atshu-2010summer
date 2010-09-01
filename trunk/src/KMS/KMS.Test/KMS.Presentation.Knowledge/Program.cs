@@ -14,8 +14,7 @@ namespace ConsoleDebug
     {
         static void Main(string[] args)
         {
-            //test1();
-            KnowledgeRenderTest.test();
+            test1();
         }
 
         static void test1()

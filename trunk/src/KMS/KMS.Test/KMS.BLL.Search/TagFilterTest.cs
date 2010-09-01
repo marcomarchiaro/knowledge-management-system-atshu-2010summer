@@ -8,7 +8,7 @@ using KMS.Model;
 using KMS.BLL.Search.Knowledge;
 using KMS.DAL;
 
-namespace KMS.BLL.Search.Test
+namespace KMS.Test
 {
     [TestFixture]
     public class TagFilterTest

@@ -31,6 +31,46 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Castle.Core, Version=1.2.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dependencies\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Facilities.NHibernateIntegration, Version=1.1.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dependencies\Castle.Facilities.NHibernateIntegration.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.MicroKernel, Version=2.1.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dependencies\Castle.MicroKernel.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Services.Transaction, Version=2.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dependencies\Castle.Services.Transaction.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Windsor, Version=2.1.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dependencies\Castle.Windsor.dll</HintPath>
+    </Reference>
+    <Reference Include="LinFu.DynamicProxy">
+      <HintPath>..\..\Dependencies\LinFu.DynamicProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\..\Dependencies\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dependencies\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.ByteCode.LinFu">
+      <HintPath>..\..\Dependencies\NHibernate.ByteCode.LinFu.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.Linq, Version=1.1.0.1001, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dependencies\NHibernate.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\..\Dependencies\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,21 +84,34 @@
     <Compile Include="KnowledgeRender\KnowledgeRender.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TemplateRender\ITemplateRender.cs" />
-    <Compile Include="TemplateRender\KMSResourceRender.cs" />
+    <Compile Include="TemplateRender\ResourceTemplateRender.cs" />
     <Compile Include="TemplateRender\MultiMediaRender\ImageRender.cs" />
     <Compile Include="TemplateRender\MultiMediaRender\IMultiMediaRender.cs" />
+    <Compile Include="TemplateRender\MultiMediaRender\MultiMediaRender.cs" />
     <Compile Include="TemplateRender\ResourceRender\IResourceRender.cs" />
     <Compile Include="TemplateRender\ResourceRender\ResourceRender.cs" />
     <Compile Include="TemplateRender\TemplateRender.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\KMS.BLL.Search\KMS.BLL.Search.csproj">
+      <Project>{9ECBD815-C498-4DC2-91D3-05D3BBE0CAC5}</Project>
+      <Name>KMS.BLL.Search</Name>
+    </ProjectReference>
     <ProjectReference Include="..\KMS.BLL\KMS.BLL.csproj">
       <Project>{89B49EBB-9B6B-4395-92A0-BE9CF5B1BC26}</Project>
       <Name>KMS.BLL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\KMS.Common\KMS.Common.csproj">
+      <Project>{6BDF4048-6619-4B0C-8A9D-CA1B0A898468}</Project>
+      <Name>KMS.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\KMS.Model\KMS.Model.csproj">
       <Project>{4D2113D6-6194-4853-BAC5-77EAF2D90167}</Project>
       <Name>KMS.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KMS.Presentation\KMS.Presentation.csproj">
+      <Project>{4A98E1CD-14C0-408A-BBD0-7210B835EE1D}</Project>
+      <Name>KMS.Presentation</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

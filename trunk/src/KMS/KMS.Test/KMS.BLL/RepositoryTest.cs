@@ -13,7 +13,7 @@ using System.IO;
 using KMS.DAL;
 
 
-namespace KMS.BLL.Test
+namespace KMS.Test
 {
     [TestFixture]
     public class RepositoryTest
