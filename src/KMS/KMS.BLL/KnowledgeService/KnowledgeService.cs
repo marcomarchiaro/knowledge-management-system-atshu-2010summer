@@ -14,7 +14,7 @@ namespace KMS.BLL
             this.knowledgeRepository = knowledgeRepository;
         }
 
-        public KnowledgeInfo GetById(object id)
+        public KnowledgeInfo GetById(int id)
         {
             return knowledgeRepository.GetById(id);
         }

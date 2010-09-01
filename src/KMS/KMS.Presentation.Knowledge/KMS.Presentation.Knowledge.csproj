@@ -41,14 +41,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="KnowledgeRender\IKnowledgeRender.cs" />
-    <Compile Include="RenderHTMLByMIME\IMultiMediaRender.cs" />
-    <Compile Include="RenderHTMLByMIME\ImageRender.cs" />
-    <Compile Include="ResourceRender\IResourceRender.cs" />
     <Compile Include="KnowledgeRender\KnowledgeRender.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ResourceRender\ResourceRender.cs" />
     <Compile Include="TemplateRender\ITemplateRender.cs" />
     <Compile Include="TemplateRender\KMSResourceRender.cs" />
+    <Compile Include="TemplateRender\MultiMediaRender\ImageRender.cs" />
+    <Compile Include="TemplateRender\MultiMediaRender\IMultiMediaRender.cs" />
+    <Compile Include="TemplateRender\ResourceRender\IResourceRender.cs" />
+    <Compile Include="TemplateRender\ResourceRender\ResourceRender.cs" />
     <Compile Include="TemplateRender\TemplateRender.cs" />
   </ItemGroup>
   <ItemGroup>
