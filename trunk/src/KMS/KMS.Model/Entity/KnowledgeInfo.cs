@@ -9,6 +9,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace KMS.Model
 {
@@ -40,6 +41,7 @@ namespace KMS.Model
 		/// <summary>
 		///		
 		/// </summary>
+        [Required]
         public virtual String Content
 		{
 			get{ return _content; }
@@ -56,6 +58,7 @@ namespace KMS.Model
 		/// <summary>
 		///		
 		/// </summary>
+        [Required]
 		public virtual String Name
 		{
 			get{ return _name; }
