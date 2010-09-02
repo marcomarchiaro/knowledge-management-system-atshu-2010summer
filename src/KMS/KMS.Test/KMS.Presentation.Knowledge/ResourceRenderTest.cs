@@ -42,6 +42,17 @@ namespace KMS.Test
             resource.Height = 200;
             return resource;
         }
+
+
+        public void Insert(ResourceInfo resource)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update(ResourceInfo resource)
+        {
+            throw new NotImplementedException();
+        }
     }
 
     public class ResourceServiceURL : IResourceService
@@ -55,6 +66,17 @@ namespace KMS.Test
             resource.Width = 100;
             resource.Height = 200;
             return resource;
+        }
+
+
+        public void Insert(ResourceInfo resource)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update(ResourceInfo resource)
+        {
+            throw new NotImplementedException();
         }
     }
 }

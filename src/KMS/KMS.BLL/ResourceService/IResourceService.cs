@@ -9,5 +9,7 @@ namespace KMS.BLL
     public interface IResourceService
     {
         ResourceInfo GetById(Guid id);
+        void Insert(ResourceInfo resource);
+        void Update(ResourceInfo resource);
     }
 }
