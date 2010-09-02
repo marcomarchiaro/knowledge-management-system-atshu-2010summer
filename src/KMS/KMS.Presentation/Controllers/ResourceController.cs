@@ -20,11 +20,17 @@ namespace KMS.Presentation.Controllers
             this.resourceRender = resourceRender;
         }
 
+
+        public ActionResult UploadBinaryResource()
+        {
+            Resource_BinaryModelBinder b = new Resource_BinaryModelBinder();
+            Resource_BinaryInfo result = b.BindModel(this.ControllerContext, null) as Resource_BinaryInfo;
+            return null;
+        }
         public ActionResult SaveResource()
         {
             throw new NotImplementedException();
         }
-
         public ActionResult GetResourceHTML(Guid id)
         {
             return Content(resourceRender.Render(id), "text/html");
