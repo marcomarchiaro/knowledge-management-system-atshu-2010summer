@@ -8,5 +8,6 @@ namespace KMS.BLL
 {
     public interface IKnowledgeService
     {
+        void CreateKnowledge(KnowledgeInfo knowledge, int knowledgeClassId, IEnumerable<string> tags);
     }
 }

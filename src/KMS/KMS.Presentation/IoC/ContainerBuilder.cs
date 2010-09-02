@@ -11,6 +11,7 @@ using Castle.Facilities.AutoTx;
 using Castle.Facilities.NHibernateIntegration;
 using Castle.Facilities.Logging;
 using Microsoft.Practices.ServiceLocation;
+using KMS.BLL.Search;
 using KMS.BLL;
 using KMS.DAL;
 using KMS.Presentation.Knowledge;
@@ -39,7 +40,9 @@ namespace KMS.Presentation
                 Component.For<IResourceService>().ImplementedBy<ResourceService>().LifeStyle.Transient,
                 Component.For<IResourceRender>().ImplementedBy<ResourceRender>().LifeStyle.Transient,
                 Component.For<IMultiMediaRender>().ImplementedBy<MultiMediaRender>().LifeStyle.Transient,
-                Component.For<IKnowledgeRender>().ImplementedBy<KnowledgeRender>().LifeStyle.Transient
+                Component.For<IKnowledgeRender>().ImplementedBy<KnowledgeRender>().LifeStyle.Transient,
+                Component.For<IKnowledgeService>().ImplementedBy<KnowledgeService>().LifeStyle.Transient,
+                Component.For<IKeyWordAnalyzer>().ImplementedBy<KeyWordAnalyzer>().LifeStyle.Transient
                 );
 //            register services
 //             container.Register(
