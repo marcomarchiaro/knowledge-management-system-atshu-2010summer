@@ -10,8 +10,12 @@ KMS-知识库管理系统
         <%
             using (Html.BeginForm("Search", "Knowledge", FormMethod.Post))
             {%>
-        <input type="text" name="condition" class="search_index" maxlength="100" />
-        <input type="submit" value="Search" class="submit" />
+        <input type="text" name="condition" class="search_index" maxlength="100" style="width:600px"/>
+        &nbsp;&nbsp;
+        <input type="submit" value="搜索" class="submit" />
+        <br />
+        <br />
+        (如: "tags:计算机 软件 开发 dateRange:2009-1-1~2010-2-3")
         <% }%>
     </div>
     <script type="text/javascript" src="../../Scripts/jquery-1.4.1.min.js"></script>

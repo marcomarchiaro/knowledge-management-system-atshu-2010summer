@@ -12,6 +12,7 @@ using Castle.Facilities.NHibernateIntegration;
 using Castle.Facilities.Logging;
 using Microsoft.Practices.ServiceLocation;
 using KMS.BLL.Search;
+using KMS.BLL.Search.Knowledge;
 using KMS.BLL;
 using KMS.DAL;
 using KMS.Presentation.Knowledge;
@@ -42,8 +43,11 @@ namespace KMS.Presentation
                 Component.For<IMultiMediaRender>().ImplementedBy<MultiMediaRender>().LifeStyle.Transient,
                 Component.For<IKnowledgeRender>().ImplementedBy<KnowledgeRender>().LifeStyle.Transient,
                 Component.For<IKnowledgeService>().ImplementedBy<KnowledgeService>().LifeStyle.Transient,
-                Component.For<IKeyWordAnalyzer>().ImplementedBy<KeyWordAnalyzer>().LifeStyle.Transient
+                Component.For<IKeyWordAnalyzer>().ImplementedBy<KeyWordAnalyzer>().LifeStyle.Transient,
+                Component.For<ISearchKnowledge>().ImplementedBy<SearchKnowledge>().LifeStyle.Transient,
+                Component.For<IInputParser>().ImplementedBy<InputParser>().LifeStyle.Transient
                 );
+
 //            register services
 //             container.Register(
 //                 Component.For(typeof(IRepository<>)).ImplementedBy(typeof(Repository<>)).LifeStyle.Transient
@@ -57,7 +61,6 @@ namespace KMS.Presentation
 //                 Component.For<CheckTeacherService>().LifeStyle.Transient,
 //                 Component.For<MarkService>().LifeStyle.Transient,
 //                 Component.For<CheckService>().LifeStyle.Transient,
-// 
 //                 Component.For<IServiceLocator>().Instance(new WindsorServiceLocator(container)).LifeStyle.Singleton,
 //                 Component.For<IItemWrapperService>().ImplementedBy<ItemWrapperService>().LifeStyle.Singleton,
 //                 Component.For<IItemAccess>().ImplementedBy<ItemAccess>().LifeStyle.Singleton,

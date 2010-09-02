@@ -8,11 +8,11 @@
     <property name="Description" type="String" length="500" />
     <property name="Name" type="String" length="50" />
     <many-to-one name="FatherKnowledgeClassInfo" class="KnowledgeClassInfo" column="FatherClassId" />
-    <bag name="KnowledgeKnowledgeClassAssociationInfos" table="T_KnowledgeKnowledgeClassAssociation" inverse="true">
+    <bag name="KnowledgeKnowledgeClassAssociationInfos" table="T_KnowledgeKnowledgeClassAssociation" cascade="all-delete-orphan" inverse="true">
       <key column="KnowledgeClassId" />
       <one-to-many class="KnowledgeKnowledgeClassAssociationInfo" />
     </bag>
-    <bag name="KnowledgeClassInfos" table="T_KnowledgeClass" inverse="true" fetch="join">
+    <bag name="KnowledgeClassInfos" table="T_KnowledgeClass" cascade="all-delete-orphan" inverse="true" fetch="join">
       <key column="FatherClassId" />
       <one-to-many class="KnowledgeClassInfo" />
     </bag>

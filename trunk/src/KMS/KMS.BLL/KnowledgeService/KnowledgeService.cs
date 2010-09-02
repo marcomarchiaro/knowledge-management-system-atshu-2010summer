@@ -9,7 +9,6 @@ using Castle.Services.Transaction;
 
 namespace KMS.BLL
 {
-    [Transactional]
     public class KnowledgeService : IKnowledgeService
     {
         public KnowledgeService(
@@ -28,8 +27,7 @@ namespace KMS.BLL
             this.keyWordAnalyzer = keyWordAnalyzer;
         }
 
-        [Transaction(TransactionMode.Requires)]
-        public virtual void CreateKnowledge(KnowledgeInfo knowledge,int knowledgeClassId, IEnumerable<string> tags)
+        public void CreateKnowledge(KnowledgeInfo knowledge,int knowledgeClassId, IEnumerable<string> tags)
         {
             KnowledgeClassInfo knowClass = knowledgeClassRepo.GetById(knowledgeClassId);
             if (knowClass == null)

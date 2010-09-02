@@ -8,11 +8,11 @@
     <property name="Content" type="StringClob" length="1073741823" />
     <property name="Description" type="String" length="500" />
     <property name="Name" type="String" length="50" />
-    <bag name="KnowledgeKnowledgeClassAssociationInfos" table="T_KnowledgeKnowledgeClassAssociation" inverse="true">
+    <bag name="KnowledgeKnowledgeClassAssociationInfos" table="T_KnowledgeKnowledgeClassAssociation" cascade="all-delete-orphan" inverse="true">
       <key column="KnowledgeId" />
       <one-to-many class="KnowledgeKnowledgeClassAssociationInfo" />
     </bag>
-    <bag name="KnowledgeTagAssociationInfos" table="T_KnowledgeTagAssociation" inverse="true">
+    <bag name="KnowledgeTagAssociationInfos" table="T_KnowledgeTagAssociation" cascade="all-delete-orphan" inverse="true">
       <key column="KnowledgeId" />
       <one-to-many class="KnowledgeTagAssociationInfo" />
     </bag>

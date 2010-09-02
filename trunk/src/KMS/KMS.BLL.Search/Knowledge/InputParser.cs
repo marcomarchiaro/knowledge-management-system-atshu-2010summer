@@ -9,6 +9,8 @@ namespace KMS.BLL.Search.Knowledge
     {
         public string GetContent(string input, string tag)
         {
+            if (tag == null)
+                return null;
             int flag = 0;
             int i, j = 0;
             string result = null;
