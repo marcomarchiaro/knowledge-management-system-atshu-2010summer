@@ -71,10 +71,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\KMS.BLL\KMS.BLL.csproj">
-      <Project>{89B49EBB-9B6B-4395-92A0-BE9CF5B1BC26}</Project>
-      <Name>KMS.BLL</Name>
-    </ProjectReference>
     <ProjectReference Include="..\KMS.Common\KMS.Common.csproj">
       <Project>{6BDF4048-6619-4B0C-8A9D-CA1B0A898468}</Project>
       <Name>KMS.Common</Name>

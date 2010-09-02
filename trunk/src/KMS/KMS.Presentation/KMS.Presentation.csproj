@@ -740,6 +740,10 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\KMS.BLL.Search\KMS.BLL.Search.csproj">
+      <Project>{9ECBD815-C498-4DC2-91D3-05D3BBE0CAC5}</Project>
+      <Name>KMS.BLL.Search</Name>
+    </ProjectReference>
     <ProjectReference Include="..\KMS.BLL\KMS.BLL.csproj">
       <Project>{89B49EBB-9B6B-4395-92A0-BE9CF5B1BC26}</Project>
       <Name>KMS.BLL</Name>

@@ -18,7 +18,7 @@ namespace KMS.BLL.Search
         {
             if (keywords.Count == 0)
             {
-                FileStream fs = new FileStream("./KeyWordAnalyzer/AnalyzerDict/dict3.txt", FileMode.Open, FileAccess.ReadWrite);
+                FileStream fs = new FileStream("KeyWordAnalyzer/AnalyzerDict/dict3.txt", FileMode.Open, FileAccess.ReadWrite);
                 StreamReader sr = new StreamReader(fs);
                 sr.BaseStream.Seek(0, SeekOrigin.Begin);
                 string str = sr.ReadLine();
@@ -32,7 +32,7 @@ namespace KMS.BLL.Search
             }
             if (ignore.Count == 0)
             {
-                FileStream fs = new FileStream("./KeyWordAnalyzer/AnalyzerDict/ignore.txt", FileMode.Open, FileAccess.ReadWrite);
+                FileStream fs = new FileStream("KeyWordAnalyzer/AnalyzerDict/ignore.txt", FileMode.Open, FileAccess.ReadWrite);
                 StreamReader sr = new StreamReader(fs);
                 sr.BaseStream.Seek(0, SeekOrigin.Begin);
                 string str = sr.ReadLine();

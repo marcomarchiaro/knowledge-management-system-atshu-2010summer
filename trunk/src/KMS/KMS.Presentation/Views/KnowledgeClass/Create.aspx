@@ -11,9 +11,8 @@
     <fieldset>
         <legend>Fields</legend>
         <div>
-        <%string fatherId = ViewData["fatherId"].ToString(); %>
-            父分类ID：<%: fatherId %>
-            <%: Html.TextBox("fatherId", fatherId, new { type = "hidden" })%>
+            父分类ID：<%: Html.ViewData["fatherId"] %>
+            <%: Html.TextBox("fatherId", null, new { type = "hidden" })%>
         </div>
         <div class="editor-label">
             <%: Html.LabelFor(model => model.Description)%>

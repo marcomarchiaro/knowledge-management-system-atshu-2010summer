@@ -1,5 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage<KMS.Model.KnowledgeInfo>" %>
-
+﻿<%@ Page Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage<KMS.Model.KnowledgeInfo>" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
     新建知识
 </asp:Content>
@@ -23,45 +22,50 @@
 
     </script>
     <h2>
-        Create</h2>
+        新建知识</h2>
     <% using (Html.BeginForm())
        {%>
     <%: Html.ValidationSummary(false) %>
     <fieldset>
         <legend>Fields</legend>
-        <p>
-            当前知识分类ID：<%//string knowledgeClassId = ViewData["knowledgeClassId"].ToString(); %>
-        </p>
-        <div>
-            <textarea id="Content" name="Content" ></textarea>
-        </div>
         <div class="editor-label">
-            <%: Html.LabelFor(model => model.Description) %>
+            当前知识分类ID：<%: ViewData["knowledgeClassId"] %>
+            <%: Html.TextBox("knowledgeClassId", null, new { type = "hidden" }) %>
         </div>
-        <div class="editor-field">
-            <%: Html.TextBoxFor(model => model.Description) %>
-            <%: Html.ValidationMessageFor(model => model.Description) %>
-        </div>
+
         <div class="editor-label">
-            <%: Html.LabelFor(model => model.Name) %>
+            名称：
         </div>
         <div class="editor-field">
             <%: Html.TextBoxFor(model => model.Name) %>
             <%: Html.ValidationMessageFor(model => model.Name) %>
         </div>
+
         <div class="editor-label">
-            <%: Html.LabelFor(model => model.TimeStamp) %>
+            标签：
         </div>
         <div class="editor-field">
-            <%: Html.TextBoxFor(model => model.TimeStamp) %>
-            <%: Html.ValidationMessageFor(model => model.TimeStamp) %>
+            <%: Html.TextBox("tags", null) %>(用空格分开，如"计算机 书籍")
+        </div>
+
+        <div class="editor-label">
+            描述：
+        </div>
+        <div class="editor-field">
+            <%: Html.TextBoxFor(model => model.Description) %>
+            <%: Html.ValidationMessageFor(model => model.Description) %>
+        </div>
+
+        <div class="editor-label">
+            内容：
+        </div>
+        <div>
+            <%: Html.TextAreaFor(model => model.Content) %>
+            <%: Html.ValidationMessageFor(model => model.Content) %>
         </div>
         <p>
-            <input type="submit" value="Create" />
+            <input type="submit" value="创建" />
         </p>
     </fieldset>
     <% } %>
-    <div>
-        <%: Html.ActionLink("Back to List", "Index") %>
-    </div>
 </asp:Content>

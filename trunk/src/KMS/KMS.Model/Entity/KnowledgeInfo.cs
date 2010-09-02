@@ -41,7 +41,7 @@ namespace KMS.Model
 		/// <summary>
 		///		
 		/// </summary>
-        [Required]
+        [Required(ErrorMessage="±ØĞëÌîĞ´ÄÚÈİ")]
         public virtual String Content
 		{
 			get{ return _content; }
@@ -58,7 +58,7 @@ namespace KMS.Model
 		/// <summary>
 		///		
 		/// </summary>
-        [Required]
+        [Required(ErrorMessage="±ØĞëÌîĞ´Ãû³Æ")]
 		public virtual String Name
 		{
 			get{ return _name; }
