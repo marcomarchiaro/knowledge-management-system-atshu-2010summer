@@ -55,7 +55,8 @@ namespace KMS.Presentation.Controllers
         }
 
         [HttpPost]
-        public ActionResult Edit(KnowledgeClassInfo knowledgeClass)
+        [Transaction(TransactionMode.Requires)]
+        public virtual ActionResult Edit(KnowledgeClassInfo knowledgeClass)
         {
             KnowledgeClassInfo kc = knowledgeClassRepository.GetById(knowledgeClass.KnowledgeClassId);
             if (ModelState.IsValid)

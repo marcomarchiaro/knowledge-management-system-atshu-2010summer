@@ -6,6 +6,17 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <h5>
         当前分类信息</h5>
+    <p>
+        <%if (Model.FatherKnowledgeClassInfo != null)
+          {
+              Response.Write("父分类ID：" + Model.FatherKnowledgeClassInfo.KnowledgeClassId);
+              Response.Write("&nbsp;&nbsp;");
+              Response.Write(Html.ActionLink("查看", "Details/" + Model.FatherKnowledgeClassInfo.KnowledgeClassId));
+          }
+          else
+              Response.Write("当前为根分类");
+        %>
+    </p>
     <table width="100%">
         <tr>
             <th width="8%">
@@ -18,7 +29,9 @@
                 描述
             </th>
             <th width="15%">
-                最后修改时间
+                最后修改
+            </th>
+            <th width="12%">
             </th>
         </tr>
         <tr>
@@ -34,12 +47,17 @@
             <td>
                 <%: String.Format("{0:g}", Model.TimeStamp) %>
             </td>
+            <td>
+                <%: Html.ActionLink("编辑", "Edit", new { id = Model.KnowledgeClassId }, new { target = "_blank" }) %>
+                |
+                <%: Html.ActionLink("删除", "Delete", new { id = Model.KnowledgeClassId })%>
+            </td>
         </tr>
     </table>
     <h5>
         子分类信息</h5>
     <p>
-        <%: Html.ActionLink("添加新分类", "Create") %>
+        <%: Html.ActionLink("添加新分类", "Create/" + Model.KnowledgeClassId, null, new { target = "_blank" })%>
     </p>
     <table width="100%">
         <tr>
@@ -53,7 +71,7 @@
                 描述
             </th>
             <th width="15%">
-                最后修改时间
+                最后修改
             </th>
             <th width="12%">
             </th>
@@ -84,35 +102,34 @@
         <% } %>
     </table>
     <h5>
-        当前分类下的知识</h5>
+        当前分类下的知识
+    </h5>
+    <p>
+        <%: Html.ActionLink("添加新知识", "Create/" + Model.KnowledgeClassId, "Knowledge", null, new { target = "_blank" }) %>
+    </p>
     <table width="100%">
         <tr>
-            <th>
-            </th>
-            <th>
+            <th width="8%">
                 知识ID
             </th>
-            <th>
+            <th width="10%">
                 名称
             </th>
-            <th>
+            <th width="30%">
                 描述
             </th>
             <th>
                 标签
             </th>
-            <th>
-                修改时间
+            <th width="15%">
+                最后修改
+            </th>
+            <th width="12%">
             </th>
         </tr>
         <% foreach (var item in Model.KnowledgeKnowledgeClassAssociationInfos)
            { %>
         <tr>
-            <td>
-                <%: Html.ActionLink("查看", "Knowledge/Detail", new { id = item.KnowledgeInfo.KnowledgeId }) %>
-                |
-                <%: Html.ActionLink("删除", "Knowledge/Delete", new { id = item.KnowledgeInfo.KnowledgeId })%>
-            </td>
             <td>
                 <%: item.KnowledgeInfo.KnowledgeId %>
             </td>
@@ -130,6 +147,11 @@
             </td>
             <td>
                 <%: String.Format("{0:g}", item.TimeStamp) %>
+            </td>
+            <td>
+                <%: Html.ActionLink("查看", "Details", "Knowledge", new { id = item.KnowledgeInfo.KnowledgeId }, new { target = "_blank" })%>
+                |
+                <%: Html.ActionLink("删除", "Delete", "Knowledge", new { id = item.KnowledgeInfo.KnowledgeId }, null) %>
             </td>
         </tr>
         <% } %>

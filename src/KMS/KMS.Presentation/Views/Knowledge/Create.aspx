@@ -63,9 +63,9 @@
             <%: Html.TextAreaFor(model => model.Content) %>
             <%: Html.ValidationMessageFor(model => model.Content) %>
         </div>
-        <p>
-            <input type="submit" value="创建" />
-        </p>
+        <div class="editor-label">
+            <input type="submit" value="添加" />
+        </div>
     </fieldset>
     <% } %>
 </asp:Content>

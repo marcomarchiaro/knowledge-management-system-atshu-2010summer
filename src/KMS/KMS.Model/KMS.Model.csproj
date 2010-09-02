@@ -66,7 +66,9 @@
   <ItemGroup>
     <Content Include="config\db2hbm.xml" />
     <Content Include="config\hbm2net.xml" />
-    <EmbeddedResource Include="Mapping\KnowledgeClassInfo.hbm.xml" />
+    <EmbeddedResource Include="Mapping\KnowledgeClassInfo.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Mapping\KnowledgeInfo.hbm.xml" />
     <EmbeddedResource Include="Mapping\KnowledgeKnowledgeClassAssociationInfo.hbm.xml" />
     <EmbeddedResource Include="Mapping\KnowledgeTagAssociationInfo.hbm.xml" />
