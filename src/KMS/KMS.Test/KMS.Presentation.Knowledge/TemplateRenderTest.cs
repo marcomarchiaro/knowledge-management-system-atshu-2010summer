@@ -16,7 +16,7 @@ namespace KMS.Test
         [Test]
         public void Test1()
         {
-            ITemplateRender templateRender = new ResourceTemplateRender(new ResourceRender(new ResourceServiceURL(), new MultiMediaRender()));
+            ITemplateRender templateRender = new ResourceTemplateRender(new ResourceRender(new URLResourceRepository(), new MultiMediaRender()));
             string str = templateRender.Render("<KMSResource id='f01a54e4-0056-46e3-9342-617d3a4048d3' />");
             Console.WriteLine(str);
         }

@@ -6,14 +6,15 @@ using KMS.Model;
 using KMS.BLL;
 using KMS.Common;
 using System.Collections.Specialized;
+using KMS.DAL;
 
 namespace KMS.Presentation.Knowledge
 {
     public class ResourceRender : IResourceRender
     {
-        public ResourceRender(IResourceService resourceService, IMultiMediaRender multiMediaRender)
+        public ResourceRender(IRepository<ResourceInfo> resourceRepository, IMultiMediaRender multiMediaRender)
         {
-            this.resourceService = resourceService;
+            this.resourceRepository = resourceRepository;
             this.multiMediaRender = multiMediaRender;
         }
 
@@ -79,11 +80,11 @@ namespace KMS.Presentation.Knowledge
 
         public string Render(Guid resourceId)
         {
-            ResourceInfo resource = resourceService.GetById(resourceId);
+            ResourceInfo resource = resourceRepository.GetById(resourceId);
             return Render(resource);
         }
 
-        private IResourceService resourceService;
+        private IRepository<ResourceInfo> resourceRepository;
         private IMultiMediaRender multiMediaRender;
     }
 }

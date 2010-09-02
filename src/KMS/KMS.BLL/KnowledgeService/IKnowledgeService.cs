@@ -8,6 +8,5 @@ namespace KMS.BLL
 {
     public interface IKnowledgeService
     {
-        KnowledgeInfo GetById(int id);
     }
 }

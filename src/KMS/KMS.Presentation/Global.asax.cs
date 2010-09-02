@@ -4,11 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
-
 using MvcContrib.ControllerFactories;
 using MvcContrib.Interfaces;
 using Castle.Windsor;
 using Microsoft.Practices.ServiceLocation;
+using KMS.Model;
 
 namespace KMS.Presentation
 {
@@ -19,11 +19,13 @@ namespace KMS.Presentation
     {
         protected void Application_Start()
         {
-            RouteTable.Routes.MapRoute(
-                "Resource",
-                "Resource/{id}",
-                new { controller = "Resource", action = "GetResourceHTML" }
-                );
+            //RouteTable.Routes.MapRoute(
+            //    "Resource",
+            //    "Resource/{id}",
+            //    new { controller = "Resource", action = "GetResourceHTML" }
+            //    );
+
+            //ModelBinders.Binders.Add(typeof(KnowledgeClassInfo), new KnowledgeClassBinder());
 
             RouteTable.Routes.MapRoute(
                 "Default",                                              // Route name

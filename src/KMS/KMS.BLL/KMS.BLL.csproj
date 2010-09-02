@@ -61,6 +61,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="KnowledgeClassService\IKnowledgeClassService.cs" />
     <Compile Include="KnowledgeService\IKnowledgeService.cs" />
     <Compile Include="KnowledgeService\KnowledgeService.cs" />
     <Compile Include="ResourceService\IResourceService.cs" />
