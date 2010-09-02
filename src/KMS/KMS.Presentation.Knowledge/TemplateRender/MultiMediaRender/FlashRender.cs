@@ -35,6 +35,6 @@ namespace KMS.Presentation.Knowledge
             string tag = string.Format(@"<embed src='{0}' {1}/>", URL, attrs);
             return tag;
         }
-        private string[] supportedMIME = new string[] { "flv-application/octet-stream" };
+        private string[] supportedMIME = new string[] { "flv-application/octet-stream", "application/x-shockwave-flash", "video/x-flv" };
     }
 }

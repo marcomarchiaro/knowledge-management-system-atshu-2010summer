@@ -12,7 +12,7 @@ namespace KMS.BLL.Search
     public class KeyWordAnalyzer : IKeyWordAnalyzer
     {
         /// <summary>
-        /// 分析器同步
+        /// 分析器加载字典
         /// </summary>
         public void Sychronize()
         {
