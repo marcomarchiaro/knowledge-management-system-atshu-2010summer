@@ -20,5 +20,16 @@ namespace KMS.BLL
         }
 
         private IRepository<ResourceInfo> resourceRepository;
+
+
+        public void Insert(ResourceInfo resource)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update(ResourceInfo resource)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

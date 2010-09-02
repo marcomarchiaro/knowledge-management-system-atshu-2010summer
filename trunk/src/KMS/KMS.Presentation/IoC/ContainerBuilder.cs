@@ -13,6 +13,7 @@ using Castle.Facilities.Logging;
 using Microsoft.Practices.ServiceLocation;
 using KMS.BLL;
 using KMS.DAL;
+using KMS.Presentation.Knowledge;
 
 namespace KMS.Presentation
 {
@@ -35,7 +36,10 @@ namespace KMS.Presentation
 
             container.Register(
                 Component.For(typeof(IRepository<>)).ImplementedBy(typeof(Repository<>)).LifeStyle.Transient,
-                Component.For<IResourceService>().ImplementedBy<ResourceService>().LifeStyle.Transient
+                Component.For<IResourceService>().ImplementedBy<ResourceService>().LifeStyle.Transient,
+                Component.For<IResourceRender>().ImplementedBy<ResourceRender>().LifeStyle.Transient,
+                Component.For<IMultiMediaRender>().ImplementedBy<MultiMediaRender>().LifeStyle.Transient,
+                Component.For<IKnowledgeRender>().ImplementedBy<KnowledgeRender>().LifeStyle.Transient
                 );
 //            register services
 //             container.Register(

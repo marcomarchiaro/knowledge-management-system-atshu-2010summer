@@ -208,3 +208,429 @@
 [记录时间：2010-09-01 16:04:45,109][INFO]
 异常类：NHibernate.Loader.Loader
 错误描述：SELECT resourcein0_.ResourceId as ResourceId5_0_, resourcein0_.TimeStamp as TimeStamp5_0_, resourcein0_.Description as Descript3_5_0_, resourcein0_.Name as Name5_0_, resourcein0_1_.MIME as MIME6_0_, resourcein0_1_.SourceName as SourceName6_0_, resourcein0_1_.URL as URL6_0_, resourcein0_1_.Width as Width6_0_, resourcein0_1_.Height as Height6_0_, resourcein0_2_.Binary as Binary7_0_, resourcein0_2_.MIME as MIME7_0_, resourcein0_2_.Width as Width7_0_, resourcein0_2_.Height as Height7_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_2_.ResourceId is not null then 2 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_URL resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId left outer join dbo.T_Resource_Binary resourcein0_2_ on resourcein0_.ResourceId=resourcein0_2_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-09-02 03:30:41,500][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-09-02 03:30:41,593][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-09-02 03:30:41,593][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-09-02 03:30:41,593][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.KnowledgeTagAssociationInfos -> T_KnowledgeTagAssociation
+[记录时间：2010-09-02 03:30:41,593][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeInfo.KnowledgeKnowledgeClassAssociationInfos -> T_KnowledgeKnowledgeClassAssociation
+[记录时间：2010-09-02 03:30:41,593][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeInfo.KnowledgeTagAssociationInfos -> T_KnowledgeTagAssociation
+[记录时间：2010-09-02 03:30:41,593][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos -> T_KnowledgeKnowledgeClassAssociation
+[记录时间：2010-09-02 03:30:41,593][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos -> T_KnowledgeClass
+[记录时间：2010-09-02 03:30:41,593][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-09-02 03:30:41,593][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-09-02 03:30:41,609][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-09-02 03:30:41,609][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-09-02 03:30:41,656][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-09-02 03:30:41,671][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-09-02 03:30:41,671][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-09-02 03:30:41,671][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-09-02 03:30:41,671][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-09-02 03:30:41,687][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-09-02 03:30:41,687][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-09-02 03:30:41,687][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-09-02 03:30:41,687][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-09-02 03:30:41,687][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-09-02 03:30:41,687][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-09-02 03:30:41,703][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-09-02 03:30:41,703][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-09-02 03:30:41,718][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-09-02 03:30:41,718][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-09-02 03:30:41,718][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-09-02 03:30:41,718][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-09-02 03:30:41,718][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-09-02 03:30:41,734][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-09-02 03:30:42,375][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-09-02 03:30:42,437][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId5_0_, resourcein0_.TimeStamp as TimeStamp5_0_, resourcein0_.Description as Descript3_5_0_, resourcein0_.Name as Name5_0_, resourcein0_1_.MIME as MIME6_0_, resourcein0_1_.SourceName as SourceName6_0_, resourcein0_1_.URL as URL6_0_, resourcein0_1_.Width as Width6_0_, resourcein0_1_.Height as Height6_0_, resourcein0_2_.Binary as Binary7_0_, resourcein0_2_.MIME as MIME7_0_, resourcein0_2_.Width as Width7_0_, resourcein0_2_.Height as Height7_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_2_.ResourceId is not null then 2 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_URL resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId left outer join dbo.T_Resource_Binary resourcein0_2_ on resourcein0_.ResourceId=resourcein0_2_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-09-02 03:30:58,468][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId5_0_, resourcein0_.TimeStamp as TimeStamp5_0_, resourcein0_.Description as Descript3_5_0_, resourcein0_.Name as Name5_0_, resourcein0_1_.MIME as MIME6_0_, resourcein0_1_.SourceName as SourceName6_0_, resourcein0_1_.URL as URL6_0_, resourcein0_1_.Width as Width6_0_, resourcein0_1_.Height as Height6_0_, resourcein0_2_.Binary as Binary7_0_, resourcein0_2_.MIME as MIME7_0_, resourcein0_2_.Width as Width7_0_, resourcein0_2_.Height as Height7_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_2_.ResourceId is not null then 2 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_URL resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId left outer join dbo.T_Resource_Binary resourcein0_2_ on resourcein0_.ResourceId=resourcein0_2_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-09-02 03:32:00,125][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-09-02 03:32:00,140][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-09-02 03:32:00,156][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-09-02 03:32:00,156][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.KnowledgeTagAssociationInfos -> T_KnowledgeTagAssociation
+[记录时间：2010-09-02 03:32:00,156][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeInfo.KnowledgeKnowledgeClassAssociationInfos -> T_KnowledgeKnowledgeClassAssociation
+[记录时间：2010-09-02 03:32:00,156][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeInfo.KnowledgeTagAssociationInfos -> T_KnowledgeTagAssociation
+[记录时间：2010-09-02 03:32:00,156][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos -> T_KnowledgeKnowledgeClassAssociation
+[记录时间：2010-09-02 03:32:00,156][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos -> T_KnowledgeClass
+[记录时间：2010-09-02 03:32:00,156][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-09-02 03:32:00,156][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-09-02 03:32:00,156][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-09-02 03:32:00,156][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-09-02 03:32:00,359][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-09-02 03:32:00,359][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-09-02 03:32:00,359][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-09-02 03:32:00,359][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-09-02 03:32:00,375][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-09-02 03:32:00,406][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-09-02 03:32:00,453][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-09-02 03:32:00,453][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-09-02 03:32:00,453][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-09-02 03:32:00,453][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-09-02 03:32:00,453][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-09-02 03:32:00,468][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-09-02 03:32:00,468][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-09-02 03:32:00,484][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-09-02 03:32:00,484][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-09-02 03:32:00,531][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-09-02 03:32:00,531][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-09-02 03:32:00,531][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-09-02 03:32:00,562][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-09-02 03:32:00,921][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-09-02 03:32:00,953][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId5_0_, resourcein0_.TimeStamp as TimeStamp5_0_, resourcein0_.Description as Descript3_5_0_, resourcein0_.Name as Name5_0_, resourcein0_1_.MIME as MIME6_0_, resourcein0_1_.SourceName as SourceName6_0_, resourcein0_1_.URL as URL6_0_, resourcein0_1_.Width as Width6_0_, resourcein0_1_.Height as Height6_0_, resourcein0_2_.Binary as Binary7_0_, resourcein0_2_.MIME as MIME7_0_, resourcein0_2_.Width as Width7_0_, resourcein0_2_.Height as Height7_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_2_.ResourceId is not null then 2 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_URL resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId left outer join dbo.T_Resource_Binary resourcein0_2_ on resourcein0_.ResourceId=resourcein0_2_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-09-02 03:32:02,031][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId5_0_, resourcein0_.TimeStamp as TimeStamp5_0_, resourcein0_.Description as Descript3_5_0_, resourcein0_.Name as Name5_0_, resourcein0_1_.MIME as MIME6_0_, resourcein0_1_.SourceName as SourceName6_0_, resourcein0_1_.URL as URL6_0_, resourcein0_1_.Width as Width6_0_, resourcein0_1_.Height as Height6_0_, resourcein0_2_.Binary as Binary7_0_, resourcein0_2_.MIME as MIME7_0_, resourcein0_2_.Width as Width7_0_, resourcein0_2_.Height as Height7_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_2_.ResourceId is not null then 2 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_URL resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId left outer join dbo.T_Resource_Binary resourcein0_2_ on resourcein0_.ResourceId=resourcein0_2_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-09-02 03:33:27,531][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId5_0_, resourcein0_.TimeStamp as TimeStamp5_0_, resourcein0_.Description as Descript3_5_0_, resourcein0_.Name as Name5_0_, resourcein0_1_.MIME as MIME6_0_, resourcein0_1_.SourceName as SourceName6_0_, resourcein0_1_.URL as URL6_0_, resourcein0_1_.Width as Width6_0_, resourcein0_1_.Height as Height6_0_, resourcein0_2_.Binary as Binary7_0_, resourcein0_2_.MIME as MIME7_0_, resourcein0_2_.Width as Width7_0_, resourcein0_2_.Height as Height7_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_2_.ResourceId is not null then 2 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_URL resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId left outer join dbo.T_Resource_Binary resourcein0_2_ on resourcein0_.ResourceId=resourcein0_2_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-09-02 03:35:41,500][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-09-02 03:35:41,515][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-09-02 03:35:41,531][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-09-02 03:35:41,531][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.KnowledgeTagAssociationInfos -> T_KnowledgeTagAssociation
+[记录时间：2010-09-02 03:35:41,531][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeInfo.KnowledgeKnowledgeClassAssociationInfos -> T_KnowledgeKnowledgeClassAssociation
+[记录时间：2010-09-02 03:35:41,531][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeInfo.KnowledgeTagAssociationInfos -> T_KnowledgeTagAssociation
+[记录时间：2010-09-02 03:35:41,531][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos -> T_KnowledgeKnowledgeClassAssociation
+[记录时间：2010-09-02 03:35:41,531][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos -> T_KnowledgeClass
+[记录时间：2010-09-02 03:35:41,531][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-09-02 03:35:41,531][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-09-02 03:35:41,531][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-09-02 03:35:41,531][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-09-02 03:35:41,578][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-09-02 03:35:41,578][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-09-02 03:35:41,578][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-09-02 03:35:41,578][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-09-02 03:35:41,578][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-09-02 03:35:41,593][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-09-02 03:35:41,593][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-09-02 03:35:41,593][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-09-02 03:35:41,593][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-09-02 03:35:41,593][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-09-02 03:35:41,593][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-09-02 03:35:41,593][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-09-02 03:35:41,593][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-09-02 03:35:41,625][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-09-02 03:35:41,625][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-09-02 03:35:41,625][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-09-02 03:35:41,625][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-09-02 03:35:41,625][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-09-02 03:35:41,640][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-09-02 03:35:42,000][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-09-02 03:35:42,046][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId5_0_, resourcein0_.TimeStamp as TimeStamp5_0_, resourcein0_.Description as Descript3_5_0_, resourcein0_.Name as Name5_0_, resourcein0_1_.MIME as MIME6_0_, resourcein0_1_.SourceName as SourceName6_0_, resourcein0_1_.URL as URL6_0_, resourcein0_1_.Width as Width6_0_, resourcein0_1_.Height as Height6_0_, resourcein0_2_.Binary as Binary7_0_, resourcein0_2_.MIME as MIME7_0_, resourcein0_2_.Width as Width7_0_, resourcein0_2_.Height as Height7_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_2_.ResourceId is not null then 2 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_URL resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId left outer join dbo.T_Resource_Binary resourcein0_2_ on resourcein0_.ResourceId=resourcein0_2_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-09-02 03:36:45,625][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId5_0_, resourcein0_.TimeStamp as TimeStamp5_0_, resourcein0_.Description as Descript3_5_0_, resourcein0_.Name as Name5_0_, resourcein0_1_.MIME as MIME6_0_, resourcein0_1_.SourceName as SourceName6_0_, resourcein0_1_.URL as URL6_0_, resourcein0_1_.Width as Width6_0_, resourcein0_1_.Height as Height6_0_, resourcein0_2_.Binary as Binary7_0_, resourcein0_2_.MIME as MIME7_0_, resourcein0_2_.Width as Width7_0_, resourcein0_2_.Height as Height7_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_2_.ResourceId is not null then 2 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_URL resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId left outer join dbo.T_Resource_Binary resourcein0_2_ on resourcein0_.ResourceId=resourcein0_2_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-09-02 03:36:51,421][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId5_0_, resourcein0_.TimeStamp as TimeStamp5_0_, resourcein0_.Description as Descript3_5_0_, resourcein0_.Name as Name5_0_, resourcein0_1_.MIME as MIME6_0_, resourcein0_1_.SourceName as SourceName6_0_, resourcein0_1_.URL as URL6_0_, resourcein0_1_.Width as Width6_0_, resourcein0_1_.Height as Height6_0_, resourcein0_2_.Binary as Binary7_0_, resourcein0_2_.MIME as MIME7_0_, resourcein0_2_.Width as Width7_0_, resourcein0_2_.Height as Height7_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_2_.ResourceId is not null then 2 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_URL resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId left outer join dbo.T_Resource_Binary resourcein0_2_ on resourcein0_.ResourceId=resourcein0_2_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-09-02 03:38:33,921][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId5_0_, resourcein0_.TimeStamp as TimeStamp5_0_, resourcein0_.Description as Descript3_5_0_, resourcein0_.Name as Name5_0_, resourcein0_1_.MIME as MIME6_0_, resourcein0_1_.SourceName as SourceName6_0_, resourcein0_1_.URL as URL6_0_, resourcein0_1_.Width as Width6_0_, resourcein0_1_.Height as Height6_0_, resourcein0_2_.Binary as Binary7_0_, resourcein0_2_.MIME as MIME7_0_, resourcein0_2_.Width as Width7_0_, resourcein0_2_.Height as Height7_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_2_.ResourceId is not null then 2 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_URL resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId left outer join dbo.T_Resource_Binary resourcein0_2_ on resourcein0_.ResourceId=resourcein0_2_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-09-02 03:39:29,546][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId5_0_, resourcein0_.TimeStamp as TimeStamp5_0_, resourcein0_.Description as Descript3_5_0_, resourcein0_.Name as Name5_0_, resourcein0_1_.MIME as MIME6_0_, resourcein0_1_.SourceName as SourceName6_0_, resourcein0_1_.URL as URL6_0_, resourcein0_1_.Width as Width6_0_, resourcein0_1_.Height as Height6_0_, resourcein0_2_.Binary as Binary7_0_, resourcein0_2_.MIME as MIME7_0_, resourcein0_2_.Width as Width7_0_, resourcein0_2_.Height as Height7_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_2_.ResourceId is not null then 2 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_URL resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId left outer join dbo.T_Resource_Binary resourcein0_2_ on resourcein0_.ResourceId=resourcein0_2_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-09-02 03:39:42,218][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId5_0_, resourcein0_.TimeStamp as TimeStamp5_0_, resourcein0_.Description as Descript3_5_0_, resourcein0_.Name as Name5_0_, resourcein0_1_.MIME as MIME6_0_, resourcein0_1_.SourceName as SourceName6_0_, resourcein0_1_.URL as URL6_0_, resourcein0_1_.Width as Width6_0_, resourcein0_1_.Height as Height6_0_, resourcein0_2_.Binary as Binary7_0_, resourcein0_2_.MIME as MIME7_0_, resourcein0_2_.Width as Width7_0_, resourcein0_2_.Height as Height7_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_2_.ResourceId is not null then 2 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_URL resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId left outer join dbo.T_Resource_Binary resourcein0_2_ on resourcein0_.ResourceId=resourcein0_2_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-09-02 03:39:53,390][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId5_0_, resourcein0_.TimeStamp as TimeStamp5_0_, resourcein0_.Description as Descript3_5_0_, resourcein0_.Name as Name5_0_, resourcein0_1_.MIME as MIME6_0_, resourcein0_1_.SourceName as SourceName6_0_, resourcein0_1_.URL as URL6_0_, resourcein0_1_.Width as Width6_0_, resourcein0_1_.Height as Height6_0_, resourcein0_2_.Binary as Binary7_0_, resourcein0_2_.MIME as MIME7_0_, resourcein0_2_.Width as Width7_0_, resourcein0_2_.Height as Height7_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_2_.ResourceId is not null then 2 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_URL resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId left outer join dbo.T_Resource_Binary resourcein0_2_ on resourcein0_.ResourceId=resourcein0_2_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-09-02 13:37:28,718][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-09-02 13:37:28,828][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-09-02 13:37:28,828][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-09-02 13:37:28,828][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.KnowledgeTagAssociationInfos -> T_KnowledgeTagAssociation
+[记录时间：2010-09-02 13:37:28,828][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeInfo.KnowledgeKnowledgeClassAssociationInfos -> T_KnowledgeKnowledgeClassAssociation
+[记录时间：2010-09-02 13:37:28,828][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeInfo.KnowledgeTagAssociationInfos -> T_KnowledgeTagAssociation
+[记录时间：2010-09-02 13:37:28,828][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos -> T_KnowledgeKnowledgeClassAssociation
+[记录时间：2010-09-02 13:37:28,890][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos -> T_KnowledgeClass
+[记录时间：2010-09-02 13:37:28,890][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-09-02 13:37:28,890][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-09-02 13:37:28,890][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-09-02 13:37:28,890][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-09-02 13:37:28,937][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-09-02 13:37:28,937][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-09-02 13:37:28,937][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-09-02 13:37:28,937][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-09-02 13:37:28,937][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-09-02 13:37:28,953][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-09-02 13:37:28,968][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-09-02 13:37:28,968][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-09-02 13:37:28,968][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-09-02 13:37:28,968][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-09-02 13:37:28,968][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-09-02 13:37:28,968][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-09-02 13:37:28,968][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-09-02 13:37:29,000][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-09-02 13:37:29,000][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-09-02 13:37:29,000][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-09-02 13:37:29,000][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-09-02 13:37:29,000][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-09-02 13:37:29,015][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-09-02 13:37:29,937][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-09-02 13:37:30,046][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId5_0_, resourcein0_.TimeStamp as TimeStamp5_0_, resourcein0_.Description as Descript3_5_0_, resourcein0_.Name as Name5_0_, resourcein0_1_.MIME as MIME6_0_, resourcein0_1_.SourceName as SourceName6_0_, resourcein0_1_.URL as URL6_0_, resourcein0_1_.Width as Width6_0_, resourcein0_1_.Height as Height6_0_, resourcein0_2_.Binary as Binary7_0_, resourcein0_2_.MIME as MIME7_0_, resourcein0_2_.Width as Width7_0_, resourcein0_2_.Height as Height7_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_2_.ResourceId is not null then 2 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_URL resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId left outer join dbo.T_Resource_Binary resourcein0_2_ on resourcein0_.ResourceId=resourcein0_2_.ResourceId WHERE resourcein0_.ResourceId=@p0
+[记录时间：2010-09-02 13:37:49,843][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT resourcein0_.ResourceId as ResourceId5_0_, resourcein0_.TimeStamp as TimeStamp5_0_, resourcein0_.Description as Descript3_5_0_, resourcein0_.Name as Name5_0_, resourcein0_1_.MIME as MIME6_0_, resourcein0_1_.SourceName as SourceName6_0_, resourcein0_1_.URL as URL6_0_, resourcein0_1_.Width as Width6_0_, resourcein0_1_.Height as Height6_0_, resourcein0_2_.Binary as Binary7_0_, resourcein0_2_.MIME as MIME7_0_, resourcein0_2_.Width as Width7_0_, resourcein0_2_.Height as Height7_0_, case when resourcein0_1_.ResourceId is not null then 1 when resourcein0_2_.ResourceId is not null then 2 when resourcein0_.ResourceId is not null then 0 end as clazz_0_ FROM dbo.T_Resource resourcein0_ left outer join dbo.T_Resource_URL resourcein0_1_ on resourcein0_.ResourceId=resourcein0_1_.ResourceId left outer join dbo.T_Resource_Binary resourcein0_2_ on resourcein0_.ResourceId=resourcein0_2_.ResourceId WHERE resourcein0_.ResourceId=@p0

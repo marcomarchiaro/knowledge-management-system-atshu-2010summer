@@ -14,16 +14,25 @@ namespace KMS.Presentation.Controllers
     {
         //
         // GET: /Resource/
-        public ResourceController(IResourceService resourceService)
+        public ResourceController(IResourceService resourceService, IResourceRender resourceRender)
         {
             this.resourceService = resourceService;
-            //this.resourceRender = resourceRender;
+            this.resourceRender = resourceRender;
         }
 
-        public ActionResult GetBinaryResource(string resourceId)
+        public ActionResult SaveResource()
         {
-            Guid guid = new Guid(resourceId);
-            ResourceInfo resource = resourceService.GetById(guid);
+            throw new NotImplementedException();
+        }
+
+        public ActionResult GetResourceHTML(Guid id)
+        {
+            return Content(resourceRender.Render(id), "text/html");
+        }
+
+        public ActionResult GetBinaryResource(Guid id)
+        {
+            ResourceInfo resource = resourceService.GetById(id);
             if (resource is Resource_BinaryInfo)
             {
                 Resource_BinaryInfo resource2 = (Resource_BinaryInfo)resource;
@@ -35,5 +44,6 @@ namespace KMS.Presentation.Controllers
         }
 
         private IResourceService resourceService;
+        private IResourceRender resourceRender;
     }
 }

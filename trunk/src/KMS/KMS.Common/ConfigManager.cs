@@ -16,7 +16,7 @@ namespace KMS.Common
             else if (key == "RootKnowledgeClassId")
                 return "1";
             else if (key == "BinaryResourceLocation")
-                return "/BinaryResource";
+                return "/Resource/GetBinaryResource";
             return System.Configuration.ConfigurationManager.AppSettings[key];
         }
     }

@@ -20,15 +20,15 @@ namespace KMS.Presentation
         protected void Application_Start()
         {
             RouteTable.Routes.MapRoute(
-                "BinaryResource",
-                "BinaryResource/{resourceId}",
-                new { controller = "Resource", action = "GetBinaryResource" }
+                "Resource",
+                "Resource/{id}",
+                new { controller = "Resource", action = "GetResourceHTML" }
                 );
 
             RouteTable.Routes.MapRoute(
                 "Default",                                              // Route name
                 "{controller}/{action}/{id}",                           // URL with parameters
-                new { controller = "Login", action = "Index", id = "" }  // Parameter defaults
+                new { controller = "Home", action = "Index", id = "" }  // Parameter defaults
             );
 
             InitializeWindsor();
