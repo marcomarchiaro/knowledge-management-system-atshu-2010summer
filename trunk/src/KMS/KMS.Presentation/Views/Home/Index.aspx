@@ -1,13 +1,9 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
-    Home Page
+KMS-知识库管理系统
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <%--    <p>
-        To learn more about ASP.NET MVC visit <a href="http://asp.net/mvc" title="ASP.NET MVC Website">
-            http://asp.net/mvc</a>.
-    </p>--%>
     <div id="index_logo">
     </div>
     <div id="fm" class="grid_5, prefix_5">
@@ -18,4 +14,10 @@
         <input type="submit" value="Search" class="submit" />
         <% }%>
     </div>
+    <script type="text/javascript" src="../../Scripts/jquery-1.4.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#logo").css("background", "none");
+        });
+    </script>
 </asp:Content>
