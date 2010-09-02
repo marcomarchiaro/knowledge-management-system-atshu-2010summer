@@ -3,6 +3,7 @@ using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Reflection;
 
 namespace KMS.BLL.Search
 {
@@ -16,9 +17,10 @@ namespace KMS.BLL.Search
         /// </summary>
         public void Sychronize()
         {
+            Assembly assem = this.GetType().Assembly;
             if (keywords.Count == 0)
             {
-                FileStream fs = new FileStream("KeyWordAnalyzer/AnalyzerDict/dict3.txt", FileMode.Open, FileAccess.ReadWrite);
+                Stream fs= assem.GetManifestResourceStream("KMS.BLL.Search.KeyWordAnalyzer.AnalyzerDict.dict3.txt");
                 StreamReader sr = new StreamReader(fs);
                 sr.BaseStream.Seek(0, SeekOrigin.Begin);
                 string str = sr.ReadLine();
@@ -32,7 +34,7 @@ namespace KMS.BLL.Search
             }
             if (ignore.Count == 0)
             {
-                FileStream fs = new FileStream("KeyWordAnalyzer/AnalyzerDict/ignore.txt", FileMode.Open, FileAccess.ReadWrite);
+                Stream fs = assem.GetManifestResourceStream("KMS.BLL.Search.KeyWordAnalyzer.AnalyzerDict.ignore.txt");
                 StreamReader sr = new StreamReader(fs);
                 sr.BaseStream.Seek(0, SeekOrigin.Begin);
                 string str = sr.ReadLine();
