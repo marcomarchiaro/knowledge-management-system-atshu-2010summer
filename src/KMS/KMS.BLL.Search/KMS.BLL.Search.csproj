@@ -63,12 +63,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="KeyWordAnalyzer\AnalyzerDict\dict3.txt">
+    <EmbeddedResource Include="KeyWordAnalyzer\AnalyzerDict\dict3.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="KeyWordAnalyzer\AnalyzerDict\ignore.txt">
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeyWordAnalyzer\AnalyzerDict\ignore.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\KMS.Common\KMS.Common.csproj">
