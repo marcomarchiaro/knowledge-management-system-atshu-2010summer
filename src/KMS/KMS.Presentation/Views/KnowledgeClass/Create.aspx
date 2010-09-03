@@ -14,26 +14,27 @@
             父分类ID：<%: Html.ViewData["fatherId"] %>
             <%: Html.TextBox("fatherId", null, new { type = "hidden" })%>
         </div>
+
         <div class="editor-label">
-            <%: Html.LabelFor(model => model.Description)%>
-        </div>
-        <div class="editor-field">
-            <%: Html.TextBoxFor(model => model.Description)%>
-            <%: Html.ValidationMessageFor(model => model.Description)%>
-        </div>
-        <div class="editor-label">
-            <%: Html.LabelFor(model => model.Name)%>
+            名称：
         </div>
         <div class="editor-field">
             <%: Html.TextBoxFor(model => model.Name)%>
             <%: Html.ValidationMessageFor(model => model.Name)%>
         </div>
+
+        <div class="editor-label">
+            描述：
+        </div>
+        <div class="editor-field">
+            <%: Html.TextBoxFor(model => model.Description)%>
+            <%: Html.ValidationMessageFor(model => model.Description)%>
+        </div>
+
         <p>
             <input type="submit" value="添加" />
         </p>
     </fieldset>
     <% } %>
-    <div>
-        <%: Html.ActionLink("Back to List", "Index") %>
-    </div>
+
 </asp:Content>

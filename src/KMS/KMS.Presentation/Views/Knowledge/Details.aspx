@@ -10,6 +10,16 @@
 
     <fieldset>
         <legend>Fields</legend>
+        <div>标签：</div>
+        <br />
+        <%foreach (var p in Model.KnowledgeTagAssociationInfos)
+          { %>
+          <div style="float:left;margin-left:8px;border:1px solid">
+            <%: Html.ActionLink(p.TagInfo.Name, "SearchByTag", new { id = p.TagInfo.Name }) %>
+          </div>
+        <%} %>
+        <div style="clear:both"></div>
+        <br />
         <div>相关分类：</div>
         <br />
         <%foreach (var p in Model.KnowledgeKnowledgeClassAssociationInfos)
@@ -23,10 +33,10 @@
         <br />
         <div class="display-label">知识ID：<%: Model.KnowledgeId %></div>
         
-        <div class="display-label">名称：<%: Model.Name %></div>
-
         <div class="display-label">描述：<%: Model.Description %></div>
         
+        <h1><%: Model.Name %></h1>
+
         <div class="display-label">内容：</div>
         <div><%=Model.Content %></div>
 

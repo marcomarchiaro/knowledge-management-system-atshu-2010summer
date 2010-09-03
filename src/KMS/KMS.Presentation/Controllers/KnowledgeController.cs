@@ -62,15 +62,31 @@ namespace KMS.Presentation.Controllers
             return View(knowledge);
         }
 
-        public ActionResult Search(FormCollection form)
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id">means tagName</param>
+        /// <returns></returns>
+        public ActionResult SearchByTag(string id)
         {
-            string input = form["condition"];
-            ViewData["input"] = input;
-            IEnumerable<KnowledgeInfo> knowledgeList = searchKnowledge.Search(input);
-            return View(knowledgeList);
+            string input = string.Format("tags:{0}", id);
+            return doSearch(input);
         }
 
-        public ActionResult Index()
+        public ActionResult Result(FormCollection form)
+        {
+            string input = form["condition"];
+            return doSearch(input);
+        }
+
+        private ActionResult doSearch(string input)
+        {
+            ViewData["input"] = input;
+            IEnumerable<KnowledgeInfo> knowledgeList = searchKnowledge.Search(input);
+            return View("Result", knowledgeList);
+        }
+
+        public ActionResult Search()
         {
             return View();
         }

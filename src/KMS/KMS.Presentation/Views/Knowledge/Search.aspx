@@ -1,56 +1,27 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage<IEnumerable<KMS.Model.KnowledgeInfo>>" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
-	搜索结果
+知识库管理系统 KMS
 </asp:Content>
-
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-
-    <h2>搜索结果</h2>
-    <p>
-        搜索词：<%=ViewData["input"].ToString() %>
-    </p>
-    <table width="100%">
-        <tr>
-            <th width="8%">
-                知识点ID
-            </th>
-            <th width="10%">
-                名称
-            </th>
-            <th>
-                描述
-            </th>
-            <th width="15%">
-                最后修改
-            </th>
-            <th width="8%"></th>
-        </tr>
-
-    <% foreach (var item in Model) { %>
-    
-        <tr>
-            <td>
-                <%: item.KnowledgeId %>
-            </td>
-            <td>
-                <%: item.Name %>
-            </td>
-            <td>
-                <%: item.Description %>
-            </td>
-            <td>
-                <%: String.Format("{0:g}", item.TimeStamp) %>
-            </td>
-            <td>
-                <%: Html.ActionLink("查看", "Details", new { id = item.KnowledgeId })%> |
-                <%: Html.ActionLink("删除", "Delete", new { id = item.KnowledgeId })%>
-            </td>
-        </tr>
-    
-    <% } %>
-
-    </table>
-
+    <div id="index_logo">
+    </div>
+    <div id="fm" class="grid_5, prefix_5">
+        <%
+            using (Html.BeginForm("Result", "Knowledge", FormMethod.Post))
+            {%>
+        <input type="text" name="condition" class="search_index" maxlength="100" style="width:600px"/>
+        &nbsp;&nbsp;
+        <input type="submit" value="搜索" class="submit" />
+        <br />
+        <br />
+        (如: "tags:计算机 软件 开发 dateRange:2009-1-1~2010-2-3")
+        <% }%>
+    </div>
+    <script type="text/javascript" src="../../Scripts/jquery-1.4.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#logo").css("background", "none");
+        });
+    </script>
 </asp:Content>
-
