@@ -704,8 +704,8 @@
     <Content Include="Views\KnowledgeClass\Details.aspx" />
     <Content Include="Views\Knowledge\Create.aspx" />
     <Content Include="Views\Knowledge\Details.aspx" />
-    <Content Include="Views\Knowledge\Index.aspx" />
     <Content Include="Views\Knowledge\Search.aspx" />
+    <Content Include="Views\Knowledge\Result.aspx" />
     <Content Include="Views\Resource\CKUploadFile.aspx" />
     <Content Include="Views\Shared\Back.aspx" />
     <Content Include="Web.config" />

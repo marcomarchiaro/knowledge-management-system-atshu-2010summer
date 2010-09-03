@@ -22,7 +22,7 @@
             <div id="menucontainer">
             
                 <ul id="menu">      
-                    <li><%: Html.ActionLink("搜索", "Index", "Knowledge")%></li>        
+                    <li><%: Html.ActionLink("搜索", "Search", "Knowledge")%></li>        
                     <li><%: Html.ActionLink("根分类", "Details", "KnowledgeClass", new { id = 1 }, null) %></li>
                 </ul>
             
