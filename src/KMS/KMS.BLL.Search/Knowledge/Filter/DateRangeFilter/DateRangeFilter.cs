@@ -49,6 +49,10 @@ namespace KMS.BLL.Search.Knowledge
                         int day = Int32.Parse(date[2]);
                         dateRange[i] = new DateTime(year, month, day);
                     }
+
+                    if (dateRange[1] > dateRange[0])
+                        dateRange[1].AddDays(1);
+
                     if (dateRange[0].CompareTo(dateRange[1]) > 0)
                         return range;
                     else
