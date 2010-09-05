@@ -3100,3 +3100,1818 @@
 [记录时间：2010-09-03 11:30:28,609][INFO]
 异常类：NHibernate.Loader.Loader
 错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:00:42,203][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-09-03 12:00:42,281][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-09-03 12:00:42,296][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-09-03 12:00:42,296][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.KnowledgeTagAssociationInfos -> T_KnowledgeTagAssociation
+[记录时间：2010-09-03 12:00:42,296][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeInfo.KnowledgeKnowledgeClassAssociationInfos -> T_KnowledgeKnowledgeClassAssociation
+[记录时间：2010-09-03 12:00:42,296][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeInfo.KnowledgeTagAssociationInfos -> T_KnowledgeTagAssociation
+[记录时间：2010-09-03 12:00:42,296][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos -> T_KnowledgeKnowledgeClassAssociation
+[记录时间：2010-09-03 12:00:42,296][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos -> T_KnowledgeClass
+[记录时间：2010-09-03 12:00:42,312][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-09-03 12:00:42,312][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-09-03 12:00:42,312][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-09-03 12:00:42,312][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-09-03 12:00:42,406][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-09-03 12:00:42,406][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-09-03 12:00:42,406][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-09-03 12:00:42,406][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-09-03 12:00:42,421][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-09-03 12:00:42,421][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-09-03 12:00:42,421][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-09-03 12:00:42,421][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-09-03 12:00:42,437][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-09-03 12:00:42,437][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-09-03 12:00:42,437][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-09-03 12:00:42,437][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-09-03 12:00:42,437][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-09-03 12:00:42,437][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-09-03 12:00:42,437][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-09-03 12:00:42,453][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-09-03 12:00:42,453][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-09-03 12:00:42,453][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-09-03 12:00:42,500][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-09-03 12:00:44,000][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-09-03 12:00:44,578][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT this_.KnowledgeId as Knowledg1_3_0_, this_.TimeStamp as TimeStamp3_0_, this_.Content as Content3_0_, this_.Description as Descript4_3_0_, this_.Name as Name3_0_ FROM dbo.T_Knowledge this_
+[记录时间：2010-09-03 12:00:44,859][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:00:45,062][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:00:45,125][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:00:45,171][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:00:45,203][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:00:45,234][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:00:45,265][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:00:45,296][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:00:45,328][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:00:45,359][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:00:45,406][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:00:45,437][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:00:45,468][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:00:45,500][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:00:45,515][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:00:45,546][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:00:45,578][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:00:45,609][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:00:45,640][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:00:45,671][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:00:45,703][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:00:45,734][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:00:45,796][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:00:45,828][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:00:45,859][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:00:45,890][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:00:45,921][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:00:45,953][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:00:45,984][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT this_.KnowledgeId as Knowledg1_3_0_, this_.TimeStamp as TimeStamp3_0_, this_.Content as Content3_0_, this_.Description as Descript4_3_0_, this_.Name as Name3_0_ FROM dbo.T_Knowledge this_
+[记录时间：2010-09-03 12:01:40,703][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT this_.KnowledgeId as Knowledg1_3_0_, this_.TimeStamp as TimeStamp3_0_, this_.Content as Content3_0_, this_.Description as Descript4_3_0_, this_.Name as Name3_0_ FROM dbo.T_Knowledge this_
+[记录时间：2010-09-03 12:01:40,750][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:01:40,796][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:01:40,828][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:01:40,859][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:01:40,890][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:01:40,921][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:01:40,953][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:01:40,984][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:01:41,015][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:01:41,046][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:01:41,078][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:01:41,109][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:01:41,156][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:01:41,187][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:01:41,218][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:01:41,265][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:01:41,296][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:01:41,328][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:01:41,375][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:01:41,406][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:01:41,421][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:01:41,453][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:01:41,500][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:01:41,531][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:01:41,562][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:01:41,593][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:01:41,625][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:01:41,656][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:02:16,078][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT this_.KnowledgeId as Knowledg1_3_0_, this_.TimeStamp as TimeStamp3_0_, this_.Content as Content3_0_, this_.Description as Descript4_3_0_, this_.Name as Name3_0_ FROM dbo.T_Knowledge this_
+[记录时间：2010-09-03 12:02:16,093][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:02:16,109][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:02:16,125][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:02:16,140][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:02:16,140][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:02:16,156][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:02:16,171][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:02:16,187][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:02:16,203][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:02:16,203][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:02:16,218][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:02:16,234][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:02:16,234][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:02:16,250][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:02:16,265][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:02:16,265][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:02:16,281][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:02:16,296][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:02:16,296][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:02:16,312][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:02:16,328][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:02:16,343][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:02:16,343][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:02:16,359][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:02:16,375][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:02:16,375][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:02:16,390][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-09-03 12:02:16,406][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-09-03 12:02:16,421][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT this_.KnowledgeId as Knowledg1_3_0_, this_.TimeStamp as TimeStamp3_0_, this_.Content as Content3_0_, this_.Description as Descript4_3_0_, this_.Name as Name3_0_ FROM dbo.T_Knowledge this_
+[记录时间：2010-08-13 12:10:19,109][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-13 12:10:19,171][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-13 12:10:19,171][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-13 12:10:19,171][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.KnowledgeTagAssociationInfos -> T_KnowledgeTagAssociation
+[记录时间：2010-08-13 12:10:19,171][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeInfo.KnowledgeKnowledgeClassAssociationInfos -> T_KnowledgeKnowledgeClassAssociation
+[记录时间：2010-08-13 12:10:19,171][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeInfo.KnowledgeTagAssociationInfos -> T_KnowledgeTagAssociation
+[记录时间：2010-08-13 12:10:19,171][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos -> T_KnowledgeKnowledgeClassAssociation
+[记录时间：2010-08-13 12:10:19,171][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos -> T_KnowledgeClass
+[记录时间：2010-08-13 12:10:19,171][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-13 12:10:19,171][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-13 12:10:19,171][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-13 12:10:19,171][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-13 12:10:19,265][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-13 12:10:19,265][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-13 12:10:19,265][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-13 12:10:19,265][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-13 12:10:19,265][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-13 12:10:19,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-13 12:10:19,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-13 12:10:19,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-13 12:10:19,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-13 12:10:19,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-13 12:10:19,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-13 12:10:19,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-13 12:10:19,296][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-13 12:10:19,359][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-13 12:10:19,359][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-13 12:10:19,359][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-13 12:10:19,359][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-13 12:10:19,359][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-13 12:10:19,390][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-13 12:10:19,875][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-13 12:10:19,921][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgec0_.KnowledgeClassId as Knowledg1_4_1_, knowledgec0_.TimeStamp as TimeStamp4_1_, knowledgec0_.Description as Descript3_4_1_, knowledgec0_.Name as Name4_1_, knowledgec0_.FatherClassId as FatherCl5_4_1_, knowledgec1_.FatherClassId as FatherCl5_3_, knowledgec1_.KnowledgeClassId as Knowledg1_3_, knowledgec1_.KnowledgeClassId as Knowledg1_4_0_, knowledgec1_.TimeStamp as TimeStamp4_0_, knowledgec1_.Description as Descript3_4_0_, knowledgec1_.Name as Name4_0_, knowledgec1_.FatherClassId as FatherCl5_4_0_ FROM dbo.T_KnowledgeClass knowledgec0_ left outer join dbo.T_KnowledgeClass knowledgec1_ on knowledgec0_.KnowledgeClassId=knowledgec1_.FatherClassId WHERE knowledgec0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 12:10:21,593][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgek0_.KnowledgeClassId as Knowledg4_1_, knowledgek0_.KKCId as KKCId1_, knowledgek0_.KKCId as KKCId2_0_, knowledgek0_.TimeStamp as TimeStamp2_0_, knowledgek0_.KnowledgeId as Knowledg3_2_0_, knowledgek0_.KnowledgeClassId as Knowledg4_2_0_ FROM dbo.T_KnowledgeKnowledgeClassAssociation knowledgek0_ WHERE knowledgek0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 12:10:56,921][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgec0_.KnowledgeClassId as Knowledg1_4_1_, knowledgec0_.TimeStamp as TimeStamp4_1_, knowledgec0_.Description as Descript3_4_1_, knowledgec0_.Name as Name4_1_, knowledgec0_.FatherClassId as FatherCl5_4_1_, knowledgec1_.FatherClassId as FatherCl5_3_, knowledgec1_.KnowledgeClassId as Knowledg1_3_, knowledgec1_.KnowledgeClassId as Knowledg1_4_0_, knowledgec1_.TimeStamp as TimeStamp4_0_, knowledgec1_.Description as Descript3_4_0_, knowledgec1_.Name as Name4_0_, knowledgec1_.FatherClassId as FatherCl5_4_0_ FROM dbo.T_KnowledgeClass knowledgec0_ left outer join dbo.T_KnowledgeClass knowledgec1_ on knowledgec0_.KnowledgeClassId=knowledgec1_.FatherClassId WHERE knowledgec0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 12:10:56,953][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeInfo
+[记录时间：2010-08-13 12:10:56,953][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeInfo
+[记录时间：2010-08-13 12:10:56,984][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeInfo
+[记录时间：2010-08-13 12:10:56,984][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:56,984][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:56,984][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeInfo.KnowledgeTagAssociationInfos
+[记录时间：2010-08-13 12:10:56,984][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeInfo.KnowledgeTagAssociationInfos
+[记录时间：2010-08-13 12:10:56,984][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeInfo
+[记录时间：2010-08-13 12:10:57,187][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:10:57,187][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,203][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,203][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,203][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,203][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,203][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,203][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,203][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,203][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:10:57,203][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:10:57,203][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,203][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,203][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,203][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,203][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,203][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,203][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeInfo
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeInfo.KnowledgeTagAssociationInfos
+[记录时间：2010-08-13 12:10:57,218][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeInfo.KnowledgeTagAssociationInfos
+[记录时间：2010-08-13 12:10:57,234][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeInfo
+[记录时间：2010-08-13 12:10:57,250][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT count(*) as y0_ FROM dbo.T_Tag this_ WHERE this_.Name = @p0
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,312][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:10:57,328][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:10:57,328][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,328][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,328][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,328][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,328][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,328][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,328][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,328][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:10:57,328][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:10:57,328][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeInfo
+[记录时间：2010-08-13 12:10:57,328][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,328][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,328][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,328][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:10:57,328][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeInfo.KnowledgeTagAssociationInfos
+[记录时间：2010-08-13 12:10:57,328][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeInfo.KnowledgeTagAssociationInfos
+[记录时间：2010-08-13 12:10:57,328][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeInfo.KnowledgeTagAssociationInfos
+[记录时间：2010-08-13 12:10:57,328][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeInfo.KnowledgeTagAssociationInfos
+[记录时间：2010-08-13 12:10:57,328][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeInfo
+[记录时间：2010-08-13 12:11:01,250][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgec0_.KnowledgeClassId as Knowledg1_4_1_, knowledgec0_.TimeStamp as TimeStamp4_1_, knowledgec0_.Description as Descript3_4_1_, knowledgec0_.Name as Name4_1_, knowledgec0_.FatherClassId as FatherCl5_4_1_, knowledgec1_.FatherClassId as FatherCl5_3_, knowledgec1_.KnowledgeClassId as Knowledg1_3_, knowledgec1_.KnowledgeClassId as Knowledg1_4_0_, knowledgec1_.TimeStamp as TimeStamp4_0_, knowledgec1_.Description as Descript3_4_0_, knowledgec1_.Name as Name4_0_, knowledgec1_.FatherClassId as FatherCl5_4_0_ FROM dbo.T_KnowledgeClass knowledgec0_ left outer join dbo.T_KnowledgeClass knowledgec1_ on knowledgec0_.KnowledgeClassId=knowledgec1_.FatherClassId WHERE knowledgec0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 12:11:01,312][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgek0_.KnowledgeClassId as Knowledg4_1_, knowledgek0_.KKCId as KKCId1_, knowledgek0_.KKCId as KKCId2_0_, knowledgek0_.TimeStamp as TimeStamp2_0_, knowledgek0_.KnowledgeId as Knowledg3_2_0_, knowledgek0_.KnowledgeClassId as Knowledg4_2_0_ FROM dbo.T_KnowledgeKnowledgeClassAssociation knowledgek0_ WHERE knowledgek0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 12:11:01,359][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgei0_.KnowledgeId as Knowledg1_3_0_, knowledgei0_.TimeStamp as TimeStamp3_0_, knowledgei0_.Content as Content3_0_, knowledgei0_.Description as Descript4_3_0_, knowledgei0_.Name as Name3_0_ FROM dbo.T_Knowledge knowledgei0_ WHERE knowledgei0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:11:01,375][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:11:01,406][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:11:23,343][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT this_.KnowledgeId as Knowledg1_3_0_, this_.TimeStamp as TimeStamp3_0_, this_.Content as Content3_0_, this_.Description as Descript4_3_0_, this_.Name as Name3_0_ FROM dbo.T_Knowledge this_
+[记录时间：2010-08-13 12:11:30,484][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgei0_.KnowledgeId as Knowledg1_3_0_, knowledgei0_.TimeStamp as TimeStamp3_0_, knowledgei0_.Content as Content3_0_, knowledgei0_.Description as Descript4_3_0_, knowledgei0_.Name as Name3_0_ FROM dbo.T_Knowledge knowledgei0_ WHERE knowledgei0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:11:30,578][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:11:30,593][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:11:30,609][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgek0_.KnowledgeId as Knowledg3_1_, knowledgek0_.KKCId as KKCId1_, knowledgek0_.KKCId as KKCId2_0_, knowledgek0_.TimeStamp as TimeStamp2_0_, knowledgek0_.KnowledgeId as Knowledg3_2_0_, knowledgek0_.KnowledgeClassId as Knowledg4_2_0_ FROM dbo.T_KnowledgeKnowledgeClassAssociation knowledgek0_ WHERE knowledgek0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:11:30,640][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgec0_.KnowledgeClassId as Knowledg1_4_1_, knowledgec0_.TimeStamp as TimeStamp4_1_, knowledgec0_.Description as Descript3_4_1_, knowledgec0_.Name as Name4_1_, knowledgec0_.FatherClassId as FatherCl5_4_1_, knowledgec1_.FatherClassId as FatherCl5_3_, knowledgec1_.KnowledgeClassId as Knowledg1_3_, knowledgec1_.KnowledgeClassId as Knowledg1_4_0_, knowledgec1_.TimeStamp as TimeStamp4_0_, knowledgec1_.Description as Descript3_4_0_, knowledgec1_.Name as Name4_0_, knowledgec1_.FatherClassId as FatherCl5_4_0_ FROM dbo.T_KnowledgeClass knowledgec0_ left outer join dbo.T_KnowledgeClass knowledgec1_ on knowledgec0_.KnowledgeClassId=knowledgec1_.FatherClassId WHERE knowledgec0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 12:12:11,234][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT this_.KnowledgeId as Knowledg1_3_0_, this_.TimeStamp as TimeStamp3_0_, this_.Content as Content3_0_, this_.Description as Descript4_3_0_, this_.Name as Name3_0_ FROM dbo.T_Knowledge this_
+[记录时间：2010-08-13 12:12:30,640][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT this_.KnowledgeId as Knowledg1_3_0_, this_.TimeStamp as TimeStamp3_0_, this_.Content as Content3_0_, this_.Description as Descript4_3_0_, this_.Name as Name3_0_ FROM dbo.T_Knowledge this_
+[记录时间：2010-08-13 12:12:51,281][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT this_.KnowledgeId as Knowledg1_3_0_, this_.TimeStamp as TimeStamp3_0_, this_.Content as Content3_0_, this_.Description as Descript4_3_0_, this_.Name as Name3_0_ FROM dbo.T_Knowledge this_
+[记录时间：2010-08-13 12:16:15,421][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-13 12:16:15,437][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-13 12:16:15,453][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-13 12:16:15,453][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.KnowledgeTagAssociationInfos -> T_KnowledgeTagAssociation
+[记录时间：2010-08-13 12:16:15,453][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeInfo.KnowledgeKnowledgeClassAssociationInfos -> T_KnowledgeKnowledgeClassAssociation
+[记录时间：2010-08-13 12:16:15,453][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeInfo.KnowledgeTagAssociationInfos -> T_KnowledgeTagAssociation
+[记录时间：2010-08-13 12:16:15,453][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos -> T_KnowledgeKnowledgeClassAssociation
+[记录时间：2010-08-13 12:16:15,453][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos -> T_KnowledgeClass
+[记录时间：2010-08-13 12:16:15,453][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-13 12:16:15,453][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-13 12:16:15,453][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-13 12:16:15,468][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-13 12:16:15,484][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-13 12:16:15,484][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-13 12:16:15,484][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-13 12:16:15,484][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-13 12:16:15,500][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-13 12:16:15,500][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-13 12:16:15,500][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-13 12:16:15,500][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-13 12:16:15,500][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-13 12:16:15,500][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-13 12:16:15,500][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-13 12:16:15,500][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-13 12:16:15,500][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-13 12:16:15,500][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-13 12:16:15,500][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-13 12:16:15,500][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-13 12:16:15,500][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-13 12:16:15,500][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-13 12:16:15,515][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-13 12:16:15,984][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-13 12:16:16,187][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT this_.KnowledgeId as Knowledg1_3_0_, this_.TimeStamp as TimeStamp3_0_, this_.Content as Content3_0_, this_.Description as Descript4_3_0_, this_.Name as Name3_0_ FROM dbo.T_Knowledge this_
+[记录时间：2010-08-13 12:16:16,281][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:16,359][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:16,375][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:16,390][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:16,390][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:16,406][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:16,421][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:16,437][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:16,437][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:16,453][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:16,468][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:16,484][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:16,484][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:16,500][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:16,515][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:16,531][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:16,531][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:16,546][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:16,562][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:16,578][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:16,578][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:16,593][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:16,609][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:16,609][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:16,625][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:16,640][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:16,640][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:16,656][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:16,671][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:16,671][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:24,781][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT this_.KnowledgeId as Knowledg1_3_0_, this_.TimeStamp as TimeStamp3_0_, this_.Content as Content3_0_, this_.Description as Descript4_3_0_, this_.Name as Name3_0_ FROM dbo.T_Knowledge this_
+[记录时间：2010-08-13 12:16:24,796][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:24,812][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:24,828][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:24,843][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:24,843][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:24,859][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:24,875][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:24,875][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:24,890][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:24,906][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:24,906][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:24,921][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:24,937][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:24,953][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:24,953][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:24,968][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:24,984][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:24,984][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:25,000][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:25,015][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:25,015][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:25,031][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:25,046][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:25,046][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:25,062][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:25,078][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:25,078][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:25,093][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:25,109][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:25,109][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:25,125][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT this_.KnowledgeId as Knowledg1_3_0_, this_.TimeStamp as TimeStamp3_0_, this_.Content as Content3_0_, this_.Description as Descript4_3_0_, this_.Name as Name3_0_ FROM dbo.T_Knowledge this_
+[记录时间：2010-08-13 12:16:33,625][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgei0_.KnowledgeId as Knowledg1_3_0_, knowledgei0_.TimeStamp as TimeStamp3_0_, knowledgei0_.Content as Content3_0_, knowledgei0_.Description as Descript4_3_0_, knowledgei0_.Name as Name3_0_ FROM dbo.T_Knowledge knowledgei0_ WHERE knowledgei0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:33,718][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:33,734][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:33,750][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgek0_.KnowledgeId as Knowledg3_1_, knowledgek0_.KKCId as KKCId1_, knowledgek0_.KKCId as KKCId2_0_, knowledgek0_.TimeStamp as TimeStamp2_0_, knowledgek0_.KnowledgeId as Knowledg3_2_0_, knowledgek0_.KnowledgeClassId as Knowledg4_2_0_ FROM dbo.T_KnowledgeKnowledgeClassAssociation knowledgek0_ WHERE knowledgek0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:33,781][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgec0_.KnowledgeClassId as Knowledg1_4_1_, knowledgec0_.TimeStamp as TimeStamp4_1_, knowledgec0_.Description as Descript3_4_1_, knowledgec0_.Name as Name4_1_, knowledgec0_.FatherClassId as FatherCl5_4_1_, knowledgec1_.FatherClassId as FatherCl5_3_, knowledgec1_.KnowledgeClassId as Knowledg1_3_, knowledgec1_.KnowledgeClassId as Knowledg1_4_0_, knowledgec1_.TimeStamp as TimeStamp4_0_, knowledgec1_.Description as Descript3_4_0_, knowledgec1_.Name as Name4_0_, knowledgec1_.FatherClassId as FatherCl5_4_0_ FROM dbo.T_KnowledgeClass knowledgec0_ left outer join dbo.T_KnowledgeClass knowledgec1_ on knowledgec0_.KnowledgeClassId=knowledgec1_.FatherClassId WHERE knowledgec0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 12:16:57,093][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgei0_.KnowledgeId as Knowledg1_3_0_, knowledgei0_.TimeStamp as TimeStamp3_0_, knowledgei0_.Content as Content3_0_, knowledgei0_.Description as Descript4_3_0_, knowledgei0_.Name as Name3_0_ FROM dbo.T_Knowledge knowledgei0_ WHERE knowledgei0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:57,156][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:57,171][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:16:57,187][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgek0_.KnowledgeId as Knowledg3_1_, knowledgek0_.KKCId as KKCId1_, knowledgek0_.KKCId as KKCId2_0_, knowledgek0_.TimeStamp as TimeStamp2_0_, knowledgek0_.KnowledgeId as Knowledg3_2_0_, knowledgek0_.KnowledgeClassId as Knowledg4_2_0_ FROM dbo.T_KnowledgeKnowledgeClassAssociation knowledgek0_ WHERE knowledgek0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:16:57,187][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgec0_.KnowledgeClassId as Knowledg1_4_1_, knowledgec0_.TimeStamp as TimeStamp4_1_, knowledgec0_.Description as Descript3_4_1_, knowledgec0_.Name as Name4_1_, knowledgec0_.FatherClassId as FatherCl5_4_1_, knowledgec1_.FatherClassId as FatherCl5_3_, knowledgec1_.KnowledgeClassId as Knowledg1_3_, knowledgec1_.KnowledgeClassId as Knowledg1_4_0_, knowledgec1_.TimeStamp as TimeStamp4_0_, knowledgec1_.Description as Descript3_4_0_, knowledgec1_.Name as Name4_0_, knowledgec1_.FatherClassId as FatherCl5_4_0_ FROM dbo.T_KnowledgeClass knowledgec0_ left outer join dbo.T_KnowledgeClass knowledgec1_ on knowledgec0_.KnowledgeClassId=knowledgec1_.FatherClassId WHERE knowledgec0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 12:17:04,390][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgec0_.KnowledgeClassId as Knowledg1_4_1_, knowledgec0_.TimeStamp as TimeStamp4_1_, knowledgec0_.Description as Descript3_4_1_, knowledgec0_.Name as Name4_1_, knowledgec0_.FatherClassId as FatherCl5_4_1_, knowledgec1_.FatherClassId as FatherCl5_3_, knowledgec1_.KnowledgeClassId as Knowledg1_3_, knowledgec1_.KnowledgeClassId as Knowledg1_4_0_, knowledgec1_.TimeStamp as TimeStamp4_0_, knowledgec1_.Description as Descript3_4_0_, knowledgec1_.Name as Name4_0_, knowledgec1_.FatherClassId as FatherCl5_4_0_ FROM dbo.T_KnowledgeClass knowledgec0_ left outer join dbo.T_KnowledgeClass knowledgec1_ on knowledgec0_.KnowledgeClassId=knowledgec1_.FatherClassId WHERE knowledgec0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 12:17:04,515][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgek0_.KnowledgeClassId as Knowledg4_1_, knowledgek0_.KKCId as KKCId1_, knowledgek0_.KKCId as KKCId2_0_, knowledgek0_.TimeStamp as TimeStamp2_0_, knowledgek0_.KnowledgeId as Knowledg3_2_0_, knowledgek0_.KnowledgeClassId as Knowledg4_2_0_ FROM dbo.T_KnowledgeKnowledgeClassAssociation knowledgek0_ WHERE knowledgek0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 12:17:04,546][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgei0_.KnowledgeId as Knowledg1_3_0_, knowledgei0_.TimeStamp as TimeStamp3_0_, knowledgei0_.Content as Content3_0_, knowledgei0_.Description as Descript4_3_0_, knowledgei0_.Name as Name3_0_ FROM dbo.T_Knowledge knowledgei0_ WHERE knowledgei0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:17:04,562][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:17:04,578][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:17:11,156][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgec0_.KnowledgeClassId as Knowledg1_4_1_, knowledgec0_.TimeStamp as TimeStamp4_1_, knowledgec0_.Description as Descript3_4_1_, knowledgec0_.Name as Name4_1_, knowledgec0_.FatherClassId as FatherCl5_4_1_, knowledgec1_.FatherClassId as FatherCl5_3_, knowledgec1_.KnowledgeClassId as Knowledg1_3_, knowledgec1_.KnowledgeClassId as Knowledg1_4_0_, knowledgec1_.TimeStamp as TimeStamp4_0_, knowledgec1_.Description as Descript3_4_0_, knowledgec1_.Name as Name4_0_, knowledgec1_.FatherClassId as FatherCl5_4_0_ FROM dbo.T_KnowledgeClass knowledgec0_ left outer join dbo.T_KnowledgeClass knowledgec1_ on knowledgec0_.KnowledgeClassId=knowledgec1_.FatherClassId WHERE knowledgec0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 12:17:19,328][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgec0_.KnowledgeClassId as Knowledg1_4_1_, knowledgec0_.TimeStamp as TimeStamp4_1_, knowledgec0_.Description as Descript3_4_1_, knowledgec0_.Name as Name4_1_, knowledgec0_.FatherClassId as FatherCl5_4_1_, knowledgec1_.FatherClassId as FatherCl5_3_, knowledgec1_.KnowledgeClassId as Knowledg1_3_, knowledgec1_.KnowledgeClassId as Knowledg1_4_0_, knowledgec1_.TimeStamp as TimeStamp4_0_, knowledgec1_.Description as Descript3_4_0_, knowledgec1_.Name as Name4_0_, knowledgec1_.FatherClassId as FatherCl5_4_0_ FROM dbo.T_KnowledgeClass knowledgec0_ left outer join dbo.T_KnowledgeClass knowledgec1_ on knowledgec0_.KnowledgeClassId=knowledgec1_.FatherClassId WHERE knowledgec0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 12:17:19,406][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgek0_.KnowledgeClassId as Knowledg4_1_, knowledgek0_.KKCId as KKCId1_, knowledgek0_.KKCId as KKCId2_0_, knowledgek0_.TimeStamp as TimeStamp2_0_, knowledgek0_.KnowledgeId as Knowledg3_2_0_, knowledgek0_.KnowledgeClassId as Knowledg4_2_0_ FROM dbo.T_KnowledgeKnowledgeClassAssociation knowledgek0_ WHERE knowledgek0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 12:17:19,406][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgei0_.KnowledgeId as Knowledg1_3_0_, knowledgei0_.TimeStamp as TimeStamp3_0_, knowledgei0_.Content as Content3_0_, knowledgei0_.Description as Descript4_3_0_, knowledgei0_.Name as Name3_0_ FROM dbo.T_Knowledge knowledgei0_ WHERE knowledgei0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:17:19,421][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:17:19,437][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:17:37,609][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgec0_.KnowledgeClassId as Knowledg1_4_1_, knowledgec0_.TimeStamp as TimeStamp4_1_, knowledgec0_.Description as Descript3_4_1_, knowledgec0_.Name as Name4_1_, knowledgec0_.FatherClassId as FatherCl5_4_1_, knowledgec1_.FatherClassId as FatherCl5_3_, knowledgec1_.KnowledgeClassId as Knowledg1_3_, knowledgec1_.KnowledgeClassId as Knowledg1_4_0_, knowledgec1_.TimeStamp as TimeStamp4_0_, knowledgec1_.Description as Descript3_4_0_, knowledgec1_.Name as Name4_0_, knowledgec1_.FatherClassId as FatherCl5_4_0_ FROM dbo.T_KnowledgeClass knowledgec0_ left outer join dbo.T_KnowledgeClass knowledgec1_ on knowledgec0_.KnowledgeClassId=knowledgec1_.FatherClassId WHERE knowledgec0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 12:17:37,671][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgek0_.KnowledgeClassId as Knowledg4_1_, knowledgek0_.KKCId as KKCId1_, knowledgek0_.KKCId as KKCId2_0_, knowledgek0_.TimeStamp as TimeStamp2_0_, knowledgek0_.KnowledgeId as Knowledg3_2_0_, knowledgek0_.KnowledgeClassId as Knowledg4_2_0_ FROM dbo.T_KnowledgeKnowledgeClassAssociation knowledgek0_ WHERE knowledgek0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 12:17:37,687][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgei0_.KnowledgeId as Knowledg1_3_0_, knowledgei0_.TimeStamp as TimeStamp3_0_, knowledgei0_.Content as Content3_0_, knowledgei0_.Description as Descript4_3_0_, knowledgei0_.Name as Name3_0_ FROM dbo.T_Knowledge knowledgei0_ WHERE knowledgei0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:17:37,703][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:17:37,718][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:18:04,609][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgec0_.KnowledgeClassId as Knowledg1_4_1_, knowledgec0_.TimeStamp as TimeStamp4_1_, knowledgec0_.Description as Descript3_4_1_, knowledgec0_.Name as Name4_1_, knowledgec0_.FatherClassId as FatherCl5_4_1_, knowledgec1_.FatherClassId as FatherCl5_3_, knowledgec1_.KnowledgeClassId as Knowledg1_3_, knowledgec1_.KnowledgeClassId as Knowledg1_4_0_, knowledgec1_.TimeStamp as TimeStamp4_0_, knowledgec1_.Description as Descript3_4_0_, knowledgec1_.Name as Name4_0_, knowledgec1_.FatherClassId as FatherCl5_4_0_ FROM dbo.T_KnowledgeClass knowledgec0_ left outer join dbo.T_KnowledgeClass knowledgec1_ on knowledgec0_.KnowledgeClassId=knowledgec1_.FatherClassId WHERE knowledgec0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 12:18:04,625][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:18:04,625][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:18:04,656][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:18:04,671][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,671][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,671][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,671][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,671][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:18:04,671][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:18:04,671][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,671][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,671][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,671][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,671][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,671][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,671][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,671][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,671][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:18:04,671][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:18:04,671][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,671][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,671][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,671][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,671][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,687][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,703][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,703][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done deleting orphans for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,703][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:18:04,703][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:18:04,703][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,703][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos
+[记录时间：2010-08-13 12:18:04,703][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,703][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos
+[记录时间：2010-08-13 12:18:04,703][INFO]
+异常类：NHibernate.Engine.Cascade
+错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: KMS.Model.KnowledgeClassInfo
+[记录时间：2010-08-13 12:18:11,062][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgec0_.KnowledgeClassId as Knowledg1_4_1_, knowledgec0_.TimeStamp as TimeStamp4_1_, knowledgec0_.Description as Descript3_4_1_, knowledgec0_.Name as Name4_1_, knowledgec0_.FatherClassId as FatherCl5_4_1_, knowledgec1_.FatherClassId as FatherCl5_3_, knowledgec1_.KnowledgeClassId as Knowledg1_3_, knowledgec1_.KnowledgeClassId as Knowledg1_4_0_, knowledgec1_.TimeStamp as TimeStamp4_0_, knowledgec1_.Description as Descript3_4_0_, knowledgec1_.Name as Name4_0_, knowledgec1_.FatherClassId as FatherCl5_4_0_ FROM dbo.T_KnowledgeClass knowledgec0_ left outer join dbo.T_KnowledgeClass knowledgec1_ on knowledgec0_.KnowledgeClassId=knowledgec1_.FatherClassId WHERE knowledgec0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 12:18:11,140][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgek0_.KnowledgeClassId as Knowledg4_1_, knowledgek0_.KKCId as KKCId1_, knowledgek0_.KKCId as KKCId2_0_, knowledgek0_.TimeStamp as TimeStamp2_0_, knowledgek0_.KnowledgeId as Knowledg3_2_0_, knowledgek0_.KnowledgeClassId as Knowledg4_2_0_ FROM dbo.T_KnowledgeKnowledgeClassAssociation knowledgek0_ WHERE knowledgek0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 12:18:11,156][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgei0_.KnowledgeId as Knowledg1_3_0_, knowledgei0_.TimeStamp as TimeStamp3_0_, knowledgei0_.Content as Content3_0_, knowledgei0_.Description as Descript4_3_0_, knowledgei0_.Name as Name3_0_ FROM dbo.T_Knowledge knowledgei0_ WHERE knowledgei0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:18:11,171][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:18:11,171][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:18:16,687][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgec0_.KnowledgeClassId as Knowledg1_4_1_, knowledgec0_.TimeStamp as TimeStamp4_1_, knowledgec0_.Description as Descript3_4_1_, knowledgec0_.Name as Name4_1_, knowledgec0_.FatherClassId as FatherCl5_4_1_, knowledgec1_.FatherClassId as FatherCl5_3_, knowledgec1_.KnowledgeClassId as Knowledg1_3_, knowledgec1_.KnowledgeClassId as Knowledg1_4_0_, knowledgec1_.TimeStamp as TimeStamp4_0_, knowledgec1_.Description as Descript3_4_0_, knowledgec1_.Name as Name4_0_, knowledgec1_.FatherClassId as FatherCl5_4_0_ FROM dbo.T_KnowledgeClass knowledgec0_ left outer join dbo.T_KnowledgeClass knowledgec1_ on knowledgec0_.KnowledgeClassId=knowledgec1_.FatherClassId WHERE knowledgec0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 12:18:16,750][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgek0_.KnowledgeClassId as Knowledg4_1_, knowledgek0_.KKCId as KKCId1_, knowledgek0_.KKCId as KKCId2_0_, knowledgek0_.TimeStamp as TimeStamp2_0_, knowledgek0_.KnowledgeId as Knowledg3_2_0_, knowledgek0_.KnowledgeClassId as Knowledg4_2_0_ FROM dbo.T_KnowledgeKnowledgeClassAssociation knowledgek0_ WHERE knowledgek0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 12:19:10,343][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT this_.KnowledgeId as Knowledg1_3_0_, this_.TimeStamp as TimeStamp3_0_, this_.Content as Content3_0_, this_.Description as Descript4_3_0_, this_.Name as Name3_0_ FROM dbo.T_Knowledge this_
+[记录时间：2010-08-13 12:19:25,421][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgec0_.KnowledgeClassId as Knowledg1_4_1_, knowledgec0_.TimeStamp as TimeStamp4_1_, knowledgec0_.Description as Descript3_4_1_, knowledgec0_.Name as Name4_1_, knowledgec0_.FatherClassId as FatherCl5_4_1_, knowledgec1_.FatherClassId as FatherCl5_3_, knowledgec1_.KnowledgeClassId as Knowledg1_3_, knowledgec1_.KnowledgeClassId as Knowledg1_4_0_, knowledgec1_.TimeStamp as TimeStamp4_0_, knowledgec1_.Description as Descript3_4_0_, knowledgec1_.Name as Name4_0_, knowledgec1_.FatherClassId as FatherCl5_4_0_ FROM dbo.T_KnowledgeClass knowledgec0_ left outer join dbo.T_KnowledgeClass knowledgec1_ on knowledgec0_.KnowledgeClassId=knowledgec1_.FatherClassId WHERE knowledgec0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 12:19:25,500][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgek0_.KnowledgeClassId as Knowledg4_1_, knowledgek0_.KKCId as KKCId1_, knowledgek0_.KKCId as KKCId2_0_, knowledgek0_.TimeStamp as TimeStamp2_0_, knowledgek0_.KnowledgeId as Knowledg3_2_0_, knowledgek0_.KnowledgeClassId as Knowledg4_2_0_ FROM dbo.T_KnowledgeKnowledgeClassAssociation knowledgek0_ WHERE knowledgek0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 12:19:25,515][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgei0_.KnowledgeId as Knowledg1_3_0_, knowledgei0_.TimeStamp as TimeStamp3_0_, knowledgei0_.Content as Content3_0_, knowledgei0_.Description as Descript4_3_0_, knowledgei0_.Name as Name3_0_ FROM dbo.T_Knowledge knowledgei0_ WHERE knowledgei0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:19:25,531][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:19:25,546][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 12:19:55,250][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgec0_.KnowledgeClassId as Knowledg1_4_1_, knowledgec0_.TimeStamp as TimeStamp4_1_, knowledgec0_.Description as Descript3_4_1_, knowledgec0_.Name as Name4_1_, knowledgec0_.FatherClassId as FatherCl5_4_1_, knowledgec1_.FatherClassId as FatherCl5_3_, knowledgec1_.KnowledgeClassId as Knowledg1_3_, knowledgec1_.KnowledgeClassId as Knowledg1_4_0_, knowledgec1_.TimeStamp as TimeStamp4_0_, knowledgec1_.Description as Descript3_4_0_, knowledgec1_.Name as Name4_0_, knowledgec1_.FatherClassId as FatherCl5_4_0_ FROM dbo.T_KnowledgeClass knowledgec0_ left outer join dbo.T_KnowledgeClass knowledgec1_ on knowledgec0_.KnowledgeClassId=knowledgec1_.FatherClassId WHERE knowledgec0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 12:19:55,312][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgek0_.KnowledgeClassId as Knowledg4_1_, knowledgek0_.KKCId as KKCId1_, knowledgek0_.KKCId as KKCId2_0_, knowledgek0_.TimeStamp as TimeStamp2_0_, knowledgek0_.KnowledgeId as Knowledg3_2_0_, knowledgek0_.KnowledgeClassId as Knowledg4_2_0_ FROM dbo.T_KnowledgeKnowledgeClassAssociation knowledgek0_ WHERE knowledgek0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 12:19:55,328][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgei0_.KnowledgeId as Knowledg1_3_0_, knowledgei0_.TimeStamp as TimeStamp3_0_, knowledgei0_.Content as Content3_0_, knowledgei0_.Description as Descript4_3_0_, knowledgei0_.Name as Name3_0_ FROM dbo.T_Knowledge knowledgei0_ WHERE knowledgei0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:19:55,343][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 12:19:55,359][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 18:29:03,171][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：checking mappings queue
+[记录时间：2010-08-13 18:29:03,234][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-many association mappings
+[记录时间：2010-08-13 18:29:03,234][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-13 18:29:03,250][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.TagInfo.KnowledgeTagAssociationInfos -> T_KnowledgeTagAssociation
+[记录时间：2010-08-13 18:29:03,250][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeInfo.KnowledgeKnowledgeClassAssociationInfos -> T_KnowledgeKnowledgeClassAssociation
+[记录时间：2010-08-13 18:29:03,250][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeInfo.KnowledgeTagAssociationInfos -> T_KnowledgeTagAssociation
+[记录时间：2010-08-13 18:29:03,250][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeClassInfo.KnowledgeKnowledgeClassAssociationInfos -> T_KnowledgeKnowledgeClassAssociation
+[记录时间：2010-08-13 18:29:03,250][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.KnowledgeClassInfo.KnowledgeClassInfos -> T_KnowledgeClass
+[记录时间：2010-08-13 18:29:03,250][INFO]
+异常类：NHibernate.Cfg.XmlHbmBinding.CollectionBinder
+错误描述：mapping collection: KMS.Model.ResourceInfo.ResourceTagAssociationInfos -> T_ResourceTagAssociation
+[记录时间：2010-08-13 18:29:03,250][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing one-to-one association property references
+[记录时间：2010-08-13 18:29:03,250][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing foreign key constraints
+[记录时间：2010-08-13 18:29:03,250][INFO]
+异常类：NHibernate.Cfg.Configuration
+错误描述：processing filters (second pass)
+[记录时间：2010-08-13 18:29:03,312][INFO]
+异常类：NHibernate.Dialect.Dialect
+错误描述：Using dialect: NHibernate.Dialect.MsSql2005Dialect
+[记录时间：2010-08-13 18:29:03,328][INFO]
+异常类：NHibernate.Exceptions.SQLExceptionConverterFactory
+错误描述：Using dialect defined converter
+[记录时间：2010-08-13 18:29:03,328][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Generate SQL with comments: disabled
+[记录时间：2010-08-13 18:29:03,328][INFO]
+异常类：NHibernate.Connection.ConnectionProviderFactory
+错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+[记录时间：2010-08-13 18:29:03,328][INFO]
+异常类：NHibernate.Connection.ConnectionProvider
+错误描述：Configuring ConnectionProvider
+[记录时间：2010-08-13 18:29:03,343][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+[记录时间：2010-08-13 18:29:03,343][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Optimize cache for minimal puts: False
+[记录时间：2010-08-13 18:29:03,343][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Connection release mode: auto
+[记录时间：2010-08-13 18:29:03,343][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default batch fetch size: 1
+[记录时间：2010-08-13 18:29:03,359][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：echoing all SQL to stdout
+[记录时间：2010-08-13 18:29:03,359][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Statistics: disabled
+[记录时间：2010-08-13 18:29:03,359][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Deleted entity synthetic identifier rollback: disabled
+[记录时间：2010-08-13 18:29:03,359][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+[记录时间：2010-08-13 18:29:03,375][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Query language substitutions: {}
+[记录时间：2010-08-13 18:29:03,375][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-13 18:29:03,375][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+[记录时间：2010-08-13 18:29:03,375][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Default entity-mode: Poco
+[记录时间：2010-08-13 18:29:03,375][INFO]
+异常类：NHibernate.Cfg.SettingsFactory
+错误描述：Named query checking : enabled
+[记录时间：2010-08-13 18:29:03,390][INFO]
+异常类：NHibernate.Impl.SessionFactoryImpl
+错误描述：building session factory
+[记录时间：2010-08-13 18:29:04,953][INFO]
+异常类：NHibernate.Impl.SessionFactoryObjectFactory
+错误描述：no name configured
+[记录时间：2010-08-13 18:29:05,453][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT this_.KnowledgeId as Knowledg1_3_0_, this_.TimeStamp as TimeStamp3_0_, this_.Content as Content3_0_, this_.Description as Descript4_3_0_, this_.Name as Name3_0_ FROM dbo.T_Knowledge this_
+[记录时间：2010-08-13 18:29:06,218][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 18:29:06,406][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 18:29:06,437][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 18:29:06,453][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 18:29:06,453][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 18:29:06,468][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 18:29:06,484][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 18:29:06,500][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 18:29:06,500][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 18:29:06,515][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 18:29:06,531][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 18:29:06,546][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 18:29:06,562][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 18:29:06,562][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 18:29:06,578][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 18:29:06,593][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 18:29:06,609][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 18:29:06,609][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 18:29:06,625][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 18:29:06,640][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 18:29:06,656][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 18:29:06,656][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 18:29:06,671][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 18:29:06,687][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 18:29:06,703][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 18:29:06,718][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 18:29:06,718][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 18:29:06,734][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 18:29:06,750][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 18:29:06,765][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 18:29:06,781][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT this_.KnowledgeId as Knowledg1_3_0_, this_.TimeStamp as TimeStamp3_0_, this_.Content as Content3_0_, this_.Description as Descript4_3_0_, this_.Name as Name3_0_ FROM dbo.T_Knowledge this_
+[记录时间：2010-08-13 18:29:11,015][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgei0_.KnowledgeId as Knowledg1_3_0_, knowledgei0_.TimeStamp as TimeStamp3_0_, knowledgei0_.Content as Content3_0_, knowledgei0_.Description as Descript4_3_0_, knowledgei0_.Name as Name3_0_ FROM dbo.T_Knowledge knowledgei0_ WHERE knowledgei0_.KnowledgeId=@p0
+[记录时间：2010-08-13 18:29:11,125][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 18:29:11,218][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 18:29:11,234][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgek0_.KnowledgeId as Knowledg3_1_, knowledgek0_.KKCId as KKCId1_, knowledgek0_.KKCId as KKCId2_0_, knowledgek0_.TimeStamp as TimeStamp2_0_, knowledgek0_.KnowledgeId as Knowledg3_2_0_, knowledgek0_.KnowledgeClassId as Knowledg4_2_0_ FROM dbo.T_KnowledgeKnowledgeClassAssociation knowledgek0_ WHERE knowledgek0_.KnowledgeId=@p0
+[记录时间：2010-08-13 18:29:11,296][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgec0_.KnowledgeClassId as Knowledg1_4_1_, knowledgec0_.TimeStamp as TimeStamp4_1_, knowledgec0_.Description as Descript3_4_1_, knowledgec0_.Name as Name4_1_, knowledgec0_.FatherClassId as FatherCl5_4_1_, knowledgec1_.FatherClassId as FatherCl5_3_, knowledgec1_.KnowledgeClassId as Knowledg1_3_, knowledgec1_.KnowledgeClassId as Knowledg1_4_0_, knowledgec1_.TimeStamp as TimeStamp4_0_, knowledgec1_.Description as Descript3_4_0_, knowledgec1_.Name as Name4_0_, knowledgec1_.FatherClassId as FatherCl5_4_0_ FROM dbo.T_KnowledgeClass knowledgec0_ left outer join dbo.T_KnowledgeClass knowledgec1_ on knowledgec0_.KnowledgeClassId=knowledgec1_.FatherClassId WHERE knowledgec0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 18:29:20,890][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgec0_.KnowledgeClassId as Knowledg1_4_1_, knowledgec0_.TimeStamp as TimeStamp4_1_, knowledgec0_.Description as Descript3_4_1_, knowledgec0_.Name as Name4_1_, knowledgec0_.FatherClassId as FatherCl5_4_1_, knowledgec1_.FatherClassId as FatherCl5_3_, knowledgec1_.KnowledgeClassId as Knowledg1_3_, knowledgec1_.KnowledgeClassId as Knowledg1_4_0_, knowledgec1_.TimeStamp as TimeStamp4_0_, knowledgec1_.Description as Descript3_4_0_, knowledgec1_.Name as Name4_0_, knowledgec1_.FatherClassId as FatherCl5_4_0_ FROM dbo.T_KnowledgeClass knowledgec0_ left outer join dbo.T_KnowledgeClass knowledgec1_ on knowledgec0_.KnowledgeClassId=knowledgec1_.FatherClassId WHERE knowledgec0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 18:29:21,109][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgek0_.KnowledgeClassId as Knowledg4_1_, knowledgek0_.KKCId as KKCId1_, knowledgek0_.KKCId as KKCId2_0_, knowledgek0_.TimeStamp as TimeStamp2_0_, knowledgek0_.KnowledgeId as Knowledg3_2_0_, knowledgek0_.KnowledgeClassId as Knowledg4_2_0_ FROM dbo.T_KnowledgeKnowledgeClassAssociation knowledgek0_ WHERE knowledgek0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 18:29:21,140][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgei0_.KnowledgeId as Knowledg1_3_0_, knowledgei0_.TimeStamp as TimeStamp3_0_, knowledgei0_.Content as Content3_0_, knowledgei0_.Description as Descript4_3_0_, knowledgei0_.Name as Name3_0_ FROM dbo.T_Knowledge knowledgei0_ WHERE knowledgei0_.KnowledgeId=@p0
+[记录时间：2010-08-13 18:29:21,156][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledget0_.KnowledgeId as Knowledg4_1_, knowledget0_.KnowledgeTagId as Knowledg1_1_, knowledget0_.KnowledgeTagId as Knowledg1_8_0_, knowledget0_.TimeStamp as TimeStamp8_0_, knowledget0_.TagId as TagId8_0_, knowledget0_.KnowledgeId as Knowledg4_8_0_ FROM dbo.T_KnowledgeTagAssociation knowledget0_ WHERE knowledget0_.KnowledgeId=@p0
+[记录时间：2010-08-13 18:29:21,171][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT taginfo0_.TagId as TagId1_0_, taginfo0_.Description as Descript2_1_0_, taginfo0_.Name as Name1_0_ FROM dbo.T_Tag taginfo0_ WHERE taginfo0_.TagId=@p0
+[记录时间：2010-08-13 18:29:26,250][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgec0_.KnowledgeClassId as Knowledg1_4_1_, knowledgec0_.TimeStamp as TimeStamp4_1_, knowledgec0_.Description as Descript3_4_1_, knowledgec0_.Name as Name4_1_, knowledgec0_.FatherClassId as FatherCl5_4_1_, knowledgec1_.FatherClassId as FatherCl5_3_, knowledgec1_.KnowledgeClassId as Knowledg1_3_, knowledgec1_.KnowledgeClassId as Knowledg1_4_0_, knowledgec1_.TimeStamp as TimeStamp4_0_, knowledgec1_.Description as Descript3_4_0_, knowledgec1_.Name as Name4_0_, knowledgec1_.FatherClassId as FatherCl5_4_0_ FROM dbo.T_KnowledgeClass knowledgec0_ left outer join dbo.T_KnowledgeClass knowledgec1_ on knowledgec0_.KnowledgeClassId=knowledgec1_.FatherClassId WHERE knowledgec0_.KnowledgeClassId=@p0
+[记录时间：2010-08-13 18:29:26,312][INFO]
+异常类：NHibernate.Loader.Loader
+错误描述：SELECT knowledgek0_.KnowledgeClassId as Knowledg4_1_, knowledgek0_.KKCId as KKCId1_, knowledgek0_.KKCId as KKCId2_0_, knowledgek0_.TimeStamp as TimeStamp2_0_, knowledgek0_.KnowledgeId as Knowledg3_2_0_, knowledgek0_.KnowledgeClassId as Knowledg4_2_0_ FROM dbo.T_KnowledgeKnowledgeClassAssociation knowledgek0_ WHERE knowledgek0_.KnowledgeClassId=@p0

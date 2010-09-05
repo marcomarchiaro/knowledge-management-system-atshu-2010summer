@@ -3,4 +3,8 @@
   <PropertyGroup>
     <ProjectView>ProjectFiles</ProjectView>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartAction>Project</StartAction>
+    <StartProgram>F:\项目\知识管理\trunk\tools\NUnit-2.5.7.10213\bin\net-2.0\nunit-x86.exe</StartProgram>
+  </PropertyGroup>
 </Project>

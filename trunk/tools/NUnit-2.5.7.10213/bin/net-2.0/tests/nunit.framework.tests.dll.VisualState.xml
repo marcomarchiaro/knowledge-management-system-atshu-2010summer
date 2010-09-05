@@ -52,6 +52,7 @@
     <Node UniqueName="[0-1742]NUnit.Framework.Constraints.TrueConstraintTest" Expanded="true" />
     <Node UniqueName="[0-1653]NUnit.Framework.Constraints.XmlSerializableTest" Expanded="true" />
     <Node UniqueName="[0-2743]NUnit.Framework.Syntax" Expanded="true" />
+    <Node UniqueName="[0-2179]NUnit.Framework.Syntax.InvalidCodeTests" Expanded="true" />
     <Node UniqueName="[0-2744]NUnit.Framework.Tests" Expanded="true" />
     <Node UniqueName="[0-2649]NUnit.Framework.Tests.ValuesAttributeTests" Expanded="true" />
   </Nodes>
